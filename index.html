@@ -1,123 +1,95 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-	<title>Horse Riding Company Homepage</title>
-	<style>
+<title>French Bakery Homepage</title>
+<style>
 		body {
+			background-color: #F8F8F8;
 			font-family: Arial, sans-serif;
-			background-color: #f5f5f5;
 			margin: 0;
 			padding: 0;
 		}
-
 		header {
-			background-color: #333;
-			color: #fff;
+			background-color: #E27B3E;
+			color: #FFFFFF;
 			padding: 20px;
 			text-align: center;
 		}
-
 		nav {
-			background-color: #f2f2f2;
+			background-color: #C2591A;
+			color: #FFFFFF;
+			display: flex;
+			justify-content: space-around;
 			padding: 10px;
-			text-align: center;
 		}
-
-		nav ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-		}
-
-		nav ul li {
-			display: inline-block;
-			margin-right: 20px;
-		}
-
-		nav ul li a {
-			color: #333;
+		nav a {
+			color: #FFFFFF;
 			text-decoration: none;
-			padding: 10px;
 		}
-
-		nav ul li a:hover {
-			color: #fff;
-			background-color: #333;
+		nav a:hover {
+			color: #E27B3E;
 		}
-
-		section {
-			background-color: #fff;
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			margin: 20px 0;
 			padding: 20px;
+		}
+		.container img {
+			height: 200px;
+			width: 300px;
 			margin: 20px;
-			text-align: center;
 		}
-
-		h1, h2 {
-			font-weight: normal;
-			margin: 0;
+		.container img:first-child {
+			margin-top: 0;
 		}
-
-		h1 {
-			font-size: 36px;
-			margin-bottom: 10px;
+		.container img:last-child {
+			margin-bottom: 0;
 		}
-
-		h2 {
-			font-size: 24px;
-			margin-bottom: 20px;
+		.container img[alt="Bakery interior"] {
+			border: 2px solid #C2591A;
+			box-shadow: 5px 5px 5px #888888;
 		}
-
-		p {
-			font-size: 18px;
-			line-height: 1.5;
-			margin-bottom: 20px;
+		.container img[alt="Bread selection"] {
+			border: 2px solid #C2591A;
+			box-shadow: 5px 5px 5px #888888;
 		}
-
-		img {
-			display: block;
-			margin: 0 auto;
-			max-width: 100%;
-			height: auto;
+		.container img[alt="Pastry selection"] {
+			border: 2px solid #C2591A;
+			box-shadow: 5px 5px 5px #888888;
 		}
-
+		.container img[alt="Chef preparing food"] {
+			border: 2px solid #C2591A;
+			box-shadow: 5px 5px 5px #888888;
+		}
 		footer {
-			background-color: #333;
-			color: #fff;
+			background-color: #C2591A;
+			color: #FFFFFF;
 			padding: 20px;
 			text-align: center;
-		}
-
-		footer p {
-			margin: 0;
 		}
 	</style>
 </head>
 <body>
-	<header>
-		<h1>Horse Riding Company</h1>
-	</header>
-
-	<nav>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">Horses</a></li>
-			<li><a href="#">Lessons</a></li>
-			<li><a href="#">Contact Us</a></li>
-		</ul>
-	</nav>
-
-	<section>
-		<h2>Welcome to Horse Riding Company</h2>
-		<p>We are a professional horse riding company dedicated to providing high quality lessons and experiences for riders of all levels.</p>
-		<img src="horse1.jpg" alt="A beautiful brown horse running in a green field with a blue sky in the background. The horse has a shiny coat and is galloping with its mane and tail flowing in the wind. The horse looks strong, healthy, and happy." style="width: 80%; max-width: 800px;" />
-		<p>Our horses are well-trained and cared for, and our instructors are experienced and passionate about teaching. Whether you are a beginner or an advanced rider, we have the perfect lesson or experience for you.</p>
-		<img src="horse2.jpg" alt="A group of people riding horses in a beautiful forest. The horses are walking on a dirt path surrounded by tall trees with green leaves. The riders are wearing helmets and comfortable clothes, and they look happy and relaxed. The horses are calm and well-behaved." style="width: 80%; max-width: 800px;" />
-		<p>Contact us today to schedule your first lesson or to learn more about our services.</p>
-	</section>
-
-	<footer>
-		<p>&copy; 2021 Horse Riding Company. All rights reserved.</p>
-	</footer>
+<header>
+<h1>French Bakery</h1>
+</header>
+<nav>
+<a href="#">Home</a>
+<a href="#">About Us</a>
+<a href="#">Menu</a>
+<a href="#">Contact Us</a>
+</nav>
+<div class="container">
+<img alt="Bakery interior" src style="height: 200px; width: 300px;" title="Bakery Interior: A cozy and warm bakery with a rustic feel. The bakery is filled with the aroma of freshly baked bread and pastries."/>
+<img alt="Bread selection" src style="height: 200px; width: 300px;" title="Bread Selection: A variety of freshly baked bread loaves on display. The breads are made with traditional French recipes and use only the finest ingredients."/>
+<img alt="Pastry selection" src style="height: 200px; width: 300px;" title="Pastry Selection: A display of colorful and delicious pastries. From croissants to macarons, our pastries are made with the utmost care and attention to detail."/>
+<img alt="Chef preparing food" src style="height: 200px; width: 300px;" title="Chef Preparing Food: Our skilled chefs work tirelessly to create the perfect dishes for our customers. From savory quiches to sweet tarts, our food is made with passion and creativity."/>
+</div>
+<footer>
+<p>French Bakery © 2021</p>
+</footer>
 </body>
 </html>
