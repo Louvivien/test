@@ -1,95 +1,167 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Oil Industry Company</title>
+	<title>Hotel Website Homepage</title>
 	<style>
+		/* CSS for the webpage */
 		body {
+			background-color: #f2f2f2;
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
-			background-color: #f2f2f2;
 		}
 		header {
 			background-color: #333;
 			color: #fff;
-			padding: 20px;
+			padding: 10px;
 			text-align: center;
 		}
 		nav {
-			background-color: #666;
-			color: #fff;
-			padding: 10px;
-			text-align: center;
-			overflow: auto;
-		}
-		nav a {
-			color: #fff;
-			text-decoration: none;
-			padding: 10px;
-			display: block;
-			float: left;
-		}
-		nav a:hover {
-			background-color: #999;
-		}
-		section {
-			padding: 20px;
-			margin: 20px;
 			background-color: #fff;
-			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+			border-bottom: 1px solid #333;
+			display: flex;
+			justify-content: space-between;
+			padding: 10px;
 		}
-		section h2 {
+		nav ul {
+			display: flex;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav ul li {
+			margin: 0 10px;
+		}
+		nav ul li a {
+			color: #333;
+			text-decoration: none;
+		}
+		nav ul li a:hover {
+			color: #555;
+		}
+		.hero {
+			background-image: url('hotel-hero.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 500px;
+			position: relative;
+			text-align: center;
+		}
+		.hero h1 {
+			color: #fff;
+			font-size: 3em;
 			margin-top: 0;
+			padding-top: 150px;
+			text-shadow: 2px 2px #333;
 		}
-		section p {
-			line-height: 1.5;
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 20px auto;
+			max-width: 1200px;
+			padding: 0 20px;
 		}
-		footer {
+		.card {
+			background-color: #fff;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+			margin: 10px;
+			padding: 10px;
+			width: calc(33.33% - 20px);
+		}
+		.card img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+			height: auto;
+		}
+		.card p {
+			margin: 10px 0;
+		}
+		.cta {
+			background-color: #333;
+			color: #fff;
+			padding: 50px 0;
+			text-align: center;
+		}
+		.cta h2 {
+			font-size: 2em;
+			margin: 0;
+		}
+		.cta p {
+			font-size: 1.2em;
+			margin: 20px 0 0;
+		}
+		.cta button {
+			background-color: #fff;
+			border: none;
+			border-radius: 5px;
+			color: #333;
+			cursor: pointer;
+			font-size: 1.2em;
+			padding: 10px 20px;
+			margin-top: 20px;
+			text-transform: uppercase;
+		}
+		.cta button:hover {
+			background-color: #ccc;
+		}
+		.footer {
 			background-color: #333;
 			color: #fff;
 			padding: 10px;
 			text-align: center;
 		}
-		img {
-			display: block;
-			margin: 20px auto;
-			max-width: 100%;
-			height: auto;
+		.footer p {
+			margin: 0;
 		}
 	</style>
 </head>
 <body>
 	<header>
-		<h1>Oil Industry Company</h1>
+		<h1>Hotel Name</h1>
 	</header>
 	<nav>
-		<a href="#">Home</a>
-		<a href="#">About Us</a>
-		<a href="#">Services</a>
-		<a href="#">Contact Us</a>
-	</nav>
-	<section>
-		<h2>Welcome to Oil Industry Company</h2>
-		<p>We are a leading provider of oil industry services and solutions. Our team of experts is dedicated to delivering high-quality services and exceptional customer support. We offer a wide range of services, including drilling, exploration, production, and more.</p>
-		<img src="oil-rig.jpg" alt="Oil Rig" width="500" height="300">
-		<h2>About Us</h2>
-		<p>Oil Industry Company was founded in 1990 with the goal of providing top-quality oil industry services to our clients. Over the years, we have grown to become one of the most trusted names in the industry. Our team of experts has decades of experience and is dedicated to delivering exceptional results.</p>
-		<img src="oil-refinery.jpg" alt="Oil Refinery" width="500" height="300">
-		<h2>Our Services</h2>
-		<p>We offer a wide range of services to meet the needs of our clients. Our services include:</p>
 		<ul>
-			<li>Drilling</li>
-			<li>Exploration</li>
-			<li>Production</li>
-			<li>Transportation</li>
-			<li>And more</li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Rooms</a></li>
+			<li><a href="#">Amenities</a></li>
+			<li><a href="#">Contact</a></li>
 		</ul>
-		<h2>Contact Us</h2>
-		<p>For more information about our services or to schedule a consultation, please contact us at:</p>
-		<p>123 Main Street<br>Anytown, USA 12345<br>Phone: (555) 555-1234<br>Email: info@oilindustrycompany.com</p>
+		<ul>
+			<li><a href="#">Sign In</a></li>
+			<li><a href="#">Sign Up</a></li>
+		</ul>
+	</nav>
+	<section class="hero">
+		<h1>Welcome to Our Hotel</h1>
 	</section>
-	<footer>
-		<p>&copy; 2021 Oil Industry Company. All rights reserved.</p>
+	<div class="container">
+		<div class="card">
+			<img src="room1.jpg" alt="Luxury room with a king size bed, a sofa, a coffee table and a flat screen TV. The room has large windows that offer a stunning view of the city skyline.">
+			<h2>Luxury Room</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo euismod, cursus odio vitae, dignissim augue. Nullam euismod, ipsum vel vestibulum egestas, tortor nisi convallis massa, vel rhoncus orci neque in velit.</p>
+		</div>
+		<div class="card">
+			<img src="room2.jpg" alt="Deluxe room with two double beds, a work desk, a mini fridge and a flat screen TV. The room has a balcony that overlooks the hotel pool.">
+			<h2>Deluxe Room</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo euismod, cursus odio vitae, dignissim augue. Nullam euismod, ipsum vel vestibulum egestas, tortor nisi convallis massa, vel rhoncus orci neque in velit.</p>
+		</div>
+		<div class="card">
+			<img src="room3.jpg" alt="Standard room with a queen size bed, a closet, a small table and a flat screen TV. The room has a window that overlooks the hotel courtyard.">
+			<h2>Standard Room</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo euismod, cursus odio vitae, dignissim augue. Nullam euismod, ipsum vel vestibulum egestas, tortor nisi convallis massa, vel rhoncus orci neque in velit.</p>
+		</div>
+	</div>
+	<section class="cta">
+		<h2>Book Your Stay Now</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo euismod, cursus odio vitae, dignissim augue.</p>
+		<button>Book Now</button>
+	</section>
+	<footer class="footer">
+		<p>&copy; 2021 Hotel Name. All rights reserved.</p>
 	</footer>
 </body>
 </html>
