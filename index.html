@@ -2,94 +2,112 @@
 
 <html>
 <head>
-<title>French Bakery Homepage</title>
+<title>Roybon Horse Riding Company Homepage</title>
 <style>
 		body {
-			background-color: #F8F8F8;
 			font-family: Arial, sans-serif;
+			background-color: #F5F5F5;
 			margin: 0;
 			padding: 0;
 		}
 		header {
-			background-color: #E27B3E;
-			color: #FFFFFF;
+			background-color: #FFFFFF;
 			padding: 20px;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+		}
+		h1 {
+			margin: 0;
+			font-size: 36px;
 			text-align: center;
 		}
 		nav {
-			background-color: #C2591A;
+			background-color: #333333;
 			color: #FFFFFF;
-			display: flex;
-			justify-content: space-around;
 			padding: 10px;
+			text-align: center;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+		}
+		nav li {
+			display: inline-block;
+			margin-right: 20px;
 		}
 		nav a {
 			color: #FFFFFF;
 			text-decoration: none;
+			font-size: 18px;
+			padding: 5px;
+			transition: all 0.3s ease;
 		}
 		nav a:hover {
-			color: #E27B3E;
+			background-color: #FFFFFF;
+			color: #333333;
 		}
-		.container {
+		section {
+			padding: 20px;
+			margin: 20px;
+			background-color: #FFFFFF;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: space-around;
-			margin: 20px 0;
+			justify-content: center;
+			align-items: center;
+		}
+		section h2 {
+			font-size: 24px;
+			margin: 0;
+			text-align: center;
+			flex-basis: 100%;
+			padding-bottom: 20px;
+		}
+		section img {
+			height: 300px;
+			width: 400px;
+			margin: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+		}
+		section p {
+			font-size: 18px;
+			text-align: justify;
+			flex-basis: 100%;
 			padding: 20px;
 		}
-		.container img {
-			height: 200px;
-			width: 300px;
-			margin: 20px;
-		}
-		.container img:first-child {
-			margin-top: 0;
-		}
-		.container img:last-child {
-			margin-bottom: 0;
-		}
-		.container img[alt="Bakery interior"] {
-			border: 2px solid #C2591A;
-			box-shadow: 5px 5px 5px #888888;
-		}
-		.container img[alt="Bread selection"] {
-			border: 2px solid #C2591A;
-			box-shadow: 5px 5px 5px #888888;
-		}
-		.container img[alt="Pastry selection"] {
-			border: 2px solid #C2591A;
-			box-shadow: 5px 5px 5px #888888;
-		}
-		.container img[alt="Chef preparing food"] {
-			border: 2px solid #C2591A;
-			box-shadow: 5px 5px 5px #888888;
-		}
 		footer {
-			background-color: #C2591A;
+			background-color: #333333;
 			color: #FFFFFF;
 			padding: 20px;
 			text-align: center;
+			font-size: 14px;
 		}
 	</style>
 </head>
 <body>
 <header>
-<h1>French Bakery</h1>
+<h1>Roybon Horse Riding Company</h1>
 </header>
 <nav>
-<a href="#">Home</a>
-<a href="#">About Us</a>
-<a href="#">Menu</a>
-<a href="#">Contact Us</a>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Horses</a></li>
+<li><a href="#">Rides</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
 </nav>
-<div class="container">
-<img alt="Bakery interior" src style="height: 200px; width: 300px;" title="Bakery Interior: A cozy and warm bakery with a rustic feel. The bakery is filled with the aroma of freshly baked bread and pastries."/>
-<img alt="Bread selection" src style="height: 200px; width: 300px;" title="Bread Selection: A variety of freshly baked bread loaves on display. The breads are made with traditional French recipes and use only the finest ingredients."/>
-<img alt="Pastry selection" src style="height: 200px; width: 300px;" title="Pastry Selection: A display of colorful and delicious pastries. From croissants to macarons, our pastries are made with the utmost care and attention to detail."/>
-<img alt="Chef preparing food" src style="height: 200px; width: 300px;" title="Chef Preparing Food: Our skilled chefs work tirelessly to create the perfect dishes for our customers. From savory quiches to sweet tarts, our food is made with passion and creativity."/>
-</div>
+<section>
+<h2>Welcome to Roybon Horse Riding Company</h2>
+<img alt="A group of riders on horseback are shown moving through a forest in the French countryside. The horses are a mix of chestnut, bay, and black, and are all well-groomed and well-trained. The riders are all wearing helmets and riding boots, and are smiling and chatting with each other as they ride." src="horse-riding-1.jpg.webp" style="height: 300px; width: 400px;"/>
+<p>We are a premier horse riding company located in the beautiful French countryside. Our horses are well-trained and well-cared for, and our experienced guides will take you on a ride you'll never forget. Whether you're a seasoned rider or a beginner, we have the perfect ride for you.</p>
+<img alt="A close-up of a beautiful chestnut mare with a long mane and tail, standing in a green pasture surrounded by trees. The horse has a gentle expression and is looking directly at the camera, with its ears perked forward." src="horse-riding-2.jpg.webp" style="height: 300px; width: 400px;"/>
+<p>Our rides take you through some of the most stunning scenery in France, from rolling hills and lush forests to sparkling lakes and picturesque villages. We offer a range of rides to suit all levels of experience, from gentle trails for beginners to more challenging rides for experienced riders.</p>
+</section>
 <footer>
-<p>French Bakery © 2021</p>
+<p>© 2021 Roybon Horse Riding Company. All rights reserved.</p>
 </footer>
 </body>
 </html>
