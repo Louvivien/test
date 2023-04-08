@@ -1,50 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login Page</title>
-	<style type="text/css">
+	<title>Flower Blog</title>
+	<style>
 		body {
-			background-color: #f2f2f2;
 			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
 		}
-		form {
-			background-color: #fff;
-			border-radius: 5px;
-			box-shadow: 0 0 10px rgba(0,0,0,0.3);
-			padding: 20px;
-			width: 300px;
-			margin: 0 auto;
-		}
-		input[type=text], input[type=password] {
-			border-radius: 3px;
-			border: none;
-			box-shadow: 0 0 5px rgba(0,0,0,0.1);
-			margin-bottom: 10px;
-			padding: 10px;
-			width: 100%;
-		}
-		input[type=submit] {
+		header {
 			background-color: #4CAF50;
-			border: none;
-			border-radius: 3px;
-			color: #fff;
-			cursor: pointer;
+			color: white;
 			padding: 10px;
-			width: 100%;
+			text-align: center;
 		}
-		input[type=submit]:hover {
-			background-color: #3e8e41;
+		nav {
+			background-color: #333;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		nav a {
+			color: white;
+			text-decoration: none;
+			padding: 10px;
+		}
+		nav a:hover {
+			background-color: #4CAF50;
+		}
+		article {
+			margin: 10px;
+			padding: 10px;
+			background-color: white;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+		}
+		article h2 {
+			margin-top: 0px;
+			font-size: 24px;
+			color: #4CAF50;
+		}
+		article p {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		footer {
+			background-color: #333;
+			color: white;
+			padding: 10px;
+			text-align: center;
 		}
 	</style>
 </head>
 <body>
-	<form>
-		<h2>Login</h2>
-		<label for="username">Username:</label>
-		<input type="text" id="username" name="username">
-		<label for="password">Password:</label>
-		<input type="password" id="password" name="password">
-		<input type="submit" value="Login">
-	</form>
+	<header>
+		<h1>Flower Blog</h1>
+	</header>
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">Articles</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	</nav>
+	<article>
+		<h2>10 Most Beautiful Flowers in the World</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel elit eget nibh laoreet sollicitudin. Suspendisse potenti. Donec auctor, mauris sit amet pellentesque commodo, nisl lacus hendrerit justo, a suscipit nisi sapien vel turpis. Suspendisse fringilla velit vitae ipsum scelerisque, et bibendum justo mattis. Sed vel mi vel felis bibendum malesuada. Nullam nec leo feugiat, ullamcorper ante sit amet, pulvinar sapien. Sed euismod purus lacus, eu bibendum eros molestie eu. Donec vel augue vel mauris varius congue. Fusce vel enim vel est lacinia tincidunt. Donec commodo, nisi a lacinia tincidunt, ex elit commodo elit, eu posuere ligula orci in justo. In hac habitasse platea dictumst. </p>
+	</article>
+	<article>
+		<h2>How to Take Care of Your Flowers</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel elit eget nibh laoreet sollicitudin. Suspendisse potenti. Donec auctor, mauris sit amet pellentesque commodo, nisl lacus hendrerit justo, a suscipit nisi sapien vel turpis. Suspendisse fringilla velit vitae ipsum scelerisque, et bibendum justo mattis. Sed vel mi vel felis bibendum malesuada. Nullam nec leo feugiat, ullamcorper ante sit amet, pulvinar sapien. Sed euismod purus lacus, eu bibendum eros molestie eu. Donec vel augue vel mauris varius congue. Fusce vel enim vel est lacinia tincidunt. Donec commodo, nisi a lacinia tincidunt, ex elit commodo elit, eu posuere ligula orci in justo. In hac habitasse platea dictumst. </p>
+	</article>
+	<footer>
+		<p>&copy; 2021 Flower Blog</p>
+	</footer>
 </body>
 </html>
