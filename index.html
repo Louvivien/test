@@ -5,100 +5,132 @@
 <title>Innovative AI Company</title>
 <style>
 		body {
-			background-color: #f2f2f2;
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
 		}
-		header {
+
+		.header {
 			background-color: #333;
-			color: white;
+			color: #fff;
 			padding: 20px;
 			text-align: center;
 		}
-		nav {
-			background-color: #666;
-			color: white;
-			display: flex;
-			justify-content: space-between;
-			padding: 10px;
+
+		.navbar {
+			background-color: #4CAF50;
+			overflow: hidden;
 		}
-		nav a {
-			color: white;
+
+		.navbar a {
+			float: left;
+			color: #fff;
+			text-align: center;
+			padding: 14px 16px;
 			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.navbar a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+		.hero-image {
+			background-image: url('ai-background.jpg');
+			background-color: #cccccc;
+			height: 500px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+
+		.hero-text {
+			text-align: center;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+		}
+
+		.content {
+			padding: 20px;
+			margin-top: 20px;
+		}
+
+		.column {
+			float: left;
+			width: 50%;
 			padding: 10px;
 		}
-		nav a:hover {
-			background-color: white;
-			color: #666;
-			border-radius: 5px;
+
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
 		}
-		.container {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-around;
-			margin: 20px;
-		}
-		.card {
-			background-color: white;
-			border-radius: 5px;
-			box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-			margin: 20px;
-			max-width: 300px;
-			padding: 20px;
-			text-align: center;
-		}
-		.card img {
-			height: 200px;
-			width: 200px;
-			margin-bottom: 10px;
-		}
-		.card h2 {
-			font-size: 24px;
-			margin-bottom: 10px;
-		}
-		.card p {
-			font-size: 18px;
-			line-height: 1.5;
-			margin-bottom: 10px;
-		}
-		footer {
+
+		.footer {
 			background-color: #333;
-			color: white;
+			color: #fff;
 			padding: 20px;
 			text-align: center;
+		}
+
+		.img1 {
+			height: 300px;
+			width: 400px;
+			margin: 20px;
+		}
+
+		.img2 {
+			height: 300px;
+			width: 400px;
+			margin: 20px;
 		}
 	</style>
 </head>
 <body>
-<header>
+<div class="header">
 <h1>Innovative AI Company</h1>
-</header>
-<nav>
+</div>
+<div class="navbar">
 <a href="#">Home</a>
-<a href="#">About Us</a>
+<a href="#">About</a>
 <a href="#">Services</a>
-<a href="#">Contact Us</a>
-</nav>
-<div class="container">
-<div class="card">
-<img alt="An image of a robot arm assembling a car. The arm is attached to a large machine and is working with precision and speed. The car is partially assembled and the background is blurred." src="image1.webp" style="height: 200px; width: 200px;"/>
-<h2>Automated Assembly</h2>
-<p>Our AI-powered machines can assemble products with speed and precision, reducing production time and costs.</p>
+<a href="#">Contact</a>
 </div>
-<div class="card">
-<img alt="An image of a computer screen with a graph showing the growth of a company. The graph is going up and to the right, indicating success and growth. There is a hand on a mouse cursor on the screen." src="image2.webp" style="height: 200px; width: 200px;"/>
-<h2>Data Analytics</h2>
-<p>We use advanced algorithms to analyze data and provide insights that help businesses make informed decisions.</p>
-</div>
-<div class="card">
-<img alt="An image of a person wearing a virtual reality headset and holding a controller. The person is standing in a virtual environment that looks like a city. The person is looking around and exploring." src="image3.webp" style="height: 200px; width: 200px;"/>
-<h2>Virtual Reality</h2>
-<p>Our VR technology allows users to experience immersive environments and interact with virtual objects.</p>
+<div class="hero-image">
+<div class="hero-text">
+<h1>Welcome to Innovative AI Company</h1>
+<p>Transforming the world with AI</p>
 </div>
 </div>
-<footer>
-<p>© 2021 Innovative AI Company. All rights reserved.</p>
-</footer>
+<div class="content">
+<h2>About Us</h2>
+<p>We are a team of AI experts dedicated to transforming the world through the use of artificial intelligence. Our mission is to develop innovative solutions that solve complex problems and improve people's lives.</p>
+<h2>Our Services</h2>
+<div class="row">
+<div class="column">
+<h3>AI Consulting</h3>
+<p>We offer AI consulting services to help businesses understand and implement AI solutions that improve efficiency and increase revenue.</p>
+<img alt="Photo of a team of AI consultants working together in a modern office. They are sitting around a table with laptops and whiteboards, discussing an AI project." class="img1" src="ai-consulting.webp" style="height: 300px; width: 400px;"/>
+</div>
+<div class="column">
+<h3>AI Development</h3>
+<p>We provide AI development services to create custom AI solutions that meet the specific needs of businesses and organizations.</p>
+<img alt="Photo of an AI developer working on a computer. The developer is sitting at a desk with multiple monitors and is typing on a keyboard." class="img2" src="ai-development.webp" style="height: 300px; width: 400px;"/>
+</div>
+</div>
+<h2>Contact Us</h2>
+<p>Get in touch with us to learn more about our services and how we can help your business succeed with AI.</p>
+<p>Email: info@innovativeai.com</p>
+<p>Phone: 555-555-5555</p>
+</div>
+<div class="footer">
+<p>© 2021 Innovative AI Company</p>
+</div>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
