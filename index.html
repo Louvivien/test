@@ -2,109 +2,87 @@
 
 <html>
 <head>
-<title>Horseriding Company in Roybon, France</title>
+<title>Chat with Dataset Website</title>
 <style>
-		body {
-			background-color: #f2f2f2;
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-		header {
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
-		h1 {
-			margin: 0;
-			font-size: 48px;
-			font-weight: normal;
-			text-transform: uppercase;
-		}
-		nav {
-			background-color: #666;
-			color: #fff;
-			padding: 10px;
-			text-align: center;
-		}
-		nav ul {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-		nav li {
-			display: inline-block;
-			margin: 0 10px;
-		}
-		nav a {
-			color: #fff;
-			text-decoration: none;
-			font-size: 24px;
-			font-weight: bold;
-			text-transform: uppercase;
-		}
-		nav a:hover {
-			color: #f2f2f2;
-		}
-		section {
-			margin: 20px;
-			padding: 20px;
-			background-color: #fff;
-			box-shadow: 0px 0px 10px #ccc;
-		}
-		section h2 {
-			margin-top: 0;
-			font-size: 36px;
-			font-weight: normal;
-			text-transform: uppercase;
-		}
-		section p {
-			font-size: 18px;
-			line-height: 1.5;
-		}
-		section img {
-			display: block;
-			margin: 20px auto;
-			height: 400px;
-			width: 600px;
-		}
-		footer {
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
-		footer p {
-			margin: 0;
-			font-size: 18px;
-			line-height: 1.5;
-		}
-	</style>
+        /* CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5F5F5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 50px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .chatbox {
+            width: 400px;
+            height: 500px;
+            background-color: #FFF;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            overflow-y: scroll;
+        }
+        .chatbox h2 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .chatbox p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .chatbox input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .chatbox input[type="submit"] {
+            background-color: #333;
+            color: #FFF;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .chatbox input[type="submit"]:hover {
+            background-color: #444;
+        }
+        .chatbox img {
+            height: 300px;
+            width: 400px;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
-<header>
-<h1>Horseriding Company in Roybon, France</h1>
-</header>
-<nav>
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Horses</a></li>
-<li><a href="#">Riding Lessons</a></li>
-<li><a href="#">Contact Us</a></li>
-</ul>
-</nav>
-<section>
-<h2>Welcome to Our Horseriding Company in Roybon, France</h2>
-<p>Our horseriding company is located in the beautiful countryside of Roybon, France. We offer a variety of services, including horseback riding lessons, trail rides, and horse boarding. Our experienced and knowledgeable staff are dedicated to providing you with a safe and enjoyable experience.</p>
-<img alt="A beautiful chestnut mare standing in a field with tall grass and trees in the background. The horse has a shiny coat and a long, flowing mane and tail. It is looking directly at the camera with a calm expression on its face." src="horse1.webp" style="height: 400px; width: 600px;"/>
-<h2>Our Horses</h2>
-<p>We have a wide variety of horses to suit riders of all levels, from beginners to advanced. Our horses are well-trained and well-cared for, and we take pride in their health and happiness. Whether you're looking for a gentle ride through the countryside or a challenging trail ride, we have the perfect horse for you.</p>
-<img alt="A handsome bay gelding standing in a stable with its head over the stall door. The horse has a short, sleek coat and a short mane and tail. It is looking directly at the camera with its ears perked up, as if waiting for someone to come and ride it." src="horse2.webp" style="height: 400px; width: 600px;"/>
-</section>
-<footer>
-<p>© 2021 Horseriding Company in Roybon, France. All rights reserved.</p>
-</footer>
-</body>
+<h1>Chat with Dataset Website</h1>
+<div class="container">
+<div class="chatbox">
+<h2>Chat with Dataset</h2>
+<p>Welcome to our chat with dataset feature. Please enter your message below and we will respond shortly.</p>
+<form>
+<input placeholder="Enter your message here..." type="text"/>
+<input type="submit" value="Send"/>
+</form>
+</div>
+<img alt="A beautiful sunset over a calm ocean, with orange and pink clouds in the sky. The water is reflecting the colors of the sky, creating a peaceful and serene atmosphere." src="400x300.webp" style="height: 300px; width: 400px;"/>
+<img alt="A group of friends sitting around a campfire at night, with the flames illuminating their faces. They are roasting marshmallows and laughing, enjoying each other's company and the warmth of the fire." src="400x300.webp" style="height: 300px; width: 400px;"/>
+</div>
+<script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
