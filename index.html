@@ -2,94 +2,108 @@
 
 <html>
 <head>
-<title>Survey Website</title>
+<title>Le site internet d'un photographe de portrait</title>
 <style>
 		body {
+			margin: 0;
+			padding: 0;
 			font-family: Arial, sans-serif;
 			background-color: #f2f2f2;
 		}
-		h1 {
-			text-align: center;
-			color: #333;
-		}
-		form {
-			margin: 0 auto;
-			width: 80%;
-			max-width: 600px;
-			padding: 20px;
-			background-color: #fff;
-			border-radius: 10px;
-			box-shadow: 0 0 10px rgba(0,0,0,0.2);
-		}
-		label {
-			display: block;
-			margin-bottom: 10px;
-			color: #333;
-			font-weight: bold;
-		}
-		input[type="text"],
-		input[type="email"],
-		select {
-			width: 100%;
-			padding: 10px;
-			border: none;
-			border-radius: 5px;
-			margin-bottom: 20px;
-			box-sizing: border-box;
-			font-size: 16px;
-		}
-		input[type="submit"] {
+
+		header {
 			background-color: #333;
 			color: #fff;
-			padding: 10px 20px;
-			border: none;
-			border-radius: 5px;
-			cursor: pointer;
-			font-size: 16px;
+			padding: 20px;
+			text-align: center;
+			font-size: 30px;
 		}
-		input[type="submit"]:hover {
-			background-color: #555;
+
+		nav {
+			background-color: #666;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			font-size: 20px;
 		}
-		img.img1 {
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			padding: 10px;
+		}
+
+		nav a:hover {
+			background-color: #fff;
+			color: #666;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: auto;
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.box {
+			flex-basis: calc(33.33% - 20px);
+			margin-bottom: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+			padding: 20px;
+			box-sizing: border-box;
+		}
+
+		.box img {
+			display: block;
+			margin: auto;
 			height: 300px;
 			width: 400px;
-			margin: 20px;
-			float: left;
 		}
-		img.img2 {
-			height: 300px;
-			width: 400px;
-			margin: 20px;
-			float: right;
+
+		.box p {
+			margin: 10px 0;
+			line-height: 1.5;
+		}
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			font-size: 20px;
 		}
 	</style>
 </head>
 <body>
-<h1>Survey Website</h1>
-<form>
-<label for="name">Name:</label>
-<input id="name" name="name" required="" type="text"/>
-<label for="email">Email:</label>
-<input id="email" name="email" required="" type="email"/>
-<label for="age">Age:</label>
-<select id="age" name="age" required="">
-<option value="">Select Age</option>
-<option value="18-24">18-24</option>
-<option value="25-34">25-34</option>
-<option value="35-44">35-44</option>
-<option value="45-54">45-54</option>
-<option value="55+">55+</option>
-</select>
-<label for="gender">Gender:</label>
-<input id="male" name="gender" required="" type="radio" value="male"/>
-<label for="male">Male</label>
-<input id="female" name="gender" required="" type="radio" value="female"/>
-<label for="female">Female</label>
-<label for="feedback">Feedback:</label>
-<textarea id="feedback" name="feedback" required=""></textarea>
-<input type="submit" value="Submit"/>
-</form>
-<img alt="Photo of a group of people sitting around a table, discussing ideas. They are all looking engaged and interested, with some taking notes and others listening intently." class="img1" src="image1.webp" style="height: 300px; width: 400px;"/>
-<img alt="Photo of a person holding a clipboard and pen, standing in front of a large group of people. The person is smiling and appears to be asking a question, while the group looks attentive and ready to respond." class="img2" src="image2.webp" style="height: 300px; width: 400px;"/>
+<header>
+		Le site internet d'un photographe de portrait
+	</header>
+<nav>
+<a href="#">Accueil</a>
+<a href="#">Portfolio</a>
+<a href="#">A propos</a>
+<a href="#">Contact</a>
+</nav>
+<div class="container">
+<div class="box">
+<img alt="Portrait d'une jeune femme souriante avec les cheveux blonds, portant une robe blanche et des boucles d'oreilles en argent. Elle est assise sur une chaise en bois devant un mur en briques et regarde directement l'appareil photo." src="portrait1.webp" style="height: 300px; width: 400px;"/>
+<p>Portrait d'une jeune femme souriante avec les cheveux blonds, portant une robe blanche et des boucles d'oreilles en argent. Elle est assise sur une chaise en bois devant un mur en briques et regarde directement l'appareil photo.</p>
+</div>
+<div class="box">
+<img alt="Portrait d'un homme barbu avec les cheveux bruns, portant une chemise blanche et une veste en cuir. Il est debout devant un mur en béton et regarde légèrement à gauche de l'appareil photo." src="portrait2.webp" style="height: 300px; width: 400px;"/>
+<p>Portrait d'un homme barbu avec les cheveux bruns, portant une chemise blanche et une veste en cuir. Il est debout devant un mur en béton et regarde légèrement à gauche de l'appareil photo.</p>
+</div>
+<div class="box">
+<img alt="Portrait d'une petite fille brune avec des yeux bleus, portant une robe rose et un bandeau dans les cheveux. Elle est assise sur une couverture en laine devant un arbre en fleurs et sourit doucement." src="portrait3.webp" style="height: 300px; width: 400px;"/>
+<p>Portrait d'une petite fille brune avec des yeux bleus, portant une robe rose et un bandeau dans les cheveux. Elle est assise sur une couverture en laine devant un arbre en fleurs et sourit doucement.</p>
+</div>
+</div>
+<footer>
+		© 2021 Le site internet d'un photographe de portrait. Tous droits réservés.
+	</footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
