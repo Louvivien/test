@@ -2,60 +2,107 @@
 
 <html>
 <head>
-<title>Le site internet de l'office du tourisme de Roybon, France</title>
+<title>Roybon Horse Riding Company</title>
 <style>
 		body {
 			font-family: Arial, sans-serif;
-			background-color: #f2f2f2;
+			background-color: #F5F5F5;
+			margin: 0;
+			padding: 0;
 		}
-		h1 {
+
+		header {
+			background-color: #8B0000;
+			color: white;
+			padding: 1em;
 			text-align: center;
-			color: #006699;
-			margin-top: 50px;
 		}
-		.container {
+
+		nav {
+			background-color: #333;
+			color: white;
+			padding: 1em;
+			text-align: center;
+		}
+
+		nav a {
+			color: white;
+			text-decoration: none;
+			padding: 0.5em;
+		}
+
+		nav a:hover {
+			background-color: white;
+			color: #333;
+		}
+
+		section {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-around;
-			margin-top: 50px;
+			margin: 1em;
 		}
-		.card {
-			background-color: #fff;
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-			max-width: 300px;
-			margin: 20px;
+
+		section div {
+			background-color: white;
+			border-radius: 5px;
+			box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+			flex-basis: 30%;
+			margin: 1em;
+			padding: 1em;
 			text-align: center;
-			padding: 10px;
 		}
-		.card img {
+
+		section div img {
 			height: 200px;
-			width: 100%;
-			object-fit: cover;
-			margin-bottom: 10px;
+			width: 300px;
+			margin-bottom: 1em;
 		}
-		.card p {
-			color: #666;
-			font-size: 14px;
-			line-height: 1.5;
-			margin: 10px;
+
+		footer {
+			background-color: #333;
+			color: white;
+			padding: 1em;
+			text-align: center;
+		}
+
+		@media screen and (max-width: 600px) {
+			section div {
+				flex-basis: 100%;
+			}
 		}
 	</style>
 </head>
 <body>
-<h1>Le site internet de l'office du tourisme de Roybon, France</h1>
-<div class="container">
-<div class="card">
-<img alt="Une vue panoramique de la ville de Roybon, avec ses toits rouges et ses rues pavées. Au loin, on peut voir les montagnes enneigées des Alpes." src="image1.webp" style="height: 200px; width: 300px;"/>
-<p>Explorez les rues pittoresques de Roybon et découvrez son charme unique. Visitez les boutiques locales, les cafés et les restaurants, et découvrez l'histoire et la culture de cette ville magnifique.</p>
+<header>
+<h1>Roybon Horse Riding Company</h1>
+</header>
+<nav>
+<a href="#">Home</a>
+<a href="#">About Us</a>
+<a href="#">Horses</a>
+<a href="#">Rides</a>
+<a href="#">Contact Us</a>
+</nav>
+<section>
+<div>
+<img alt="A beautiful chestnut mare with a short mane and tail, standing in a field with green grass and trees in the background. The horse is looking at the camera with a calm expression on its face, and its ears perked up." src="horse1.webp" style="height: 200px; width: 300px;"/>
+<h2>Our Horses</h2>
+<p>We have a variety of horses suitable for riders of all levels, from beginners to experienced riders. Our horses are well-trained and well-cared for, and we take great pride in their health and happiness.</p>
 </div>
-<div class="card">
-<img alt="Une photo d'un magnifique château médiéval situé à l'extérieur de Roybon. Le château est construit en pierre et est entouré de verdure luxuriante." src="image2.webp" style="height: 200px; width: 300px;"/>
-<p>Découvrez l'histoire fascinante de Roybon en visitant le château médiéval situé à l'extérieur de la ville. Admirez l'architecture impressionnante et les magnifiques jardins, et apprenez-en plus sur la vie dans cette région autrefois tumultueuse.</p>
+<div>
+<img alt="A handsome black stallion with a long mane and tail, standing in a stable with his head turned towards the camera. The horse is wearing a leather halter and looks alert and ready to go." src="horse2.webp" style="height: 200px; width: 300px;"/>
+<h2>Our Rides</h2>
+<p>We offer a variety of rides, from short trail rides to longer multi-day excursions. Our rides are suitable for riders of all levels, and we can customize the experience to meet your needs and preferences.</p>
 </div>
-<div class="card">
-<img alt="Une photo d'un magnifique lac entouré de montagnes majestueuses. Les eaux du lac sont d'un bleu profond et cristallin, et les arbres qui l'entourent sont d'un vert luxuriant." src="image3.webp" style="height: 200px; width: 300px;"/>
-<p>Profitez de la beauté naturelle de Roybon en visitant le lac magnifique situé à proximité de la ville. Nagez dans les eaux cristallines, faites une promenade en bateau, ou simplement détendez-vous sur la plage et profitez du soleil.</p>
+<div>
+<img alt="A group of riders on horseback, riding through a beautiful forest with tall trees and dappled sunlight. The riders are wearing helmets and riding gear, and the horses are well-behaved and calm." src="horse3.webp" style="height: 200px; width: 300px;"/>
+<h2>About Us</h2>
+<p>We are a family-owned and operated horse riding company located in the beautiful town of Roybon, France. We have been in business for over 20 years, and we take great pride in providing our customers with safe, enjoyable, and memorable riding experiences.</p>
 </div>
-</div>
+</section>
+<footer>
+<p>© 2021 Roybon Horse Riding Company</p>
+</footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
