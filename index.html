@@ -2,102 +2,94 @@
 
 <html>
 <head>
-<title>Roybon Horse Riding Company</title>
+<title>Survey Website</title>
 <style>
 		body {
 			font-family: Arial, sans-serif;
-			background-color: #F5F5F5;
-			margin: 0;
-			padding: 0;
+			background-color: #f2f2f2;
 		}
-		header {
-			background-color: #333;
-			color: #FFF;
-			padding: 10px;
+		h1 {
 			text-align: center;
-			font-size: 36px;
-		}
-		nav {
-			background-color: #FFF;
-			padding: 10px;
-			text-align: center;
-			font-size: 18px;
-			border-bottom: 2px solid #333;
-		}
-		nav a {
 			color: #333;
-			text-decoration: none;
-			padding: 10px;
 		}
-		nav a:hover {
-			background-color: #333;
-			color: #FFF;
-		}
-		.container {
-			max-width: 1200px;
+		form {
 			margin: 0 auto;
+			width: 80%;
+			max-width: 600px;
 			padding: 20px;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			align-items: center;
-		}
-		.box {
-			background-color: #FFF;
-			padding: 20px;
-			margin: 20px;
+			background-color: #fff;
+			border-radius: 10px;
 			box-shadow: 0 0 10px rgba(0,0,0,0.2);
-			min-height: 300px;
-			width: 400px;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
 		}
-		.box img {
+		label {
+			display: block;
+			margin-bottom: 10px;
+			color: #333;
+			font-weight: bold;
+		}
+		input[type="text"],
+		input[type="email"],
+		select {
+			width: 100%;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+			font-size: 16px;
+		}
+		input[type="submit"] {
+			background-color: #333;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		input[type="submit"]:hover {
+			background-color: #555;
+		}
+		img.img1 {
 			height: 300px;
 			width: 400px;
-			margin-bottom: 20px;
+			margin: 20px;
+			float: left;
 		}
-		.box h2 {
-			font-size: 24px;
-			margin-bottom: 10px;
-		}
-		.box p {
-			font-size: 18px;
-			text-align: justify;
-			margin-bottom: 20px;
-		}
-		.footer {
-			background-color: #333;
-			color: #FFF;
-			padding: 10px;
-			text-align: center;
-			font-size: 18px;
-			margin-top: 20px;
+		img.img2 {
+			height: 300px;
+			width: 400px;
+			margin: 20px;
+			float: right;
 		}
 	</style>
 </head>
 <body>
-<header>Roybon Horse Riding Company</header>
-<nav>
-<a href="#">Home</a>
-<a href="#">About Us</a>
-<a href="#">Horse Riding Lessons</a>
-<a href="#">Horse Riding Tours</a>
-<a href="#">Contact Us</a>
-</nav>
-<div class="container">
-<div class="box">
-<img alt="A beautiful chestnut mare with a short mane and tail, standing in a green field with a fence in the background. The horse is looking at the camera with a friendly expression on its face." src="horse1.webp" style="height: 300px; width: 400px;"/>
-<h2>Horse Riding Lessons</h2>
-<p>Our horse riding lessons are suitable for riders of all levels, from beginners to advanced. We offer both group and private lessons, and our experienced instructors will work with you to improve your riding skills and confidence.</p>
-</div>
-<div class="box">
-<img alt="A handsome bay gelding with a long mane and tail, standing in a stable with a halter on its head. The horse is looking at the camera with a calm expression on its face." src="horse2.webp" style="height: 300px; width: 400px;"/>
-<h2>Horse Riding Tours</h2>
-<p>Explore the beautiful countryside of Roybon on horseback with our guided tours. We offer tours for riders of all levels, from beginners to advanced, and our experienced guides will take you on a journey through the stunning scenery of the region.</p>
-</div>
-</div>
-<div class="footer">© Roybon Horse Riding Company 2021</div>
+<h1>Survey Website</h1>
+<form>
+<label for="name">Name:</label>
+<input id="name" name="name" required="" type="text"/>
+<label for="email">Email:</label>
+<input id="email" name="email" required="" type="email"/>
+<label for="age">Age:</label>
+<select id="age" name="age" required="">
+<option value="">Select Age</option>
+<option value="18-24">18-24</option>
+<option value="25-34">25-34</option>
+<option value="35-44">35-44</option>
+<option value="45-54">45-54</option>
+<option value="55+">55+</option>
+</select>
+<label for="gender">Gender:</label>
+<input id="male" name="gender" required="" type="radio" value="male"/>
+<label for="male">Male</label>
+<input id="female" name="gender" required="" type="radio" value="female"/>
+<label for="female">Female</label>
+<label for="feedback">Feedback:</label>
+<textarea id="feedback" name="feedback" required=""></textarea>
+<input type="submit" value="Submit"/>
+</form>
+<img alt="Photo of a group of people sitting around a table, discussing ideas. They are all looking engaged and interested, with some taking notes and others listening intently." class="img1" src="image1.webp" style="height: 300px; width: 400px;"/>
+<img alt="Photo of a person holding a clipboard and pen, standing in front of a large group of people. The person is smiling and appears to be asking a question, while the group looks attentive and ready to respond." class="img2" src="image2.webp" style="height: 300px; width: 400px;"/>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
