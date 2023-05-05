@@ -10,99 +10,94 @@
 			margin: 0;
 			padding: 0;
 		}
-
 		header {
-			background-color: #8B0000;
-			color: white;
-			padding: 1em;
-			text-align: center;
-		}
-
-		nav {
 			background-color: #333;
-			color: white;
-			padding: 1em;
+			color: #FFF;
+			padding: 10px;
 			text-align: center;
+			font-size: 36px;
 		}
-
+		nav {
+			background-color: #FFF;
+			padding: 10px;
+			text-align: center;
+			font-size: 18px;
+			border-bottom: 2px solid #333;
+		}
 		nav a {
-			color: white;
-			text-decoration: none;
-			padding: 0.5em;
-		}
-
-		nav a:hover {
-			background-color: white;
 			color: #333;
+			text-decoration: none;
+			padding: 10px;
 		}
-
-		section {
+		nav a:hover {
+			background-color: #333;
+			color: #FFF;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: space-around;
-			margin: 1em;
+			justify-content: center;
+			align-items: center;
 		}
-
-		section div {
-			background-color: white;
-			border-radius: 5px;
-			box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-			flex-basis: 30%;
-			margin: 1em;
-			padding: 1em;
-			text-align: center;
+		.box {
+			background-color: #FFF;
+			padding: 20px;
+			margin: 20px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			min-height: 300px;
+			width: 400px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 		}
-
-		section div img {
-			height: 200px;
-			width: 300px;
-			margin-bottom: 1em;
+		.box img {
+			height: 300px;
+			width: 400px;
+			margin-bottom: 20px;
 		}
-
-		footer {
+		.box h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		.box p {
+			font-size: 18px;
+			text-align: justify;
+			margin-bottom: 20px;
+		}
+		.footer {
 			background-color: #333;
-			color: white;
-			padding: 1em;
+			color: #FFF;
+			padding: 10px;
 			text-align: center;
-		}
-
-		@media screen and (max-width: 600px) {
-			section div {
-				flex-basis: 100%;
-			}
+			font-size: 18px;
+			margin-top: 20px;
 		}
 	</style>
 </head>
 <body>
-<header>
-<h1>Roybon Horse Riding Company</h1>
-</header>
+<header>Roybon Horse Riding Company</header>
 <nav>
 <a href="#">Home</a>
 <a href="#">About Us</a>
-<a href="#">Horses</a>
-<a href="#">Rides</a>
+<a href="#">Horse Riding Lessons</a>
+<a href="#">Horse Riding Tours</a>
 <a href="#">Contact Us</a>
 </nav>
-<section>
-<div>
-<img alt="A beautiful chestnut mare with a short mane and tail, standing in a field with green grass and trees in the background. The horse is looking at the camera with a calm expression on its face, and its ears perked up." src="horse1.webp" style="height: 200px; width: 300px;"/>
-<h2>Our Horses</h2>
-<p>We have a variety of horses suitable for riders of all levels, from beginners to experienced riders. Our horses are well-trained and well-cared for, and we take great pride in their health and happiness.</p>
+<div class="container">
+<div class="box">
+<img alt="A beautiful chestnut mare with a short mane and tail, standing in a green field with a fence in the background. The horse is looking at the camera with a friendly expression on its face." src="horse1.webp" style="height: 300px; width: 400px;"/>
+<h2>Horse Riding Lessons</h2>
+<p>Our horse riding lessons are suitable for riders of all levels, from beginners to advanced. We offer both group and private lessons, and our experienced instructors will work with you to improve your riding skills and confidence.</p>
 </div>
-<div>
-<img alt="A handsome black stallion with a long mane and tail, standing in a stable with his head turned towards the camera. The horse is wearing a leather halter and looks alert and ready to go." src="horse2.webp" style="height: 200px; width: 300px;"/>
-<h2>Our Rides</h2>
-<p>We offer a variety of rides, from short trail rides to longer multi-day excursions. Our rides are suitable for riders of all levels, and we can customize the experience to meet your needs and preferences.</p>
+<div class="box">
+<img alt="A handsome bay gelding with a long mane and tail, standing in a stable with a halter on its head. The horse is looking at the camera with a calm expression on its face." src="horse2.webp" style="height: 300px; width: 400px;"/>
+<h2>Horse Riding Tours</h2>
+<p>Explore the beautiful countryside of Roybon on horseback with our guided tours. We offer tours for riders of all levels, from beginners to advanced, and our experienced guides will take you on a journey through the stunning scenery of the region.</p>
 </div>
-<div>
-<img alt="A group of riders on horseback, riding through a beautiful forest with tall trees and dappled sunlight. The riders are wearing helmets and riding gear, and the horses are well-behaved and calm." src="horse3.webp" style="height: 200px; width: 300px;"/>
-<h2>About Us</h2>
-<p>We are a family-owned and operated horse riding company located in the beautiful town of Roybon, France. We have been in business for over 20 years, and we take great pride in providing our customers with safe, enjoyable, and memorable riding experiences.</p>
 </div>
-</section>
-<footer>
-<p>© 2021 Roybon Horse Riding Company</p>
-</footer>
+<div class="footer">© Roybon Horse Riding Company 2021</div>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
