@@ -5,68 +5,61 @@
 <title>Roybon Horse Riding Company</title>
 <style>
 		body {
+			background-color: #f7f7f7;
 			font-family: Arial, sans-serif;
-			background-color: #F5F5F5;
 			margin: 0;
 			padding: 0;
 		}
 
 		header {
 			background-color: #333;
-			color: #FFF;
+			color: #fff;
 			padding: 20px;
 			text-align: center;
-		}
-
-		h1 {
-			margin: 0;
-			font-size: 48px;
-			text-transform: uppercase;
 		}
 
 		nav {
-			background-color: #666;
-			color: #FFF;
+			background-color: #f7f7f7;
+			border-bottom: 1px solid #ccc;
+			display: flex;
+			justify-content: space-between;
 			padding: 10px;
-			text-align: center;
+			position: sticky;
+			top: 0;
+			z-index: 1;
 		}
 
-		nav ul {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-
-		nav ul li {
-			display: inline-block;
-			margin: 0 10px;
-		}
-
-		nav ul li a {
-			color: #FFF;
-			text-decoration: none;
-			padding: 5px 10px;
-			border-radius: 5px;
-			transition: background-color 0.3s ease;
-		}
-
-		nav ul li a:hover {
-			background-color: #FFF;
+		nav a {
 			color: #333;
+			font-size: 18px;
+			font-weight: bold;
+			text-decoration: none;
+			transition: all 0.3s ease;
+			padding: 10px;
+		}
+
+		nav a:hover {
+			background-color: #333;
+			color: #fff;
+			border-radius: 5px;
+		}
+
+		main {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin: 20px;
+			padding: 20px;
 		}
 
 		section {
-			margin: 20px;
-			padding: 20px;
-			background-color: #FFF;
-			border-radius: 5px;
-			box-shadow: 0 0 5px rgba(0,0,0,0.3);
+			flex-basis: calc(50% - 30px);
+			margin-bottom: 20px;
 		}
 
 		section h2 {
-			margin-top: 0;
-			font-size: 36px;
-			text-transform: uppercase;
+			font-size: 24px;
+			margin-bottom: 10px;
 		}
 
 		section p {
@@ -77,22 +70,31 @@
 
 		section img {
 			display: block;
-			margin: 20px auto;
-			height: 400px;
-			width: 600px;
-			border-radius: 5px;
-			box-shadow: 0 0 5px rgba(0,0,0,0.3);
+			margin: 0 auto;
+			height: 300px;
+			width: 400px;
 		}
 
 		footer {
 			background-color: #333;
-			color: #FFF;
+			color: #fff;
 			padding: 20px;
 			text-align: center;
 		}
 
-		footer p {
-			margin: 0;
+		@media only screen and (max-width: 768px) {
+			main {
+				flex-direction: column;
+			}
+
+			section {
+				flex-basis: 100%;
+			}
+
+			section img {
+				height: 200px;
+				width: 300px;
+			}
 		}
 	</style>
 </head>
@@ -101,22 +103,34 @@
 <h1>Roybon Horse Riding Company</h1>
 </header>
 <nav>
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Services</a></li>
-<li><a href="#">Gallery</a></li>
-<li><a href="#">Contact Us</a></li>
-</ul>
+<a href="#">Home</a>
+<a href="#">About Us</a>
+<a href="#">Our Horses</a>
+<a href="#">Riding Lessons</a>
+<a href="#">Contact Us</a>
 </nav>
+<main>
 <section>
 <h2>About Us</h2>
-<p>Roybon Horse Riding Company is a family-run business located in the heart of the French Alps. We offer horse riding lessons and guided tours for riders of all levels, from beginners to advanced. Our experienced instructors will help you improve your riding skills and discover the stunning landscapes of the region.</p>
-<img alt="A beautiful chestnut mare with a shiny coat, standing in a green meadow surrounded by mountains. The horse is looking straight ahead with its ears perked up, as if listening to the sounds of nature." src="horse1.webp" style="height: 400px; width: 600px;"/>
-<p>We have a wide range of horses to suit every rider's needs, from gentle ponies for children to spirited stallions for experienced riders. Our horses are well-trained and well-cared for, and we take great pride in ensuring their welfare and happiness.</p>
-<img alt="A handsome bay gelding with a muscular build, standing in front of a traditional French chalet with a red roof. The horse is looking at the camera with a calm expression on its face, as if posing for a portrait." src="horse2.webp" style="height: 400px; width: 600px;"/>
-<p>At Roybon Horse Riding Company, we believe that horse riding is not just a sport, but a way of life. We are passionate about horses and the natural beauty of the Alps, and we want to share our love of both with you. Come and join us for an unforgettable riding experience!</p>
+<p>We are a horse riding company located in Roybon, France. Our goal is to provide the best horse riding experience for our customers. Our horses are well-trained and our instructors are experienced. We offer riding lessons for all levels, from beginners to advanced riders.</p>
+<img alt="A beautiful chestnut mare with a short mane and tail, standing in a green field with trees and hills in the background. The horse is looking at the camera with a curious expression on its face, and its ears perked up." src="horse1.webp" style="height: 300px; width: 400px;"/>
 </section>
+<section>
+<h2>Our Horses</h2>
+<p>We have a variety of horses for different riding styles and levels. Our horses are well-cared for and trained to provide a safe and enjoyable riding experience. We offer horseback riding tours through the beautiful countryside of Roybon.</p>
+<img alt="A handsome bay gelding with a short mane and tail, standing in a stable with other horses in the background. The horse is looking at the camera with a calm expression on its face, and its ears perked up." src="horse2.webp" style="height: 300px; width: 400px;"/>
+</section>
+<section>
+<h2>Riding Lessons</h2>
+<p>We offer riding lessons for all levels, from beginners to advanced riders. Our experienced instructors will teach you the basics of horse riding and help you improve your skills. We have both indoor and outdoor riding arenas, so you can ride all year round.</p>
+<img alt="A beautiful white horse with a long mane and tail, standing in an indoor riding arena. The horse is wearing a saddle and bridle, and its rider is sitting on its back, holding the reins and smiling." src="horse3.webp" style="height: 300px; width: 400px;"/>
+</section>
+<section>
+<h2>Contact Us</h2>
+<p>If you have any questions or would like to book a riding lesson or tour, please contact us by phone or email. We are open every day from 9am to 5pm.</p>
+<img alt="A group of happy riders on horseback, riding through a green field with trees and hills in the background. The riders are smiling and waving at the camera, and their horses are walking calmly." src="horse4.webp" style="height: 300px; width: 400px;"/>
+</section>
+</main>
 <footer>
 <p>© 2021 Roybon Horse Riding Company. All rights reserved.</p>
 </footer>
