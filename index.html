@@ -4,82 +4,100 @@
 <head>
 <title>Innovative AI Company</title>
 <style>
-		body {
-			margin: 0;
-			padding: 0;
-			font-family: Arial, sans-serif;
-			background-color: #f2f2f2;
-		}
-		header {
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
-		h1 {
-			margin: 0;
-			font-size: 48px;
-		}
-		nav {
-			background-color: #666;
-			color: #fff;
-			padding: 10px;
-			text-align: center;
-		}
-		nav ul {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-		nav li {
-			display: inline-block;
-			margin: 0 10px;
-		}
-		nav a {
-			color: #fff;
-			text-decoration: none;
-			font-size: 24px;
-			padding: 5px 10px;
-			border: 1px solid #fff;
-			border-radius: 5px;
-		}
-		nav a:hover {
-			background-color: #fff;
-			color: #333;
-		}
-		section {
-			margin: 20px;
-			padding: 20px;
-			background-color: #fff;
-			box-shadow: 0 0 10px rgba(0,0,0,0.2);
-		}
-		section h2 {
-			margin: 0;
-			font-size: 36px;
-		}
-		section p {
-			font-size: 18px;
-			line-height: 1.5;
-			margin-bottom: 20px;
-		}
-		section img {
-			height: 300px;
-			width: 400px;
-			margin: 20px;
-			border: 1px solid #ccc;
-			border-radius: 5px;
-		}
-		footer {
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
-		footer p {
-			margin: 0;
-			font-size: 18px;
-		}
-	</style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav li {
+            margin: 0 10px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #fff;
+            background-color: #333;
+            padding: 5px;
+        }
+        .hero {
+            background-image: url('ai-background.jpg');
+            background-size: cover;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero h1 {
+            font-size: 60px;
+            color: #fff;
+            text-shadow: 2px 2px #333;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px 0;
+        }
+        .services img {
+            height: 300px;
+            width: 300px;
+        }
+        .services h2 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .services p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+        .about {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px 0;
+        }
+        .about img {
+            height: 400px;
+            width: 400px;
+        }
+        .about h2 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .about p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -88,21 +106,46 @@
 <nav>
 <ul>
 <li><a href="#">Home</a></li>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Products</a></li>
-<li><a href="#">Contact Us</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+<ul>
+<li><a href="#">Login</a></li>
+<li><a href="#">Sign Up</a></li>
 </ul>
 </nav>
-<section>
-<h2>Welcome to Innovative AI Company</h2>
-<p>We are a leading provider of cutting-edge artificial intelligence solutions for businesses of all sizes. Our products and services are designed to help companies streamline their operations, improve their decision-making processes, and achieve their goals more efficiently and effectively than ever before.</p>
-<img alt="A close-up photo of a robot hand holding a small, round object. The hand is made of metal and has several joints, and the object is white with a glossy finish." src="ai1.webp" style="height: 300px; width: 400px;"/>
-<p>Our team of experts has years of experience in developing and implementing AI technologies across a wide range of industries, and we are committed to staying at the forefront of this rapidly evolving field. Whether you need help with data analysis, predictive modeling, natural language processing, or any other AI-related task, we have the knowledge, skills, and resources to help you succeed.</p>
-<img alt="A photo of a futuristic-looking office space with large windows and sleek, modern furniture. In the center of the room is a circular table with several people seated around it, all looking intently at a holographic display in the middle." src="ai2.webp" style="height: 300px; width: 400px;"/>
-<p>Contact us today to learn more about our innovative AI solutions and how they can help your business thrive in the digital age.</p>
-</section>
+<div class="hero">
+<h1>Revolutionizing the Future with AI</h1>
+</div>
+<div class="services">
+<div>
+<img alt="A photo of a robot arm assembling a car in a factory. The arm is made of metal and has several joints that allow it to move precisely. The car being assembled is a sleek, modern model with a shiny red finish." src="image1.webp" style="height: 300px; width: 300px;"/>
+<h2>Manufacturing</h2>
+<p>Our AI solutions can optimize your manufacturing process, reducing costs and increasing efficiency.</p>
+</div>
+<div>
+<img alt="A photo of a woman wearing a VR headset and holding two controllers. She is standing in front of a large screen that displays a virtual reality environment. The environment is a futuristic cityscape with flying cars and neon lights." src="image2.webp" style="height: 300px; width: 300px;"/>
+<h2>Virtual Reality</h2>
+<p>Our AI-powered virtual reality experiences can take your business to the next level and provide an immersive experience for your customers.</p>
+</div>
+<div>
+<img alt="A photo of a group of people sitting around a table in a conference room. They are all looking at a large screen on the wall that displays a chart with various data points. The room is brightly lit and modern, with large windows that provide a view of the city skyline." src="image3.webp" style="height: 300px; width: 300px;"/>
+<h2>Data Analysis</h2>
+<p>Our AI algorithms can analyze your data and provide insights that will help you make better business decisions.</p>
+</div>
+</div>
+<div class="about">
+<div>
+<img alt="A photo of a woman sitting at a desk and typing on a laptop. The woman has short brown hair and is wearing a white shirt. The desk is cluttered with papers and office supplies." src="image4.webp" style="height: 400px; width: 400px;"/>
+</div>
+<div>
+<h2>About Us</h2>
+<p>We are a team of AI experts dedicated to helping businesses harness the power of artificial intelligence. Our solutions are designed to meet the unique needs of each of our clients, and we are committed to providing the highest level of service and support.</p>
+</div>
+</div>
 <footer>
-<p>© 2021 Innovative AI Company. All rights reserved.</p>
+<p>© Innovative AI Company 2021</p>
 </footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
