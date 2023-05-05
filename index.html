@@ -6,77 +6,97 @@
 <style>
 		body {
 			font-family: Arial, sans-serif;
-			background-color: #f5f5f5;
+			background-color: #F5F5F5;
+			margin: 0;
+			padding: 0;
 		}
-		
-		.container {
-			max-width: 1200px;
-			margin: 0 auto;
+
+		header {
+			background-color: #333;
+			color: #FFF;
 			padding: 20px;
-		}
-		
-		h1, h2 {
 			text-align: center;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 48px;
+			text-transform: uppercase;
+		}
+
+		nav {
+			background-color: #666;
+			color: #FFF;
+			padding: 10px;
+			text-align: center;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav ul li {
+			display: inline-block;
+			margin: 0 10px;
+		}
+
+		nav ul li a {
+			color: #FFF;
+			text-decoration: none;
+			padding: 5px 10px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+		}
+
+		nav ul li a:hover {
+			background-color: #FFF;
 			color: #333;
 		}
-		
-		h2 {
-			font-size: 28px;
-			margin-top: 40px;
-			margin-bottom: 20px;
-		}
-		
-		p {
-			line-height: 1.5;
-			color: #666;
-		}
-		
-		.image {
-			display: block;
-			margin: 0 auto;
-			margin-top: 40px;
-			margin-bottom: 40px;
-			box-shadow: 0 0 10px rgba(0,0,0,0.5);
-		}
-		
-		.image-caption {
-			text-align: center;
-			font-style: italic;
-			color: #999;
-			margin-bottom: 20px;
-		}
-		
-		.button {
-			display: inline-block;
-			background-color: #333;
-			color: #fff;
-			padding: 10px 20px;
+
+		section {
+			margin: 20px;
+			padding: 20px;
+			background-color: #FFF;
 			border-radius: 5px;
-			text-decoration: none;
-			margin-top: 20px;
+			box-shadow: 0 0 5px rgba(0,0,0,0.3);
 		}
-		
-		.button:hover {
-			background-color: #555;
+
+		section h2 {
+			margin-top: 0;
+			font-size: 36px;
+			text-transform: uppercase;
 		}
-		
-		@media (max-width: 767px) {
-			h1 {
-				font-size: 36px;
-			}
-			
-			h2 {
-				font-size: 24px;
-			}
-			
-			.image {
-				max-width: 100%;
-			}
+
+		section p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+
+		section img {
+			display: block;
+			margin: 20px auto;
+			height: 400px;
+			width: 600px;
+			border-radius: 5px;
+			box-shadow: 0 0 5px rgba(0,0,0,0.3);
+		}
+
+		footer {
+			background-color: #333;
+			color: #FFF;
+			padding: 20px;
+			text-align: center;
+		}
+
+		footer p {
+			margin: 0;
 		}
 	</style>
 </head>
 <body>
-<div class="container">
 <header>
 <h1>Roybon Horse Riding Company</h1>
 </header>
@@ -84,25 +104,21 @@
 <ul>
 <li><a href="#">Home</a></li>
 <li><a href="#">About Us</a></li>
-<li><a href="#">Horses</a></li>
-<li><a href="#">Rides</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Gallery</a></li>
 <li><a href="#">Contact Us</a></li>
 </ul>
 </nav>
-<main>
-<h2>Welcome to Roybon Horse Riding Company</h2>
-<p>Located in the beautiful Rhône-Alpes region of France, Roybon Horse Riding Company offers a unique and unforgettable experience for riders of all levels. Our experienced guides will take you on a journey through the stunning countryside, with breathtaking views of the mountains and forests.</p>
-<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content. The mare has a white blaze on her face and white socks on her hind legs." class="image" src="horse1.webp" style="height: 400px; width: 600px;"/>
-<p class="image-caption">Our happy and playful chestnut mare enjoying a roll in the dirt.</p>
-<h2>Our Horses</h2>
-<p>Our horses are carefully selected for their temperament, training, and suitability for riders of all levels. We have a range of breeds, including French Trotters, Arabians, and Thoroughbreds, each with their own unique personality and characteristics. All of our horses are well-cared for and trained to ensure a safe and enjoyable ride for our guests.</p>
-<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up. The gelding has a white star on his forehead and a white sock on his left front leg." class="image" src="horse2.webp" style="height: 400px; width: 600px;"/>
-<p class="image-caption">Our handsome bay gelding with a calm and friendly personality.</p>
-<a class="button" href="#">Book Your Ride Today</a>
-</main>
+<section>
+<h2>About Us</h2>
+<p>Roybon Horse Riding Company is a family-run business located in the heart of the French Alps. We offer horse riding lessons and guided tours for riders of all levels, from beginners to advanced. Our experienced instructors will help you improve your riding skills and discover the stunning landscapes of the region.</p>
+<img alt="A beautiful chestnut mare with a shiny coat, standing in a green meadow surrounded by mountains. The horse is looking straight ahead with its ears perked up, as if listening to the sounds of nature." src="horse1.webp" style="height: 400px; width: 600px;"/>
+<p>We have a wide range of horses to suit every rider's needs, from gentle ponies for children to spirited stallions for experienced riders. Our horses are well-trained and well-cared for, and we take great pride in ensuring their welfare and happiness.</p>
+<img alt="A handsome bay gelding with a muscular build, standing in front of a traditional French chalet with a red roof. The horse is looking at the camera with a calm expression on its face, as if posing for a portrait." src="horse2.webp" style="height: 400px; width: 600px;"/>
+<p>At Roybon Horse Riding Company, we believe that horse riding is not just a sport, but a way of life. We are passionate about horses and the natural beauty of the Alps, and we want to share our love of both with you. Come and join us for an unforgettable riding experience!</p>
+</section>
 <footer>
 <p>© 2021 Roybon Horse Riding Company. All rights reserved.</p>
 </footer>
-</div>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
