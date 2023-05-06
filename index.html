@@ -1,121 +1,76 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="fr">
 <head>
-<title>Hair Force One Salon - St Marcellin, France</title>
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Office du Tourisme de Roybon, France</title>
+<!-- Bootstrap CSS -->
+<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" rel="stylesheet"/>
+<!-- Custom CSS -->
 <style>
-      /* Custom styles */
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f8f9fa;
-      }
-      .navbar {
-        background-color: #343a40;
-      }
-      .navbar-brand {
-        color: #fff;
-      }
-      .navbar-nav li a {
-        color: #fff;
-      }
-      .jumbotron {
-        background-image: url('hair-salon.jpg');
-        background-size: cover;
-        height: 500px;
-      }
-      .jumbotron h1 {
-        color: #fff;
-        font-size: 60px;
-        text-shadow: 2px 2px #000;
-      }
-      .card {
-        margin: 20px;
-      }
-      .card img {
-        height: 300px;
-        width: 400px;
-        object-fit: cover;
-      }
-      .card-text {
-        font-size: 20px;
-        margin-top: 10px;
-      }
-      footer {
-        background-color: #343a40;
-        color: #fff;
-        text-align: center;
-        padding: 20px;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-      }
-    </style>
+    body {
+      background-color: #f8f9fa;
+      color: #343a40;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    .footer {
+      margin-top: 50px;
+      text-align: center;
+    }
+    .img1 {
+      height: 400px;
+      width: 600px;
+    }
+    .img2 {
+      height: 400px;
+      width: 600px;
+    }
+  </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-sm">
-<a class="navbar-brand" href="#">Hair Force One</a>
-<button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a class="navbar-brand" href="#">Office du Tourisme de Roybon</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
 </button>
-<div class="collapse navbar-collapse" id="collapsibleNavbar">
+<div class="collapse navbar-collapse" id="navbarNav">
 <ul class="navbar-nav">
-<li class="nav-item">
-<a class="nav-link" href="#">Home</a>
+<li class="nav-item active">
+<a class="nav-link" href="#">Accueil</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Services</a>
+<a class="nav-link" href="#">A propos</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">About Us</a>
+<a class="nav-link" href="#">Activités</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Contact Us</a>
+<a class="nav-link" href="#">Hébergements</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
 </li>
 </ul>
 </div>
 </nav>
-<div class="jumbotron">
-<h1>Welcome to Hair Force One Salon</h1>
-</div>
 <div class="container">
-<div class="row">
-<div class="col-sm-4">
-<div class="card">
-<img alt="A photo of a woman getting a haircut at Hair Force One Salon. The stylist is using scissors to trim the woman's hair, while the woman looks at herself in the mirror with a smile on her face." src="./images/haircut.webp" style="height: 300px; width: 400px;"/>
-<div class="card-body">
-<h4 class="card-title">Haircuts</h4>
-<p class="card-text">We offer a range of haircuts for both men and women, from classic to modern styles. Our experienced stylists will help you find the perfect look.</p>
+<h1>Le site internet de l'office du tourisme de Roybon, France</h1>
+<p>Bienvenue sur le site officiel de l'office du tourisme de Roybon, France. Nous sommes heureux de vous présenter notre belle région et les nombreuses activités qu'elle a à offrir.</p>
+<img alt="Photo de la vue panoramique de la ville de Roybon, France. Dans cette photo, on peut voir les montagnes en arrière-plan, les rues pavées de la ville et les bâtiments historiques de la ville." class="img1" src="./images/600x400.webp"/>
+<p>Nous avons une grande variété d'activités pour tous les âges et tous les goûts. Que vous soyez intéressé par la randonnée, le VTT, la pêche, le golf ou simplement la détente, nous avons quelque chose pour vous.</p>
+<img alt="Photo d'une famille heureuse profitant de la plage de Roybon, France. Dans cette photo, on peut voir le sable blanc de la plage, l'eau bleue claire de la mer et les palmiers qui bordent la plage." class="img2" src="./images/600x400.webp"/>
+<p>Nous avons également une grande variété d'hébergements pour répondre à tous les besoins et tous les budgets. Que vous préfériez un hôtel de luxe, une maison de vacances ou un camping en plein air, nous avons quelque chose pour vous.</p>
 </div>
-</div>
-</div>
-<div class="col-sm-4">
-<div class="card">
-<img alt="A photo of a woman getting her hair colored at Hair Force One Salon. The stylist is applying hair dye to the woman's hair, while the woman looks at herself in the mirror with a smile on her face." src="./images/hair-coloring.webp" style="height: 300px; width: 400px;"/>
-<div class="card-body">
-<h4 class="card-title">Hair Coloring</h4>
-<p class="card-text">We use high-quality hair color products to give you the perfect shade. From highlights to full color, we can help you achieve the look you want.</p>
-</div>
-</div>
-</div>
-<div class="col-sm-4">
-<div class="card">
-<img alt="A photo of a woman getting her hair styled at Hair Force One Salon. The stylist is using a hair dryer and a brush to give the woman a sleek, straight look, while the woman looks at herself in the mirror with a smile on her face." src="./images/hair-styling.webp" style="height: 300px; width: 400px;"/>
-<div class="card-body">
-<h4 class="card-title">Hair Styling</h4>
-<p class="card-text">Whether you want a blowout, an updo, or a special occasion style, our stylists can help you achieve the look you want.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<footer>
-<p>© 2021 Hair Force One Salon. All rights reserved.</p>
+<footer class="footer">
+<p>© 2023 Office du Tourisme de Roybon, France</p>
 </footer>
+<!-- Bootstrap JS -->
+<script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-+aMvVc5XZ7V8ZfZm0tC4Yw6lJnVJ6hK1dQlO3ZrMsfJ3t8x5dJ6eYB3JfZmXQwoC" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper-base.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
