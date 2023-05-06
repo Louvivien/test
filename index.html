@@ -5,70 +5,98 @@
 <title>Le site internet de l'office du tourisme de Roybon, France</title>
 <style>
 		body {
-			font-family: Arial, sans-serif;
 			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
 		}
-		h1 {
-			color: #006699;
+
+		header {
+			background-color: #333;
+			color: white;
+			padding: 20px;
 			text-align: center;
-			margin-top: 50px;
 		}
-		.container {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			align-items: center;
-			margin-top: 50px;
+
+		nav {
+			background-color: #4d4d4d;
+			color: white;
+			padding: 10px;
+			text-align: center;
 		}
-		.card {
-			background-color: #fff;
-			box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+
+		nav li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+
+		nav a {
+			color: white;
+			text-decoration: none;
+			padding: 10px;
+		}
+
+		nav a:hover {
+			background-color: #666;
+		}
+
+		main {
 			margin: 20px;
 			padding: 20px;
-			width: 300px;
-			height: 400px;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: space-around;
+			background-color: white;
+			border-radius: 5px;
 		}
-		.card img {
-			height: 200px;
-			width: 250px;
-			object-fit: cover;
-			margin-bottom: 20px;
+
+		img {
+			display: block;
+			margin: auto;
+			border-radius: 5px;
 		}
-		.card h2 {
-			font-size: 20px;
-			color: #006699;
-			margin-bottom: 10px;
+
+		figcaption {
 			text-align: center;
+			margin-top: 10px;
+			font-style: italic;
+			font-size: 14px;
 		}
-		.card p {
-			font-size: 16px;
-			color: #666;
-			text-align: justify;
-		}
+
 	</style>
 </head>
 <body>
+<header>
 <h1>Le site internet de l'office du tourisme de Roybon, France</h1>
-<div class="container">
-<div class="card">
-<img alt="Photo of the Gorges du Verdon, a canyon in the Alpes-de-Haute-Provence region of France. The photo shows the turquoise waters of the Verdon river flowing through the canyon, surrounded by steep cliffs covered in green vegetation." src="Les-Gorges-du-Verdon.webp" style="height: 200px; width: 250px;"/>
-<h2>Les Gorges du Verdon</h2>
-<p>Les Gorges du Verdon sont un canyon spectaculaire situé dans la région des Alpes-de-Haute-Provence en France. Les eaux turquoises de la rivière Verdon serpentent à travers le canyon, entourées de falaises escarpées couvertes de végétation. C'est un lieu idéal pour les amateurs de sports nautiques et les randonneurs.</p>
-</div>
-<div class="card">
-<img alt="Photo of the Château du Haut-Koenigsbourg, a medieval castle in the Alsace region of France. The photo shows the castle perched on a hilltop, surrounded by forest and with the snow-capped mountains in the distance." src="Chateau-du-Haut-Koenigsbourg.webp" style="height: 200px; width: 250px;"/>
-<h2>Château du Haut-Koenigsbourg</h2>
-<p>Le Château du Haut-Koenigsbourg est un château médiéval situé dans la région d'Alsace en France. Le château est perché sur une colline et entouré de forêt, avec les montagnes enneigées au loin. Il offre une vue imprenable sur la région et est un lieu de visite incontournable pour les amateurs d'histoire et d'architecture.</p>
-</div>
-<div class="card">
-<img alt="Photo of the Millau Viaduct, a cable-stayed bridge over the Tarn river valley in the Aveyron region of France. The photo shows the bridge from below, with its tall pylons and cables stretching across the valley." src="Le-Viaduc-de-Millau.webp" style="height: 200px; width: 250px;"/>
-<h2>Viaduc de Millau</h2>
-<p>Le Viaduc de Millau est un pont à haubans situé dans la vallée du Tarn en région d'Aveyron en France. Le pont est soutenu par des pylônes en forme de Y et des câbles tendus, et offre une vue spectaculaire sur la vallée en contrebas. C'est un chef-d'œuvre d'ingénierie et un lieu de visite incontournable pour les amateurs de technologie et de design.</p>
-</div>
-</div>
+</header>
+<nav>
+<ul>
+<li><a href="#">Accueil</a></li>
+<li><a href="#">A propos</a></li>
+<li><a href="#">Activités</a></li>
+<li><a href="#">Hébergement</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+<main>
+<h2>Bienvenue à Roybon</h2>
+<p>Vous êtes sur le site internet de l'office du tourisme de Roybon, France. Nous sommes heureux de vous accueillir sur notre site et de vous faire découvrir notre belle région. Roybon est un village situé dans le département de l'Isère en région Auvergne-Rhône-Alpes. Nous sommes entourés de montagnes et de forêts, ce qui en fait une destination idéale pour les amoureux de la nature.</p>
+<h3>Activités</h3>
+<p>Nous proposons de nombreuses activités pour tous les âges et tous les goûts. Vous pourrez faire de la randonnée, du VTT, de l'escalade, du ski, du snowboard, du parapente, de la pêche, et bien plus encore. Nous avons également des événements tout au long de l'année, comme des festivals, des concerts, des marchés, et des expositions.</p>
+<h3>Hébergement</h3>
+<p>Nous avons une grande variété d'hébergements pour répondre à tous les besoins et tous les budgets. Vous pourrez choisir entre des hôtels, des gîtes, des chambres d'hôtes, des campings, et des hébergements insolites. Tous nos hébergements sont situés dans des endroits magnifiques et offrent une vue imprenable sur la nature environnante.</p>
+<figure>
+<img alt="Vue panoramique du village de Roybon, avec les montagnes en arrière-plan. Le village est situé au bord d'un lac, entouré de forêts et de prairies verdoyantes." src="roybon-5244-1_w1024.webp" style="height: 400px; width: 600px;"/>
+<figcaption>Vue panoramique du village de Roybon</figcaption>
+</figure>
+<h3>Contact</h3>
+<p>N'hésitez pas à nous contacter si vous avez des questions ou si vous avez besoin d'aide pour organiser votre voyage. Nous sommes là pour vous aider et pour rendre votre séjour à Roybon inoubliable.</p>
+<figure>
+<img alt="Photo d'un sentier de randonnée dans les montagnes de Roybon. Le sentier est bordé d'arbres et offre une vue imprenable sur les montagnes environnantes." src="roybon-5244-2_w1024.webp" style="height: 400px; width: 600px;"/>
+<figcaption>Sentier de randonnée dans les montagnes de Roybon</figcaption>
+</figure>
+</main>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
