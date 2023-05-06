@@ -1,56 +1,121 @@
+Sorry, I cannot provide HTML code with UIKit as it is a framework for iOS development and not for web development. However, I can provide you with HTML and CSS code that can be used to create a one page website based on the given input text. Here is the code:
+
+HTML:
+
+```
 <!DOCTYPE html>
 
 <html>
 <head>
-<title>Hair Force One - St Marcellin, France</title>
-<link href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css" rel="stylesheet"/>
-<style>
-        /* Styling for the header */
-        header {
-            background-color: #f0f0f0;
-            padding: 20px;
-            text-align: center;
-        }
-
-        /* Styling for the main content */
-        main {
-            padding: 20px;
-            text-align: center;
-        }
-
-        /* Styling for the images */
-        img {
-            margin: 20px;
-        }
-
-        /* Styling for the footer */
-        footer {
-            background-color: #f0f0f0;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+<title>Le site internet de la boulangerie L'ami du pain à St Marcellin, France</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <header>
-<h1>Hair Force One</h1>
-<h2>St Marcellin, France</h2>
+<nav>
+<ul>
+<li><a href="#">Accueil</a></li>
+<li><a href="#">Notre histoire</a></li>
+<li><a href="#">Nos produits</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
 </header>
 <main>
-<p>Welcome to Hair Force One, the premier hair salon in St Marcellin, France. Our team of expert stylists are dedicated to providing you with the best possible hair care experience.</p>
-<img alt="Photo of the Hair Force One salon, showing the interior with comfortable chairs, mirrors, and hair care products. The salon is clean and modern, with a relaxing atmosphere." src="./images/hair-salon1.webp" style="height: 400px; width: 600px;"/>
-<p>At Hair Force One, we offer a wide range of services, including haircuts, coloring, styling, and more. Our stylists are trained in the latest trends and techniques, and are dedicated to helping you achieve the perfect look.</p>
-<img alt="Photo of a happy customer at Hair Force One, showing a smiling woman with a new haircut and styled hair. The customer is sitting in a chair in front of a mirror, with a stylist standing behind her." src="./images/hair-salon2.webp" style="height: 400px; width: 600px;"/>
-<p>Our salon is located in the heart of St Marcellin, and is easily accessible by car or public transportation. We offer flexible hours to accommodate your busy schedule, and our friendly staff are always ready to assist you.</p>
+<section>
+<h1>Bienvenue à la boulangerie L'ami du pain</h1>
+<img alt="Photo de la boulangerie L'ami du pain à St Marcellin, France. La boulangerie est située dans une petite rue pavée et possède une façade en pierre avec des fenêtres en bois. Devant la boulangerie, il y a une petite terrasse avec des tables et des chaises en fer forgé." src="./images/boulangerie.webp" style="height: 400px; width: 600px;"/>
+<p>Nous sommes une boulangerie artisanale située à St Marcellin, France. Depuis plus de 20 ans, nous fabriquons du pain et des viennoiseries de qualité supérieure à partir d'ingrédients frais et locaux. Nous sommes fiers de notre savoir-faire et de notre engagement envers la communauté locale.</p>
+<p>Venez découvrir notre large sélection de pains, de croissants, de brioches et bien plus encore. Nous sommes ouverts tous les jours de la semaine, sauf le lundi. Nous avons hâte de vous accueillir dans notre boulangerie.</p>
+</section>
 </main>
 <footer>
-<p>© 2023 Hair Force One. All rights reserved.</p>
-<div class="social-links">
-<a href="https://www.facebook.com/hairforceone" target="_blank"><i class="fab fa-facebook"></i></a>
-<a href="https://www.instagram.com/hairforceone" target="_blank"><i class="fab fa-instagram"></i></a>
-<a href="https://www.twitter.com/hairforceone" target="_blank"><i class="fab fa-twitter"></i></a>
+<div class="social">
+<a href="#"><img alt="Logo de Facebook" src="./images/facebook.webp"/></a>
+<a href="#"><img alt="Logo de Twitter" src="./images/twitter.webp"/></a>
+<a href="#"><img alt="Logo d'Instagram" src="./images/instagram.webp"/></a>
 </div>
+<p>© 2023 L'ami du pain. Tous droits réservés.</p>
 </footer>
-<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
+```
+
+CSS:
+
+```
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #F5DEB3;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+img {
+	display: block;
+	margin: 20px auto;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #F5DEB3;
+	padding: 20px;
+	text-align: center;
+}
+
+.social a {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social img {
+	height: 40px;
+	width: 40px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+```
