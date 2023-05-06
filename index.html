@@ -3,68 +3,77 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
-<title>Horse Riding Company in Roybon, France</title>
-<link href="https://unpkg.com/onsenui/css/onsenui.css" rel="stylesheet"/>
-<link href="https://unpkg.com/onsenui/css/onsen-css-components.min.css" rel="stylesheet"/>
-<script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Le site internet de l'office du tourisme de Roybon, France</title>
+<link href="https://unpkg.com/cirrus-ui" rel="stylesheet"/>
 <style>
-		.center {
+		.hero-image {
+			background-image: url('./images/photo-1551877208-4c5c7d301f5b.webp');
+			background-color: #cccccc;
+			height: 500px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+
+		.hero-text {
 			text-align: center;
-		}
-		.img1 {
-			height: 300px;
-			width: 400px;
-		}
-		.img2 {
-			height: 300px;
-			width: 400px;
-		}
-		.img1-desc {
-			font-style: italic;
-			color: gray;
-			font-size: 12px;
-			margin-top: 5px;
-		}
-		.img2-desc {
-			font-style: italic;
-			color: gray;
-			font-size: 12px;
-			margin-top: 5px;
-		}
-		.paragraph {
-			margin: 20px;
-			text-align: justify;
-		}
-		.social-links {
-			margin-top: 50px;
-			text-align: center;
-		}
-		.social-link {
-			display: inline-block;
-			margin: 0 10px;
-			font-size: 24px;
-			color: gray;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
 		}
 	</style>
 </head>
 <body>
-<ons-page>
-<ons-toolbar>
-<div class="center">Horse Riding Company in Roybon, France</div>
-</ons-toolbar>
-<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content." class="img1" src="./images/horse1.webp"/>
-<div class="img1-desc">Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content.</div>
-<p class="paragraph">Welcome to our horse riding company in Roybon, France. We offer a variety of horse riding experiences for all levels of riders, from beginners to advanced. Our horses are well trained and our guides are experienced and knowledgeable about the area. Whether you want to explore the countryside on horseback or take a lesson in our indoor arena, we have something for everyone.</p>
-<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." class="img2" src="./images/horse2.webp"/>
-<div class="img2-desc">Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up.</div>
-<p class="paragraph">Our horse riding company is located in the beautiful town of Roybon, France. The area is known for its stunning natural beauty and is a popular destination for outdoor enthusiasts. We offer horse riding tours that take you through the local forests and fields, giving you a chance to see the area from a unique perspective.</p>
-<div class="social-links">
-<a class="social-link" href="#"><ons-icon icon="fa-facebook"></ons-icon></a>
-<a class="social-link" href="#"><ons-icon icon="fa-twitter"></ons-icon></a>
-<a class="social-link" href="#"><ons-icon icon="fa-instagram"></ons-icon></a>
+<header class="header">
+<nav class="navbar">
+<div class="navbar-section">
+<a class="navbar-brand mr-2" href="#">Office du Tourisme de Roybon</a>
 </div>
-<p class="center">© 2023 Horse Riding Company in Roybon, France</p>
-</ons-page>
+<div class="navbar-section">
+<a class="btn btn-link" href="#">Accueil</a>
+<a class="btn btn-link" href="#">À propos</a>
+<a class="btn btn-link" href="#">Contact</a>
+</div>
+</nav>
+</header>
+<main>
+<section class="hero-image">
+<div class="hero-text">
+<h1>Bienvenue à Roybon</h1>
+<p>Découvrez la beauté de notre ville et profitez de notre hospitalité.</p>
+</div>
+</section>
+<section class="content">
+<h2>À propos de Roybon</h2>
+<p>Roybon est une commune française située dans le département de l'Isère en région Auvergne-Rhône-Alpes. Elle est connue pour son château et son parc naturel régional de Chambaran.</p>
+<img alt="Photo d'un paysage rural avec des champs de blé doré, des arbres verts et un ciel bleu clair avec des nuages blancs." src="./images/photo-1601752437187-0c3b6d3a9a6f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhdHRlcnxlbnwwfHwwfHw%3D&amp;ixlib=rb-1.webp" style="height: 400px; width: 600px;"/>
+<h2>Que faire à Roybon</h2>
+<p>Il y a beaucoup à faire à Roybon, que vous soyez intéressé par la nature, l'histoire ou la gastronomie. Voici quelques-unes de nos recommandations:</p>
+<ul>
+<li>Visitez le château de Roybon et explorez son histoire fascinante.</li>
+<li>Randonnez dans le parc naturel régional de Chambaran et admirez la beauté de la nature.</li>
+<li>Dégustez les spécialités locales, comme le fromage de Saint-Marcellin et le vin de la région.</li>
+</ul>
+<img alt="Photo d'une assiette de charcuterie française, avec du jambon, du saucisson et du fromage, accompagnée de pain et de vin rouge." src="./images/photo-1556228726-8ee29bca3f28?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFyY2VsbGluZyUyMGNoYXR0ZXJ8ZW58MHx8MHx8&amp;ixlib=rb-1.webp" style="height: 400px; width: 600px;"/>
+</section>
+</main>
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-12">
+<p>© 2023 Office du Tourisme de Roybon</p>
+<div class="social-links">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+</div>
+</div>
+</div>
+</div>
+</footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
