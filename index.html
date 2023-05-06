@@ -4,52 +4,71 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-<title>Hair Force One | St Marcellin, France</title>
-<link href="https://unpkg.com/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet"/>
+<title>Office du Tourisme de Roybon, France</title>
+<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"/>
 <style>
-    /* Stylish color scheme */
-    :root {
-      --primary-color: #5C6AC4;
-      --secondary-color: #F0EFEF;
-      --text-color: #2D3748;
-    }
-    /* Sticky footer */
-    .footer {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color: var(--primary-color);
-      color: var(--secondary-color);
-      text-align: center;
-      padding: 1rem;
-    }
-  </style>
+        body {
+            background-color: #F7FAFC;
+        }
+        .nav-link {
+            color: #4A5568;
+        }
+        .nav-link:hover {
+            color: #1A202C;
+        }
+        .footer {
+            background-color: #2D3748;
+            color: #E2E8F0;
+            text-align: center;
+            padding: 1rem;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer a {
+            color: #E2E8F0;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<body class="bg-white">
-<!-- Navigation bar -->
-<nav class="bg-gray-200 px-8 py-4 flex justify-between">
-<div class="flex items-center">
-<img alt="Hair Force One logo" class="h-8 w-8 mr-2" src="./images/logo.webp"/>
-<h1 class="text-lg font-semibold">Hair Force One</h1>
+<body>
+<nav class="bg-white shadow-lg">
+<div class="container mx-auto px-4">
+<div class="flex justify-between">
+<div class="flex space-x-4">
+<div>
+<a class="flex items-center py-4 px-2" href="#">
+<img alt="Office du Tourisme de Roybon, France" src="./images/logo.webp" style="height: 50px; width: 50px;"/>
+<span class="font-semibold text-gray-800">Office du Tourisme de Roybon, France</span>
+</a>
 </div>
-<div class="flex items-center">
-<a class="text-gray-700 hover:text-gray-900 mr-4" href="#">Home</a>
-<a class="text-gray-700 hover:text-gray-900" href="#">Services</a>
+<div class="hidden md:flex items-center space-x-1">
+<a class="nav-link py-4 px-2" href="#">Accueil</a>
+<a class="nav-link py-4 px-2" href="#">Destinations</a>
+<a class="nav-link py-4 px-2" href="#">Activités</a>
+<a class="nav-link py-4 px-2" href="#">Hébergement</a>
+<a class="nav-link py-4 px-2" href="#">Contact</a>
+</div>
+</div>
+<div class="hidden md:flex items-center">
+<a class="py-2 px-3 bg-gray-800 text-white rounded hover:bg-gray-700" href="#">Connexion</a>
+<a class="py-2 px-3 bg-gray-800 text-white rounded hover:bg-gray-700" href="#">Inscription</a>
+</div>
+</div>
 </div>
 </nav>
-<!-- Main content -->
-<main class="container mx-auto px-4 py-8">
-<h1 class="text-4xl font-bold text-center mb-8">The website for hair salon Hair Force One in St Marcellin, France</h1>
-<img alt="Photo of the interior of Hair Force One hair salon in St Marcellin, France. The salon is brightly lit with large windows, and there are several chairs and mirrors along the walls. The floor is made of shiny tiles and there are potted plants in the corners." class="mx-auto my-8" src="./images/hair-salon1.webp" style="height: 400px; width: 600px;"/>
-<p class="text-lg text-gray-700 leading-relaxed mb-8">Welcome to Hair Force One, the premier hair salon in St Marcellin, France. Our team of expert stylists is dedicated to providing you with the best hair care services in the area. Whether you're looking for a simple trim or a complete hair makeover, we've got you covered. Our salon is equipped with the latest tools and technology to ensure that you leave feeling and looking your best.</p>
-<img alt="Photo of a Hair Force One stylist cutting a client's hair. The stylist is wearing a black apron and holding a pair of scissors, while the client is sitting in a chair with a cape around their shoulders. The client is looking into a mirror and smiling." class="mx-auto my-8" src="./images/hair-salon2.webp" style="height: 400px; width: 600px;"/>
-<p class="text-lg text-gray-700 leading-relaxed mb-8">At Hair Force One, we believe that everyone deserves to look and feel their best. That's why we offer a wide range of hair care services to suit your needs. From haircuts to color treatments to styling, we've got everything you need to achieve the look you want. Our stylists are highly trained and experienced, and they are always up-to-date on the latest trends and techniques in the industry.</p>
-</main>
-<!-- Footer -->
-<footer class="footer bg-gray-800">
-<p>© 2023 Hair Force One. All rights reserved.</p>
-</footer>
+<div class="container mx-auto my-8 px-4">
+<h1 class="text-3xl font-bold mb-4">Le site internet de l'office du tourisme de Roybon, France</h1>
+<img alt="Photo of the beautiful Roybon Castle, a 14th-century fortress located in the heart of the Isère department in southeastern France. The castle features impressive towers, walls, and a moat, and is surrounded by lush greenery and scenic views of the Alps." src="./images/image1.webp" style="height: 400px; width: 600px;">
+<p class="my-4">Bienvenue sur le site internet de l'office du tourisme de Roybon, France. Notre petite ville est située dans le département de l'Isère, dans la région Auvergne-Rhône-Alpes, au sud-est de la France. Roybon est connue pour son château médiéval, ses paysages pittoresques et ses activités de plein air.</p>
+<img alt="Photo of a group of hikers enjoying a scenic trail in the Roybon forest. The trail is surrounded by tall trees, wildflowers, and small streams, and offers stunning views of the mountains and valleys in the distance." src="./images/image2.webp" style="height: 400px; width: 600px;"/>
+<p class="my-4">Nous avons de nombreuses activités pour les visiteurs de tous âges, y compris la randonnée, le VTT, l'équitation, la pêche, la natation et bien plus encore. Nous avons également une variété d'hébergements, y compris des hôtels, des maisons d'hôtes et des campings, pour répondre à tous les besoins et budgets.</p>
+</img></div>
+<div class="footer">
+<p>© 2023 Office du Tourisme de Roybon, France. Tous droits réservés. <a href="#">Politique de confidentialité</a> | <a href="#">Conditions d'utilisation</a></p>
+</div>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
