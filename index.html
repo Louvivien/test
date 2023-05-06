@@ -2,81 +2,84 @@
 
 <html>
 <head>
-<title>Le site internet de l'office du tourisme de Roybon, France</title>
+<title>Roybon Horse Riding Company</title>
 <style>
 		body {
 			font-family: Arial, sans-serif;
-			background-color: #f2f2f2;
+			background-color: #F5F5F5;
 		}
-		header {
-			background-color: #333;
-			color: #fff;
-			padding: 10px;
+		h1 {
 			text-align: center;
+			color: #4B0082;
+			margin-top: 50px;
 		}
-		nav {
-			background-color: #ddd;
-			padding: 10px;
-			text-align: center;
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin-top: 50px;
 		}
-		nav ul {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-		nav ul li {
-			display: inline-block;
-			margin: 0 10px;
-		}
-		nav ul li a {
-			color: #333;
-			text-decoration: none;
-		}
-		nav ul li a:hover {
-			color: #666;
-		}
-		section {
-			padding: 20px;
+		.box {
+			width: 400px;
+			height: 500px;
 			margin: 20px;
-			background-color: #fff;
+			border: 2px solid #4B0082;
 			border-radius: 10px;
+			overflow: hidden;
+			box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 		}
-		section h2 {
-			margin-top: 0;
+		.box img {
+			width: 100%;
+			height: 60%;
+			object-fit: cover;
 		}
-		section p {
+		.box h2 {
+			text-align: center;
+			color: #4B0082;
+			margin: 20px;
+		}
+		.box p {
+			text-align: justify;
+			color: #333;
+			padding: 20px;
+			font-size: 16px;
 			line-height: 1.5;
 		}
-		footer {
-			background-color: #333;
+		.button {
+			display: block;
+			margin: 0 auto;
+			padding: 10px 20px;
+			background-color: #4B0082;
 			color: #fff;
-			padding: 10px;
-			text-align: center;
+			border: none;
+			border-radius: 5px;
+			font-size: 18px;
+			cursor: pointer;
+			transition: all 0.3s ease;
+		}
+		.button:hover {
+			background-color: #fff;
+			color: #4B0082;
+			border: 2px solid #4B0082;
 		}
 	</style>
 </head>
 <body>
-<header>
-<h1>Office du tourisme de Roybon</h1>
-</header>
-<nav>
-<ul>
-<li><a href="#">Accueil</a></li>
-<li><a href="#">Hébergement</a></li>
-<li><a href="#">Restaurants</a></li>
-<li><a href="#">Activités</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-</nav>
-<section>
-<h2>Bienvenue à Roybon</h2>
-<p>Roybon est un charmant village situé dans le département de l'Isère, en région Auvergne-Rhône-Alpes. Entouré de collines et de forêts, Roybon est un lieu idéal pour se ressourcer et profiter de la nature. Le village offre de nombreuses activités, notamment des randonnées, des balades à vélo, des visites de châteaux et de musées, ainsi que des festivals et des événements culturels tout au long de l'année.</p>
-<img alt="Photo d'un magnifique paysage de montagnes verdoyantes et de ciel bleu, avec une petite rivière qui serpente au premier plan. Au loin, on peut apercevoir un petit village niché dans la vallée." src="roybon1.webp" style="height: 400px; width: 600px;"/>
-<p>Nous vous invitons à découvrir notre village et à profiter de tout ce qu'il a à offrir. Que vous soyez en famille, entre amis ou en couple, vous trouverez toujours quelque chose à faire à Roybon.</p>
-<img alt="Photo d'un groupe de personnes souriantes, assises à une table en terrasse d'un café, en train de déguster des spécialités locales. On peut voir des verres de vin et des assiettes remplies de fromages et de charcuteries sur la table. L'ambiance est conviviale et détendue." src="roybon2.webp" style="height: 400px; width: 600px;"/>
-</section>
-<footer>
-<p>© Office du tourisme de Roybon - Tous droits réservés</p>
-</footer>
+<h1>Roybon Horse Riding Company</h1>
+<div class="container">
+<div class="box">
+<img alt="A beautiful chestnut mare with a short mane and tail, grazing in a green meadow with a small stream in the background. The horse is looking at the camera with a calm expression on its face." src="horse1.webp" style="height: 300px; width: 400px;"/>
+<h2>Discover the Beauty of Roybon on Horseback</h2>
+<p>Experience the stunning landscapes of Roybon, France on horseback with our guided tours. Our expert guides will take you through the most beautiful trails and show you the hidden gems of the region. Whether you are an experienced rider or a beginner, we have the perfect horse for you. Book your tour today and discover the beauty of Roybon like never before.</p>
+<button class="button">Book Now</button>
+</div>
+<div class="box">
+<img alt="A majestic black stallion with a long mane and tail, galloping freely in a large open field with the sun setting in the background. The horse is looking towards the horizon with a powerful expression on its face." src="horse2.webp" style="height: 300px; width: 400px;"/>
+<h2>Experience the Thrill of Horse Riding</h2>
+<p>Discover the thrill of horse riding with our experienced instructors. We offer lessons for riders of all levels, from beginners to advanced. Our horses are well-trained and gentle, ensuring a safe and enjoyable experience for everyone. Join us for a lesson today and experience the joy of horse riding.</p>
+<button class="button">Book Now</button>
+</div>
+</div>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
