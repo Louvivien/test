@@ -6,9 +6,7 @@
 <style>
 		body {
 			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-			background-color: #f1f1f1;
+			background-color: #f2f2f2;
 		}
 		header {
 			background-color: #333;
@@ -19,47 +17,45 @@
 		h1 {
 			margin: 0;
 			font-size: 36px;
-			font-weight: normal;
-			text-transform: uppercase;
 		}
 		nav {
-			background-color: #666;
-			color: #fff;
-			padding: 10px;
-			text-align: center;
+			background-color: #ccc;
+			padding: 10px 20px;
+			overflow: hidden;
 		}
 		nav a {
-			color: #fff;
+			float: left;
+			display: block;
+			color: #333;
+			text-align: center;
+			padding: 14px 16px;
 			text-decoration: none;
-			margin: 0 10px;
-			font-size: 18px;
-			font-weight: bold;
-			text-transform: uppercase;
 		}
 		nav a:hover {
-			color: #f1f1f1;
+			background-color: #ddd;
+			color: #333;
 		}
 		section {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
 			padding: 20px;
-			margin: 20px;
-			background-color: #fff;
-			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			margin: 0 auto;
+			max-width: 1200px;
 		}
 		section h2 {
-			margin-top: 0;
 			font-size: 24px;
-			font-weight: normal;
-			text-transform: uppercase;
-		}
-		section p {
-			line-height: 1.5;
-			margin-bottom: 20px;
+			margin: 0 0 20px;
 		}
 		section img {
-			display: block;
-			margin: 0 auto;
-			height: 300px;
-			width: 400px;
+			margin-bottom: 20px;
+			height: 400px;
+			width: 600px;
+		}
+		section p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin: 0;
 		}
 		footer {
 			background-color: #333;
@@ -67,32 +63,29 @@
 			padding: 20px;
 			text-align: center;
 		}
+		footer p {
+			margin: 0;
+			font-size: 18px;
+		}
 	</style>
 </head>
 <body>
 <header>
 <h1>Hair Force One</h1>
-<p>The best hair salon in St Marcellin, France</p>
+<p>Your Hair, Our Passion</p>
 </header>
 <nav>
 <a href="#">Home</a>
-<a href="#">About Us</a>
 <a href="#">Services</a>
+<a href="#">Gallery</a>
 <a href="#">Contact Us</a>
 </nav>
 <section>
 <h2>Welcome to Hair Force One</h2>
-<p>At Hair Force One, we are dedicated to providing our clients with the best hair care services in St Marcellin. Our team of experienced stylists are committed to giving you the perfect look that you desire. Whether you need a simple haircut or a complete hair makeover, we are here to help you achieve your hair goals.</p>
-<img alt="Photo of a happy client with freshly cut hair. The client is sitting in a salon chair, looking in the mirror and smiling. The stylist is standing behind the client, holding a pair of scissors and comb." src="./images/haircut.webp" style="height: 300px; width: 400px;"/>
-<h2>Our Services</h2>
-<p>At Hair Force One, we offer a wide range of hair care services to meet your needs. From haircuts and styling to coloring and treatments, we have everything you need to keep your hair looking its best. Our services include:</p>
-<ul>
-<li>Haircuts for men, women, and children</li>
-<li>Hair styling for special occasions</li>
-<li>Hair coloring and highlights</li>
-<li>Hair treatments for damaged hair</li>
-</ul>
-<img alt="Photo of a client with freshly colored hair. The client is sitting in a salon chair, looking in the mirror and smiling. The stylist is standing behind the client, holding a hairbrush and blow dryer." src="./images/haircolor.webp" style="height: 300px; width: 400px;"/>
+<img alt="Hair Force One's exterior photo with a beautiful blue sky in the background. The salon has a modern design with big windows and a sign with the name of the salon." src="./images/hair-salon-exterior.webp" style="height: 400px; width: 600px;"/>
+<p>Hair Force One is a hair salon located in St Marcellin, France. Our team of expert hair stylists is dedicated to providing you with the best possible hair care experience. We offer a wide range of services including haircuts, hair coloring, highlights, and more. Our salon is designed to provide you with a relaxing and comfortable atmosphere where you can sit back, relax, and let us take care of you.</p>
+<img alt="Hair Force One's interior photo with a clean and modern design. The salon has a big mirror on the wall and a leather chair in front of it. The stylist is cutting the hair of a client who is sitting on the chair." src="./images/hair-salon-interior.webp" style="height: 400px; width: 600px;"/>
+<p>At Hair Force One, we use only the highest quality hair care products to ensure that your hair looks and feels its best. Our team of stylists is constantly staying up-to-date with the latest hair styling trends and techniques to ensure that you receive the best possible service. Whether you're looking for a simple haircut or a complete hair transformation, we've got you covered.</p>
 </section>
 <footer>
 <p>© 2021 Hair Force One. All rights reserved.</p>
