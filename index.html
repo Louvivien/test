@@ -2,96 +2,103 @@
 
 <html>
 <head>
-<title>Hair Force One - St Marcellin, France</title>
+<title>Le site internet de l'office du tourisme de Roybon, France</title>
 <style>
 		body {
-			margin: 0;
-			padding: 0;
+			background: linear-gradient(to bottom right, #FFC300, #FF5733);
 			font-family: Arial, sans-serif;
-		}
-		header {
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
-		nav {
-			background-color: #f2f2f2;
-			padding: 10px;
-			text-align: center;
-		}
-		nav ul {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-		nav ul li {
-			display: inline-block;
-			margin: 0 10px;
-		}
-		nav ul li a {
-			color: #333;
-			text-decoration: none;
-			padding: 5px 10px;
-			border: 1px solid #333;
-			border-radius: 5px;
-		}
-		nav ul li a:hover {
-			background-color: #333;
 			color: #fff;
 		}
-		section {
+
+		h1 {
+			font-size: 3rem;
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 50px 0;
+		}
+
+		.card {
+			background: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+			border-radius: 10px;
 			margin: 20px;
-		}
-		section h2 {
-			text-align: center;
-			font-size: 36px;
-			margin-bottom: 20px;
-		}
-		section p {
-			text-align: justify;
-			line-height: 1.5;
-			margin-bottom: 20px;
-		}
-		section img {
-			display: block;
-			margin: 0 auto;
-			height: 300px;
+			overflow: hidden;
 			width: 400px;
-			margin-bottom: 20px;
 		}
-		footer {
-			background-color: #333;
-			color: #fff;
+
+		.card img {
+			height: 300px;
+			width: 100%;
+			object-fit: cover;
+		}
+
+		.card-content {
 			padding: 20px;
-			text-align: center;
+			text-align: justify;
+		}
+
+		.card h2 {
+			font-size: 2rem;
+			margin: 0;
+		}
+
+		.card p {
+			font-size: 1.2rem;
+			margin: 10px 0;
+		}
+
+		.btn {
+			background: #fff;
+			color: #FF5733;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-transform: uppercase;
+			font-weight: bold;
+			cursor: pointer;
+			transition: all 0.3s ease;
+		}
+
+		.btn:hover {
+			background: #FF5733;
+			color: #fff;
 		}
 	</style>
 </head>
 <body>
-<header>
-<h1>Hair Force One</h1>
-<p>St Marcellin, France</p>
-</header>
-<nav>
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">Services</a></li>
-<li><a href="#">Pricing</a></li>
-<li><a href="#">Gallery</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-</nav>
-<section>
-<h2>Welcome to Hair Force One</h2>
-<p>We are a hair salon located in St Marcellin, France. Our team of experienced stylists is dedicated to providing you with the best possible hair care services. Whether you need a simple trim or a complete hair makeover, we are here to help you look and feel your best.</p>
-<img alt="Photo of the Hair Force One salon. The salon is brightly lit and features modern decor, including black leather chairs, white walls, and hardwood floors. The salon is clean and well-organized, with hair care products and tools neatly arranged on shelves and counters." src="./images/salon.webp" style="height: 300px; width: 400px;"/>
-<h2>Our Services</h2>
-<p>We offer a wide range of hair care services, including haircuts, color treatments, highlights, perms, and more. Our stylists are trained in the latest hair care techniques and use only the highest quality hair care products to ensure that your hair looks and feels its best.</p>
-<img alt="Photo of a Hair Force One stylist working on a client's hair. The stylist is wearing a black apron and is using a pair of scissors to cut the client's hair. The client is sitting in a black leather chair and is wearing a hair cape to protect their clothes from hair clippings." src="./images/stylist.webp" style="height: 300px; width: 400px;"/>
-</section>
-<footer>
-<p>© 2021 Hair Force One. All rights reserved.</p>
-</footer>
+<h1>Le site internet de l'office du tourisme de Roybon, France</h1>
+<div class="container">
+<div class="card">
+<img alt="Photo of the beautiful ski resort of Les 3 Vallées in Meribel, France. The photo shows the snow-covered slopes with skiers and snowboarders enjoying the winter sports. In the background, the majestic mountains with their snowy peaks are visible." src="./images/Les-3-Vallees-Meribel_image_1200x800.webp" style="height: 300px; width: 400px;"/>
+<div class="card-content">
+<h2>Les 3 Vallées</h2>
+<p>Les 3 Vallées is the largest ski area in the world, located in the French Alps. It consists of eight interconnected ski resorts, including Meribel, Courchevel, and Val Thorens. With over 600 km of slopes, it offers endless possibilities for skiing, snowboarding, and other winter sports. The area is also known for its stunning mountain scenery and charming villages.</p>
+<button class="btn">Learn more</button>
+</div>
+</div>
+<div class="card">
+<img alt="Photo of the picturesque village of Roybon, France. The photo shows the village square with its colorful houses and the church in the background. The sky is blue with some clouds, and the trees are green with autumn leaves." src="./images/roybon-75631-1_w1000.webp" style="height: 300px; width: 400px;"/>
+<div class="card-content">
+<h2>Roybon</h2>
+<p>Roybon is a charming village located in the Isère department of southeastern France. It is known for its beautiful architecture, including the 16th-century castle and the Romanesque church. The village is surrounded by lush forests and is a popular destination for hiking and cycling. It also offers a variety of local restaurants and shops.</p>
+<button class="btn">Learn more</button>
+</div>
+</div>
+<div class="card">
+<img alt="Photo of the Vercors Regional Nature Park in southeastern France. The photo shows a panoramic view of the mountain range with its rocky peaks and green valleys. In the foreground, there are some trees and bushes, and in the background, the sky is blue with some clouds." src="./images/vercors-30738-1_w1000.webp" style="height: 300px; width: 400px;"/>
+<div class="card-content">
+<h2>Vercors Regional Nature Park</h2>
+<p>The Vercors Regional Nature Park is a protected area located in the French Prealps. It covers over 200,000 hectares of mountainous terrain and is home to a variety of wildlife, including chamois, ibex, and golden eagles. The park offers many opportunities for outdoor activities, such as hiking, rock climbing, and mountain biking. It also has several scenic drives and picturesque villages to explore.</p>
+<button class="btn">Learn more</button>
+</div>
+</div>
+</div>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
