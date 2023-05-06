@@ -8,62 +8,67 @@
 			font-family: Arial, sans-serif;
 			background-color: #f2f2f2;
 		}
-		.container {
-			max-width: 1200px;
-			margin: 0 auto;
-			padding: 20px;
-		}
 		h1 {
+			color: #006699;
 			text-align: center;
-			font-size: 36px;
-			color: #333;
 			margin-top: 50px;
 		}
-		p {
-			font-size: 18px;
-			line-height: 1.5;
-			color: #333;
-			margin-top: 20px;
-		}
-		img {
-			display: block;
-			margin: 0 auto;
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
 			margin-top: 50px;
+		}
+		.card {
+			background-color: #fff;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+			margin: 20px;
+			padding: 20px;
+			width: 300px;
+			height: 400px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
+		.card img {
+			height: 200px;
+			width: 250px;
+			object-fit: cover;
+			margin-bottom: 20px;
+		}
+		.card h2 {
+			font-size: 20px;
+			color: #006699;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		.card p {
+			font-size: 16px;
+			color: #666;
+			text-align: justify;
 		}
 	</style>
 </head>
 <body>
+<h1>Le site internet de l'office du tourisme de Roybon, France</h1>
 <div class="container">
-<header>
-<h1>Office du tourisme de Roybon</h1>
-</header>
-<nav>
-<ul>
-<li><a href="#">Accueil</a></li>
-<li><a href="#">Hébergement</a></li>
-<li><a href="#">Activités</a></li>
-<li><a href="#">Restaurants</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-</nav>
-<main>
-<h2>Bienvenue à Roybon</h2>
-<p>Roybon est une charmante petite ville située dans la région Rhône-Alpes, en France. Connue pour ses magnifiques paysages et son patrimoine culturel riche, elle est une destination de choix pour les voyageurs en quête de nature et de découverte.</p>
-<img alt="Vue panoramique de la ville de Roybon, avec ses toits en tuiles rouges, son église gothique et ses collines verdoyantes en arrière-plan. Au premier plan, des arbres et des fleurs colorées ajoutent une touche de gaieté à la scène." src="roybon1.webp" style="height: 400px; width: 600px;"/>
-<h2>Hébergement</h2>
-<p>Que vous cherchiez un hôtel de luxe, un gîte rural ou un camping en pleine nature, Roybon a tout ce qu'il vous faut pour un séjour confortable et agréable. Découvrez nos offres d'hébergement dès maintenant.</p>
-<img alt="Photo d'un gîte rural en pierre, situé au milieu d'un champ de blé doré. Le gîte est entouré d'arbres et de fleurs, et offre une vue imprenable sur les collines environnantes. À l'intérieur, le décor est chaleureux et rustique, avec des poutres en bois apparentes et des meubles en bois massif." src="roybon2.webp" style="height: 400px; width: 600px;"/>
-<h2>Activités</h2>
-<p>Que vous soyez amateur de randonnée, de VTT, de sports nautiques ou de visites culturelles, Roybon a tout ce qu'il vous faut pour des vacances actives et enrichissantes. Découvrez nos activités dès maintenant.</p>
-<img alt="Photo d'un groupe de personnes faisant du VTT dans les collines de Roybon. Les cyclistes sont équipés de casques et de vêtements de sport, et semblent profiter pleinement de la beauté de la nature environnante." src="roybon3.webp" style="height: 400px; width: 600px;"/>
-<h2>Restaurants</h2>
-<p>Que vous cherchiez une cuisine traditionnelle française ou une cuisine du monde, Roybon a tout ce qu'il vous faut pour satisfaire vos papilles gustatives. Découvrez nos restaurants dès maintenant.</p>
-<img alt="Photo d'un restaurant en plein air, situé au bord d'un lac paisible entouré de verdure. Les tables sont dressées avec des nappes blanches et des fleurs colorées, et les clients semblent profiter de la vue magnifique et de l'ambiance détendue." src="roybon4.webp" style="height: 400px; width: 600px;"/>
-</main>
-<footer>
-<p>Copyright © Office du tourisme de Roybon
-			<br/>Tous droits réservés.</p>
-</footer>
+<div class="card">
+<img alt="Photo of the Gorges du Verdon, a canyon in the Alpes-de-Haute-Provence region of France. The photo shows the turquoise waters of the Verdon river flowing through the canyon, surrounded by steep cliffs covered in green vegetation." src="Les-Gorges-du-Verdon.webp" style="height: 200px; width: 250px;"/>
+<h2>Les Gorges du Verdon</h2>
+<p>Les Gorges du Verdon sont un canyon spectaculaire situé dans la région des Alpes-de-Haute-Provence en France. Les eaux turquoises de la rivière Verdon serpentent à travers le canyon, entourées de falaises escarpées couvertes de végétation. C'est un lieu idéal pour les amateurs de sports nautiques et les randonneurs.</p>
+</div>
+<div class="card">
+<img alt="Photo of the Château du Haut-Koenigsbourg, a medieval castle in the Alsace region of France. The photo shows the castle perched on a hilltop, surrounded by forest and with the snow-capped mountains in the distance." src="Chateau-du-Haut-Koenigsbourg.webp" style="height: 200px; width: 250px;"/>
+<h2>Château du Haut-Koenigsbourg</h2>
+<p>Le Château du Haut-Koenigsbourg est un château médiéval situé dans la région d'Alsace en France. Le château est perché sur une colline et entouré de forêt, avec les montagnes enneigées au loin. Il offre une vue imprenable sur la région et est un lieu de visite incontournable pour les amateurs d'histoire et d'architecture.</p>
+</div>
+<div class="card">
+<img alt="Photo of the Millau Viaduct, a cable-stayed bridge over the Tarn river valley in the Aveyron region of France. The photo shows the bridge from below, with its tall pylons and cables stretching across the valley." src="Le-Viaduc-de-Millau.webp" style="height: 200px; width: 250px;"/>
+<h2>Viaduc de Millau</h2>
+<p>Le Viaduc de Millau est un pont à haubans situé dans la vallée du Tarn en région d'Aveyron en France. Le pont est soutenu par des pylônes en forme de Y et des câbles tendus, et offre une vue spectaculaire sur la vallée en contrebas. C'est un chef-d'œuvre d'ingénierie et un lieu de visite incontournable pour les amateurs de technologie et de design.</p>
+</div>
 </div>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
