@@ -2,78 +2,168 @@
 
 <html>
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Le site internet de l'office du tourisme de Roybon, France</title>
+<title>Hair Force One | St Marcellin, France</title>
 <link href="https://unpkg.com/cirrus-ui" rel="stylesheet"/>
 <style>
-		.hero-image {
-			background-image: url('./images/photo-1551877208-4c5c7d301f5b.webp');
-			background-color: #cccccc;
-			height: 500px;
-			background-position: center;
-			background-repeat: no-repeat;
+		.hero {
+			background-image: url('./images/hair-salon.webp');
 			background-size: cover;
-			position: relative;
-		}
-
-		.hero-text {
+			background-position: center;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			text-align: center;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
 			color: white;
+			padding: 0 20px;
+		}
+		.hero h1 {
+			font-size: 5em;
+			margin-bottom: 20px;
+		}
+		.hero p {
+			font-size: 1.5em;
+			margin-bottom: 40px;
+		}
+		.services {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 40px 0;
+		}
+		.services .service {
+			width: 300px;
+			margin: 20px;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			border-radius: 5px;
+		}
+		.services .service h2 {
+			font-size: 2em;
+			margin-bottom: 10px;
+		}
+		.services .service p {
+			font-size: 1.2em;
+			margin-bottom: 20px;
+		}
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 40px 0;
+		}
+		.gallery img {
+			height: 300px;
+			width: 400px;
+			margin: 20px;
+			object-fit: cover;
+			border-radius: 5px;
+		}
+		.contact {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin: 40px 0;
+		}
+		.contact h2 {
+			font-size: 2em;
+			margin-bottom: 20px;
+		}
+		.contact form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 300px;
+			margin-bottom: 20px;
+		}
+		.contact input[type="text"], .contact input[type="email"], .contact textarea {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		}
+		.contact textarea {
+			height: 100px;
+		}
+		.contact button {
+			padding: 10px 20px;
+			background-color: #2f90ff;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			cursor: pointer;
+		}
+		.contact button:hover {
+			background-color: #1c5fa9;
+		}
+		.footer {
+			background-color: #f5f5f5;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 20px;
+			font-size: 1.2em;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+		.footer a {
+			color: #2f90ff;
+			text-decoration: none;
+			margin-right: 20px;
+		}
+		.footer a:hover {
+			text-decoration: underline;
 		}
 	</style>
 </head>
 <body>
-<header class="header">
-<nav class="navbar">
-<div class="navbar-section">
-<a class="navbar-brand mr-2" href="#">Office du Tourisme de Roybon</a>
+<div class="hero">
+<h1>Hair Force One</h1>
+<p>The best hair salon in St Marcellin, France</p>
 </div>
-<div class="navbar-section">
-<a class="btn btn-link" href="#">Accueil</a>
-<a class="btn btn-link" href="#">À propos</a>
-<a class="btn btn-link" href="#">Contact</a>
+<div class="services">
+<div class="service">
+<h2>Haircuts</h2>
+<p>We offer a wide variety of haircuts for men, women, and children. Whether you're looking for a classic style or something more modern, we've got you covered.</p>
 </div>
-</nav>
-</header>
-<main>
-<section class="hero-image">
-<div class="hero-text">
-<h1>Bienvenue à Roybon</h1>
-<p>Découvrez la beauté de notre ville et profitez de notre hospitalité.</p>
+<div class="service">
+<h2>Hair Coloring</h2>
+<p>Want to change up your look? Our expert colorists can help you find the perfect shade to complement your skin tone and style.</p>
 </div>
-</section>
-<section class="content">
-<h2>À propos de Roybon</h2>
-<p>Roybon est une commune française située dans le département de l'Isère en région Auvergne-Rhône-Alpes. Elle est connue pour son château et son parc naturel régional de Chambaran.</p>
-<img alt="Photo d'un paysage rural avec des champs de blé doré, des arbres verts et un ciel bleu clair avec des nuages blancs." src="./images/photo-1601752437187-0c3b6d3a9a6f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhdHRlcnxlbnwwfHwwfHw%3D&amp;ixlib=rb-1.webp" style="height: 400px; width: 600px;"/>
-<h2>Que faire à Roybon</h2>
-<p>Il y a beaucoup à faire à Roybon, que vous soyez intéressé par la nature, l'histoire ou la gastronomie. Voici quelques-unes de nos recommandations:</p>
-<ul>
-<li>Visitez le château de Roybon et explorez son histoire fascinante.</li>
-<li>Randonnez dans le parc naturel régional de Chambaran et admirez la beauté de la nature.</li>
-<li>Dégustez les spécialités locales, comme le fromage de Saint-Marcellin et le vin de la région.</li>
-</ul>
-<img alt="Photo d'une assiette de charcuterie française, avec du jambon, du saucisson et du fromage, accompagnée de pain et de vin rouge." src="./images/photo-1556228726-8ee29bca3f28?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFyY2VsbGluZyUyMGNoYXR0ZXJ8ZW58MHx8MHx8&amp;ixlib=rb-1.webp" style="height: 400px; width: 600px;"/>
-</section>
-</main>
-<footer>
-<div class="container">
-<div class="row">
-<div class="col-12">
-<p>© 2023 Office du Tourisme de Roybon</p>
-<div class="social-links">
-<a href="#"><i class="fa fa-facebook"></i></a>
-<a href="#"><i class="fa fa-twitter"></i></a>
-<a href="#"><i class="fa fa-instagram"></i></a>
+<div class="service">
+<h2>Special Occasion Styling</h2>
+<p>Getting ready for a wedding, prom, or other special event? Let us help you look your best with our professional styling services.</p>
 </div>
 </div>
+<div class="gallery">
+<img alt="A photo of a woman with long, curly hair, styled in loose waves. She is smiling and looking away from the camera, and the photo has a warm, golden tone." src="./images/hair1.webp"/>
+<img alt="A photo of a man with short, spiky hair, styled with gel. He is looking directly at the camera, and the photo has a cool, blue tone." src="./images/hair2.webp"/>
+<img alt="A photo of a child with shoulder-length hair, styled in two braids. She is looking down at the ground and holding a flower in her hand, and the photo has a soft, pink tone." src="./images/hair3.webp"/>
+</div>
+<div class="contact">
+<h2>Contact Us</h2>
+<form>
+<input placeholder="Name" type="text"/>
+<input placeholder="Email" type="email"/>
+<textarea placeholder="Message"></textarea>
+<button>Submit</button>
+</form>
+</div>
+<div class="footer">
+<p>© 2023 Hair Force One</p>
+<div>
+<a href="#">Facebook</a>
+<a href="#">Twitter</a>
+<a href="#">Instagram</a>
 </div>
 </div>
-</footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
