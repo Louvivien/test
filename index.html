@@ -1,63 +1,97 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ie=edge" http-equiv="X-UA-Compatible"/>
 <title>Le site internet de l'office du tourisme de Roybon, France</title>
-<!-- Tailwind CSS -->
-<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-Hq0zQ+5Q5LcG4L5Jp6Qd6FZ9Yj9FwP0v3wD2WbZ6+V4qQfK2ZbK+1/5P4Tt7qJv4o6B9QGyXp7xjx9W9Jh5yJg==" referrerpolicy="no-referrer" rel="stylesheet"/>
 <style>
-        /* Custom color scheme */
-        :root {
-            --primary-color: #1a202c;
-            --secondary-color: #e2e8f0;
-            --footer-color: #4a5568;
-        }
-        /* Sticky footer */
-        html, body {
-            height: 100%;
-        }
-        body {
-            display: flex;
-            flex-direction: column;
-        }
-        main {
-            flex: 1;
-        }
-        footer {
-            background-color: var(--footer-color);
-            color: var(--secondary-color);
-            text-align: center;
-            padding: 1rem;
-            margin-top: auto;
-        }
-        /* Image styles */
-        .img1 {
-            height: 300px;
-            width: 400px;
-        }
-        .img2 {
-            height: 350px;
-            width: 500px;
-        }
-    </style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f2f2f2;
+		}
+
+		.header {
+			background-color: #333;
+			color: white;
+			padding: 20px;
+			text-align: center;
+			font-size: 30px;
+			font-weight: bold;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.content {
+			background-color: white;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+			margin-bottom: 100px;
+		}
+
+		.footer {
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			background-color: #333;
+			color: white;
+			padding: 10px;
+			text-align: center;
+			font-size: 14px;
+		}
+
+		.img1 {
+			height: 300px;
+			width: 400px;
+			margin: 20px;
+			float: left;
+		}
+
+		.img2 {
+			height: 300px;
+			width: 400px;
+			margin: 20px;
+			float: right;
+		}
+
+		.img1-text {
+			font-style: italic;
+			font-size: 14px;
+			margin-top: 10px;
+			display: block;
+		}
+
+		.img2-text {
+			font-style: italic;
+			font-size: 14px;
+			margin-top: 10px;
+			display: block;
+		}
+	</style>
 </head>
 <body>
-<header class="bg-gray-800 text-white py-4">
-<div class="container mx-auto px-4">
-<h1 class="text-3xl font-bold">Le site internet de l'office du tourisme de Roybon, France</h1>
+<header class="header">
+		Le site internet de l'office du tourisme de Roybon, France
+	</header>
+<div class="container">
+<div class="content">
+<p>Bienvenue sur le site internet de l'office du tourisme de Roybon, France. Nous sommes heureux de vous présenter notre belle ville située dans la région Rhône-Alpes.</p>
+<img alt="Photo d'une vue panoramique de la ville de Roybon, France. On peut voir les montagnes en arrière-plan, les toits des maisons en tuiles rouges, et la rivière qui traverse la ville. Le ciel est bleu et dégagé, avec quelques nuages blancs." class="img1" src="./images/image1.webp" style="height: 300px; width: 400px;"/>
+<span class="img1-text">Vue panoramique de la ville de Roybon, France</span>
+<p>Notre ville est connue pour son château médiéval, qui a été construit au XIIIe siècle et qui a été restauré au fil des ans. Le château est ouvert aux visiteurs et offre une vue imprenable sur la ville et les montagnes environnantes.</p>
+<img alt="Photo d'un marché en plein air dans la ville de Roybon, France. On peut voir les étals des vendeurs, qui vendent des fruits, des légumes, des fromages, et des produits artisanaux. Les gens se promènent dans les allées, faisant leurs courses et discutant avec les vendeurs." class="img2" src="./images/image2.webp" style="height: 300px; width: 400px;"/>
+<span class="img2-text">Marché en plein air dans la ville de Roybon, France</span>
+<p>Nous avons également un marché en plein air tous les samedis, où vous pouvez acheter des produits frais et locaux, ainsi que des produits artisanaux. Nous avons également de nombreux restaurants et cafés qui offrent une cuisine traditionnelle française, ainsi que des plats internationaux.</p>
+<p>Nous espérons que vous apprécierez votre visite sur notre site internet et que vous viendrez bientôt visiter notre belle ville de Roybon, France.</p>
 </div>
-</header>
-<main class="container mx-auto px-4 py-8">
-<img alt="Photo d'un paysage rural de la région de Roybon en France. La photo montre une colline verdoyante avec des arbres et un petit ruisseau qui coule en bas de la colline." class="img1" src="./images/image1.webp"/>
-<p class="text-lg my-4">Bienvenue sur le site internet de l'office du tourisme de Roybon, France. Située dans la région Auvergne-Rhône-Alpes, la ville de Roybon est une destination idéale pour les amoureux de la nature et de la culture. Avec ses paysages pittoresques, ses châteaux historiques et ses festivals annuels, Roybon est une ville dynamique et accueillante qui saura vous charmer.</p>
-<img alt="Photo d'un marché en plein air dans la ville de Roybon en France. La photo montre des étals de fruits et légumes colorés, des stands de produits artisanaux et des gens qui se promènent et discutent entre eux." class="img2" src="./images/image2.webp"/>
-<p class="text-lg my-4">Que vous soyez intéressé par la randonnée, la gastronomie ou les événements culturels, Roybon a quelque chose à offrir pour tous les goûts. Notre site internet vous permettra de découvrir toutes les activités et attractions disponibles dans la ville et ses environs. N'hésitez pas à nous contacter si vous avez des questions ou si vous souhaitez obtenir plus d'informations sur la ville de Roybon et ses merveilles.</p>
-</main>
-<footer>
-<p>© 2023 Le site internet de l'office du tourisme de Roybon, France</p>
-</footer>
+</div>
+<footer class="footer">
+		© 2023 - Office du tourisme de Roybon, France
+	</footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
