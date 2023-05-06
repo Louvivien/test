@@ -1,121 +1,70 @@
-Sorry, I cannot provide HTML code with UIKit as it is a framework for iOS development and not for web development. However, I can provide you with HTML and CSS code that can be used to create a one page website based on the given input text. Here is the code:
-
-HTML:
-
-```
 <!DOCTYPE html>
 
 <html>
 <head>
-<title>Le site internet de la boulangerie L'ami du pain à St Marcellin, France</title>
-<link href="style.css" rel="stylesheet" type="text/css"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
+<title>Horse Riding Company in Roybon, France</title>
+<link href="https://unpkg.com/onsenui/css/onsenui.css" rel="stylesheet"/>
+<link href="https://unpkg.com/onsenui/css/onsen-css-components.min.css" rel="stylesheet"/>
+<script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+<style>
+		.center {
+			text-align: center;
+		}
+		.img1 {
+			height: 300px;
+			width: 400px;
+		}
+		.img2 {
+			height: 300px;
+			width: 400px;
+		}
+		.img1-desc {
+			font-style: italic;
+			color: gray;
+			font-size: 12px;
+			margin-top: 5px;
+		}
+		.img2-desc {
+			font-style: italic;
+			color: gray;
+			font-size: 12px;
+			margin-top: 5px;
+		}
+		.paragraph {
+			margin: 20px;
+			text-align: justify;
+		}
+		.social-links {
+			margin-top: 50px;
+			text-align: center;
+		}
+		.social-link {
+			display: inline-block;
+			margin: 0 10px;
+			font-size: 24px;
+			color: gray;
+		}
+	</style>
 </head>
 <body>
-<header>
-<nav>
-<ul>
-<li><a href="#">Accueil</a></li>
-<li><a href="#">Notre histoire</a></li>
-<li><a href="#">Nos produits</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-</nav>
-</header>
-<main>
-<section>
-<h1>Bienvenue à la boulangerie L'ami du pain</h1>
-<img alt="Photo de la boulangerie L'ami du pain à St Marcellin, France. La boulangerie est située dans une petite rue pavée et possède une façade en pierre avec des fenêtres en bois. Devant la boulangerie, il y a une petite terrasse avec des tables et des chaises en fer forgé." src="./images/boulangerie.webp" style="height: 400px; width: 600px;"/>
-<p>Nous sommes une boulangerie artisanale située à St Marcellin, France. Depuis plus de 20 ans, nous fabriquons du pain et des viennoiseries de qualité supérieure à partir d'ingrédients frais et locaux. Nous sommes fiers de notre savoir-faire et de notre engagement envers la communauté locale.</p>
-<p>Venez découvrir notre large sélection de pains, de croissants, de brioches et bien plus encore. Nous sommes ouverts tous les jours de la semaine, sauf le lundi. Nous avons hâte de vous accueillir dans notre boulangerie.</p>
-</section>
-</main>
-<footer>
-<div class="social">
-<a href="#"><img alt="Logo de Facebook" src="./images/facebook.webp"/></a>
-<a href="#"><img alt="Logo de Twitter" src="./images/twitter.webp"/></a>
-<a href="#"><img alt="Logo d'Instagram" src="./images/instagram.webp"/></a>
+<ons-page>
+<ons-toolbar>
+<div class="center">Horse Riding Company in Roybon, France</div>
+</ons-toolbar>
+<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content." class="img1" src="./images/horse1.webp"/>
+<div class="img1-desc">Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content.</div>
+<p class="paragraph">Welcome to our horse riding company in Roybon, France. We offer a variety of horse riding experiences for all levels of riders, from beginners to advanced. Our horses are well trained and our guides are experienced and knowledgeable about the area. Whether you want to explore the countryside on horseback or take a lesson in our indoor arena, we have something for everyone.</p>
+<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." class="img2" src="./images/horse2.webp"/>
+<div class="img2-desc">Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up.</div>
+<p class="paragraph">Our horse riding company is located in the beautiful town of Roybon, France. The area is known for its stunning natural beauty and is a popular destination for outdoor enthusiasts. We offer horse riding tours that take you through the local forests and fields, giving you a chance to see the area from a unique perspective.</p>
+<div class="social-links">
+<a class="social-link" href="#"><ons-icon icon="fa-facebook"></ons-icon></a>
+<a class="social-link" href="#"><ons-icon icon="fa-twitter"></ons-icon></a>
+<a class="social-link" href="#"><ons-icon icon="fa-instagram"></ons-icon></a>
 </div>
-<p>© 2023 L'ami du pain. Tous droits réservés.</p>
-</footer>
+<p class="center">© 2023 Horse Riding Company in Roybon, France</p>
+</ons-page>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
-```
-
-CSS:
-
-```
-body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-}
-
-header {
-	background-color: #F5DEB3;
-	padding: 20px;
-}
-
-nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-nav li {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-nav li:last-child {
-	margin-right: 0;
-}
-
-nav a {
-	color: #000;
-	text-decoration: none;
-}
-
-main {
-	padding: 20px;
-}
-
-section {
-	margin-bottom: 50px;
-}
-
-h1 {
-	font-size: 36px;
-	margin-bottom: 20px;
-}
-
-img {
-	display: block;
-	margin: 20px auto;
-}
-
-p {
-	font-size: 18px;
-	line-height: 1.5;
-	margin-bottom: 20px;
-}
-
-footer {
-	background-color: #F5DEB3;
-	padding: 20px;
-	text-align: center;
-}
-
-.social a {
-	display: inline-block;
-	margin-right: 10px;
-}
-
-.social img {
-	height: 40px;
-	width: 40px;
-}
-
-p:last-child {
-	margin-bottom: 0;
-}
-```
