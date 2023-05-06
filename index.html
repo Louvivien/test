@@ -1,97 +1,55 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-<title>Le site internet de l'office du tourisme de Roybon, France</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+<title>Hair Force One | St Marcellin, France</title>
+<link href="https://unpkg.com/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet"/>
 <style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-			background-color: #f2f2f2;
-		}
-
-		.header {
-			background-color: #333;
-			color: white;
-			padding: 20px;
-			text-align: center;
-			font-size: 30px;
-			font-weight: bold;
-		}
-
-		.container {
-			max-width: 800px;
-			margin: 0 auto;
-			padding: 20px;
-		}
-
-		.content {
-			background-color: white;
-			padding: 20px;
-			border-radius: 10px;
-			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-			margin-bottom: 100px;
-		}
-
-		.footer {
-			position: fixed;
-			bottom: 0;
-			width: 100%;
-			background-color: #333;
-			color: white;
-			padding: 10px;
-			text-align: center;
-			font-size: 14px;
-		}
-
-		.img1 {
-			height: 300px;
-			width: 400px;
-			margin: 20px;
-			float: left;
-		}
-
-		.img2 {
-			height: 300px;
-			width: 400px;
-			margin: 20px;
-			float: right;
-		}
-
-		.img1-text {
-			font-style: italic;
-			font-size: 14px;
-			margin-top: 10px;
-			display: block;
-		}
-
-		.img2-text {
-			font-style: italic;
-			font-size: 14px;
-			margin-top: 10px;
-			display: block;
-		}
-	</style>
+    /* Stylish color scheme */
+    :root {
+      --primary-color: #5C6AC4;
+      --secondary-color: #F0EFEF;
+      --text-color: #2D3748;
+    }
+    /* Sticky footer */
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: var(--primary-color);
+      color: var(--secondary-color);
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
 </head>
-<body>
-<header class="header">
-		Le site internet de l'office du tourisme de Roybon, France
-	</header>
-<div class="container">
-<div class="content">
-<p>Bienvenue sur le site internet de l'office du tourisme de Roybon, France. Nous sommes heureux de vous présenter notre belle ville située dans la région Rhône-Alpes.</p>
-<img alt="Photo d'une vue panoramique de la ville de Roybon, France. On peut voir les montagnes en arrière-plan, les toits des maisons en tuiles rouges, et la rivière qui traverse la ville. Le ciel est bleu et dégagé, avec quelques nuages blancs." class="img1" src="./images/image1.webp" style="height: 300px; width: 400px;"/>
-<span class="img1-text">Vue panoramique de la ville de Roybon, France</span>
-<p>Notre ville est connue pour son château médiéval, qui a été construit au XIIIe siècle et qui a été restauré au fil des ans. Le château est ouvert aux visiteurs et offre une vue imprenable sur la ville et les montagnes environnantes.</p>
-<img alt="Photo d'un marché en plein air dans la ville de Roybon, France. On peut voir les étals des vendeurs, qui vendent des fruits, des légumes, des fromages, et des produits artisanaux. Les gens se promènent dans les allées, faisant leurs courses et discutant avec les vendeurs." class="img2" src="./images/image2.webp" style="height: 300px; width: 400px;"/>
-<span class="img2-text">Marché en plein air dans la ville de Roybon, France</span>
-<p>Nous avons également un marché en plein air tous les samedis, où vous pouvez acheter des produits frais et locaux, ainsi que des produits artisanaux. Nous avons également de nombreux restaurants et cafés qui offrent une cuisine traditionnelle française, ainsi que des plats internationaux.</p>
-<p>Nous espérons que vous apprécierez votre visite sur notre site internet et que vous viendrez bientôt visiter notre belle ville de Roybon, France.</p>
+<body class="bg-white">
+<!-- Navigation bar -->
+<nav class="bg-gray-200 px-8 py-4 flex justify-between">
+<div class="flex items-center">
+<img alt="Hair Force One logo" class="h-8 w-8 mr-2" src="./images/logo.webp"/>
+<h1 class="text-lg font-semibold">Hair Force One</h1>
 </div>
+<div class="flex items-center">
+<a class="text-gray-700 hover:text-gray-900 mr-4" href="#">Home</a>
+<a class="text-gray-700 hover:text-gray-900" href="#">Services</a>
 </div>
-<footer class="footer">
-		© 2023 - Office du tourisme de Roybon, France
-	</footer>
+</nav>
+<!-- Main content -->
+<main class="container mx-auto px-4 py-8">
+<h1 class="text-4xl font-bold text-center mb-8">The website for hair salon Hair Force One in St Marcellin, France</h1>
+<img alt="Photo of the interior of Hair Force One hair salon in St Marcellin, France. The salon is brightly lit with large windows, and there are several chairs and mirrors along the walls. The floor is made of shiny tiles and there are potted plants in the corners." class="mx-auto my-8" src="./images/hair-salon1.webp" style="height: 400px; width: 600px;"/>
+<p class="text-lg text-gray-700 leading-relaxed mb-8">Welcome to Hair Force One, the premier hair salon in St Marcellin, France. Our team of expert stylists is dedicated to providing you with the best hair care services in the area. Whether you're looking for a simple trim or a complete hair makeover, we've got you covered. Our salon is equipped with the latest tools and technology to ensure that you leave feeling and looking your best.</p>
+<img alt="Photo of a Hair Force One stylist cutting a client's hair. The stylist is wearing a black apron and holding a pair of scissors, while the client is sitting in a chair with a cape around their shoulders. The client is looking into a mirror and smiling." class="mx-auto my-8" src="./images/hair-salon2.webp" style="height: 400px; width: 600px;"/>
+<p class="text-lg text-gray-700 leading-relaxed mb-8">At Hair Force One, we believe that everyone deserves to look and feel their best. That's why we offer a wide range of hair care services to suit your needs. From haircuts to color treatments to styling, we've got everything you need to achieve the look you want. Our stylists are highly trained and experienced, and they are always up-to-date on the latest trends and techniques in the industry.</p>
+</main>
+<!-- Footer -->
+<footer class="footer bg-gray-800">
+<p>© 2023 Hair Force One. All rights reserved.</p>
+</footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
