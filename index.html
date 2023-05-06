@@ -2,50 +2,126 @@
 
 <html>
 <head>
-<title>Horse Riding Company in Roybon, France</title>
+<title>Le site internet de l'office du tourisme de Roybon, France</title>
+<!-- Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- Custom CSS -->
 <style>
 		body {
-			background-color: #FFC0CB;
-			font-family: Arial, sans-serif;
+			background-color: #F8BBD0;
 		}
 
 		h1 {
-			color: #8B0000;
+			color: #F44336;
+			font-size: 48px;
+			font-weight: bold;
 			text-align: center;
 			margin-top: 50px;
+			margin-bottom: 30px;
 		}
 
-		p {
-			color: #4B0082;
-			font-size: 20px;
-			margin: 30px;
-			text-align: justify;
+		.jumbotron {
+			background-color: #FFF59D;
+			padding: 50px;
+			margin-bottom: 50px;
+		}
+
+		.btn {
+			background-color: #F44336;
+			color: #FFFFFF;
+			font-size: 24px;
+			font-weight: bold;
+			padding: 20px;
+			border-radius: 0;
+			border: none;
+			margin-bottom: 30px;
+		}
+
+		.btn:hover {
+			background-color: #D32F2F;
+			color: #FFFFFF;
+			cursor: pointer;
+		}
+
+		.card {
+			background-color: #FFF9C4;
+			padding: 20px;
+			margin-bottom: 30px;
+			border-radius: 0;
+			border: none;
+		}
+
+		.card-title {
+			color: #F44336;
+			font-size: 36px;
+			font-weight: bold;
+			margin-bottom: 30px;
+		}
+
+		.card-text {
+			color: #000000;
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 30px;
 		}
 
 		.img1 {
 			height: 400px;
 			width: 600px;
-			margin: 50px;
-			float: left;
-			border: 5px solid #8B0000;
-			border-radius: 10px;
+			margin-bottom: 30px;
 		}
 
 		.img2 {
 			height: 400px;
 			width: 600px;
-			margin: 50px;
-			float: right;
-			border: 5px solid #8B0000;
-			border-radius: 10px;
+			margin-bottom: 30px;
 		}
 
+		.alt1 {
+			font-style: italic;
+			color: #D32F2F;
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+
+		.alt2 {
+			font-style: italic;
+			color: #F44336;
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
 	</style>
 </head>
 <body>
-<h1>Horse Riding Company in Roybon, France</h1>
-<p>Welcome to our horse riding company located in the beautiful town of Roybon, France. We offer a variety of horse riding experiences for riders of all levels. Whether you're a beginner or an experienced rider, we have the perfect horse and trail for you. Our experienced guides will take you on a scenic ride through the stunning French countryside, where you'll get to see some of the most beautiful sights in the region.</p>
-<img alt="A photo of a chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content. The sun is shining on the horse, making its coat shine and highlighting the dust in the air. In the background, you can see the rolling hills of the French countryside." class="img1" src="./images/horse1.webp" style="height: 400px; width: 600px;"/>
-<img alt="A photo of a bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up. The horse is in a clean and well-lit stable, with fresh straw on the ground and a bucket of water in the corner. In the background, you can see other horses in their stalls, and the sounds of their neighs and whinnies can be heard." class="img2" src="./images/horse2.webp" style="height: 400px; width: 600px;"/>
+<div class="container">
+<h1>Bienvenue sur le site de l'office du tourisme de Roybon, France</h1>
+<div class="jumbotron">
+<h2>Découvrez notre belle ville de Roybon</h2>
+<p>Nous sommes heureux de vous présenter notre ville de Roybon, située dans la région Rhône-Alpes en France. Roybon est une ville historique avec une richesse culturelle et naturelle exceptionnelle. Nous vous invitons à explorer notre ville et à découvrir tout ce qu'elle a à offrir.</p>
+<a class="btn" href="#">En savoir plus</a>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<img alt="Photo d'une vue panoramique de Roybon avec les montagnes en arrière-plan. La ville est entourée de champs et de forêts, et le soleil se couche à l'horizon." class="img1" src="./images/arton1069.webp" style="height: 400px; width: 600px;"/>
+<div class="alt1">Vue panoramique de Roybon</div>
+<h3 class="card-title">Découvrez notre ville historique</h3>
+<p class="card-text">Roybon est une ville historique avec des bâtiments et des monuments datant de plusieurs siècles. Vous pouvez visiter notre château médiéval, notre église gothique et notre musée d'histoire locale pour en apprendre davantage sur notre riche passé.</p>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<img alt="Photo de l'église de Roybon, un bâtiment en pierre blanche avec un toit en tuiles rouges. L'église est entourée d'arbres et de fleurs, et il y a une fontaine devant." class="img2" src="./images/Eglise-de-Roybon.webp" style="height: 400px; width: 600px;"/>
+<div class="alt2">L'église de Roybon</div>
+<h3 class="card-title">Explorez notre patrimoine culturel</h3>
+<p class="card-text">Roybon a une richesse culturelle incroyable avec des festivals, des événements et des expositions tout au long de l'année. Vous pouvez également découvrir notre patrimoine culinaire avec nos restaurants locaux proposant des plats traditionnels.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
