@@ -2,86 +2,120 @@
 
 <html>
 <head>
-<title>Roybon Horse Riding Company</title>
+<title>Le site internet de la boulangerie L'ami du pain à St Marcellin, France</title>
 <style>
 		body {
 			font-family: Arial, sans-serif;
-			margin: 0;
+			background-color: #f5f5f5;
 			padding: 0;
-			background-color: #f2f2f2;
+			margin: 0;
 		}
-
 		header {
-			background-color: #333;
-			color: #fff;
+			background-color: #fff;
 			padding: 20px;
-			text-align: center;
-			font-size: 30px;
-			font-weight: bold;
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 		}
-
+		h1 {
+			font-size: 36px;
+			color: #333;
+			margin: 0;
+		}
 		nav {
-			background-color: #666;
-			color: #fff;
+			background-color: #333;
 			padding: 10px;
+			color: #fff;
 			text-align: center;
 		}
-
 		nav a {
 			color: #fff;
 			text-decoration: none;
 			padding: 10px;
+			margin: 0 5px;
+			font-size: 18px;
+			font-weight: bold;
 		}
-
 		nav a:hover {
 			background-color: #fff;
 			color: #333;
+			border-radius: 5px;
 		}
-
-		main {
-			margin: 20px;
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
 			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.card {
 			background-color: #fff;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-		}
-
-		h1 {
-			font-size: 24px;
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+			border-radius: 5px;
 			margin-bottom: 20px;
+			flex-basis: calc(33.33% - 20px);
+			padding: 20px;
+			box-sizing: border-box;
 		}
-
-		p {
-			font-size: 16px;
-			line-height: 1.5;
+		.card img {
+			height: 300px;
+			width: 100%;
+			object-fit: cover;
+			border-radius: 5px;
 			margin-bottom: 10px;
 		}
-
-		img {
-			display: block;
-			margin: 20px auto;
-			max-width: 100%;
-			height: auto;
+		.card h2 {
+			font-size: 24px;
+			color: #333;
+			margin: 0;
+			margin-bottom: 10px;
+		}
+		.card p {
+			font-size: 16px;
+			color: #666;
+			margin: 0;
+		}
+		footer {
+			background-color: #333;
+			padding: 20px;
+			color: #fff;
+			text-align: center;
+		}
+		footer p {
+			margin: 0;
+			font-size: 16px;
 		}
 	</style>
 </head>
 <body>
 <header>
-		Roybon Horse Riding Company
-	</header>
+<h1>La boulangerie L'ami du pain à St Marcellin, France</h1>
+</header>
 <nav>
-<a href="#">Home</a>
-<a href="#">About Us</a>
-<a href="#">Horses</a>
-<a href="#">Activities</a>
-<a href="#">Contact Us</a>
+<a href="#">Accueil</a>
+<a href="#">À propos</a>
+<a href="#">Produits</a>
+<a href="#">Contact</a>
 </nav>
-<main>
-<h1>Welcome to Roybon Horse Riding Company</h1>
-<p>We are a horse riding company located in Roybon, France. We offer a variety of horse riding activities for all levels of riders, from beginners to advanced. Our horses are well-trained and our staff is experienced and friendly. We are committed to providing a safe and enjoyable experience for all our customers.</p>
-<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content. This photo was taken on a sunny day in a green meadow surrounded by trees. The mare has a white blaze on her face and white socks on her legs. She is wearing a brown leather halter with a brass nameplate." src="/var/folders/5y/l65rmtxd3r1f2zk34wq_bwkh0000gn/T/tmpdls9qvv_/cloned_repo/horse1.webp" style="height: 300px; width: 400px;"/>
-<p>Our facilities include a large outdoor arena, a covered arena, and miles of scenic trails. We offer riding lessons, trail rides, pony rides, and carriage rides. We also host birthday parties, corporate events, and other special occasions.</p>
-<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up. This photo was taken in our stables, which are clean and well-maintained. The gelding has a white star on his forehead and a white sock on his left hind leg. He is wearing a black leather halter with a brass nameplate." src="/var/folders/5y/l65rmtxd3r1f2zk34wq_bwkh0000gn/T/tmpdls9qvv_/cloned_repo/horse2.webp" style="height: 300px; width: 400px;"/>
-<p>Contact us today to schedule your horse riding adventure!</p>
-</main>
+<div class="container">
+<div class="card">
+<img alt="Photo d'un pain frais sortant du four, avec une croûte dorée et croustillante, et une mie moelleuse et parfumée. Le pain est posé sur une planche en bois, avec un couteau à pain à côté." src=".images/pain.webp" style="height: 300px; width: 100%;"/>
+<h2>Nos pains artisanaux</h2>
+<p>Nous vous proposons une large sélection de pains artisanaux, fabriqués à partir de farines de qualité et cuits dans notre four à bois traditionnel. Du pain blanc au pain complet, en passant par le pain aux noix ou aux olives, il y en a pour tous les goûts !</p>
+</div>
+<div class="card">
+<img alt="Photo d'un croissant frais et croustillant, doré à souhait et parsemé de petits grains de sucre. Le croissant est posé sur une assiette blanche, avec une tasse de café fumant à côté." src=".images/croissant.webp" style="height: 300px; width: 100%;"/>
+<h2>Nos viennoiseries maison</h2>
+<p>Venez découvrir nos viennoiseries maison, préparées chaque jour avec des ingrédients de qualité. Croissants, pains au chocolat, brioches, chaussons aux pommes... Il y en a pour tous les goûts et toutes les envies !</p>
+</div>
+<div class="card">
+<img alt="Photo d'une baguette fraîche et croustillante, avec une croûte bien dorée et une mie alvéolée. La baguette est posée sur une planche en bois, avec un couteau à pain à côté." src=".images/baguette.webp" style="height: 300px; width: 100%;"/>
+<h2>Notre fameuse baguette</h2>
+<p>La baguette de l'Ami du pain est une institution à St Marcellin ! Fabriquée à partir de farine locale et cuite dans notre four à bois, elle est réputée pour sa croûte croustillante et sa mie aérée. Venez la goûter !</p>
+</div>
+</div>
+<footer>
+<p>© 2021 La boulangerie L'ami du pain à St Marcellin, France. Tous droits réservés.</p>
+</footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
