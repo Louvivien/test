@@ -2,84 +2,106 @@
 
 <html>
 <head>
-<title>L'ami du pain - Boulangerie à St Marcellin, France</title>
+<title>Roybon Horse Riding Company</title>
 <style>
 		body {
-			background-color: #f5f5f5;
 			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
+			background-color: #f2f2f2;
 		}
-
-		.header {
-			background-color: #ffffff;
-			padding: 20px;
+		h1 {
 			text-align: center;
+			color: #006699;
+			margin-top: 50px;
 		}
-
-		.header h1 {
-			margin: 0;
-		}
-
-		.navbar {
-			background-color: #333333;
-			color: #ffffff;
-			display: flex;
-			justify-content: space-between;
-			padding: 10px 20px;
-		}
-
-		.navbar a {
-			color: #ffffff;
-			text-decoration: none;
-		}
-
-		.navbar a:hover {
-			color: #cccccc;
-		}
-
-		.content {
+		.container {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
-			padding: 20px;
+			align-items: center;
+			margin-top: 50px;
 		}
-
-		.content img {
-			margin: 10px;
+		.box {
+			width: 300px;
+			height: 300px;
+			margin: 20px;
+			background-color: #fff;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+			overflow: hidden;
+			position: relative;
 		}
-
-		.footer {
-			background-color: #333333;
-			color: #ffffff;
-			padding: 20px;
+		.box img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: transform 0.5s ease;
+		}
+		.box:hover img {
+			transform: scale(1.1);
+		}
+		.box::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0,0,0,0.5);
+			opacity: 0;
+			transition: opacity 0.5s ease;
+		}
+		.box:hover::before {
+			opacity: 1;
+		}
+		.box h2 {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #fff;
+			font-size: 24px;
 			text-align: center;
+			text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+			z-index: 1;
 		}
-
-		.footer p {
-			margin: 0;
+		.box p {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 10px;
+			background-color: rgba(0,0,0,0.5);
+			color: #fff;
+			font-size: 16px;
+			text-align: center;
+			z-index: 1;
 		}
-
 	</style>
 </head>
 <body>
-<div class="header">
-<h1>L'ami du pain</h1>
-<p>Boulangerie à St Marcellin, France</p>
+<header>
+<h1>Roybon Horse Riding Company</h1>
+</header>
+<main>
+<div class="container">
+<div class="box">
+<img alt="Photo of a chestnut mare with a short mane and tail, running in a green field. The horse is looking straight at the camera, with its ears perked up and its tail raised high, showing its energy and joy." src="horse1.webp" style="height: 300px; width: 400px;"/>
+<h2>Our Horses</h2>
+<p>We have a variety of horses, from playful young mares to experienced stallions. All of them are well-trained and friendly, perfect for riders of all levels.</p>
 </div>
-<div class="navbar">
-<a href="#">Accueil</a>
-<a href="#">Notre histoire</a>
-<a href="#">Nos produits</a>
-<a href="#">Contact</a>
+<div class="box">
+<img alt="Photo of a bay gelding with a long mane and tail, standing in front of a mountain range. The horse is looking away from the camera, with a calm expression on its face, showing its beauty and grace." src="horse2.webp" style="height: 300px; width: 400px;"/>
+<h2>Our Trails</h2>
+<p>We offer a variety of trails, from easy rides for beginners to challenging routes for experienced riders. Our trails will take you through the beautiful landscapes of Roybon, with stunning views of the mountains and forests.</p>
 </div>
-<div class="content">
-<img alt="Photo d'un pain traditionnel français, avec une croûte dorée et croustillante, une mie moelleuse et des trous irréguliers. Le pain est posé sur une planche en bois rustique, avec des grains de blé et de la farine en arrière-plan." src="pain1.webp" style="height: 400px; width: 600px;"/>
-<img alt="Photo d'un croissant chaud et doré, avec des couches feuilletées et une texture légère et croustillante. Le croissant est posé sur une assiette blanche, avec une tasse de café fumante en arrière-plan." src="pain2.webp" style="height: 400px; width: 600px;"/>
-<img alt="Photo d'une baguette traditionnelle française, avec une croûte croustillante et une mie moelleuse et alvéolée. La baguette est posée sur un torchon en lin, avec des grains de blé et de la farine en arrière-plan." src="pain3.webp" style="height: 400px; width: 600px;"/>
+<div class="box">
+<img alt="Photo of a black stallion with a long mane and tail, standing on a beach. The horse is looking at the sea, with its ears perked up and its tail raised high, showing its strength and power." src="horse3.webp" style="height: 300px; width: 400px;"/>
+<h2>Our Services</h2>
+<p>We offer a variety of services, from horse riding lessons to horse boarding. We also organize special events, such as horse shows and competitions, and we can provide transportation for your horse if needed.</p>
 </div>
-<div class="footer">
-<p>© 2021 L'ami du pain. Tous droits réservés.</p>
 </div>
+</main>
+<footer>
+<p>© 2021 Roybon Horse Riding Company. All rights reserved.</p>
+</footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
