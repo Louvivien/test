@@ -2,73 +2,111 @@
 
 <html lang="en">
 <head>
+<title>Le site internet de la boulangerie L'ami du pain à St Marcellin, France</title>
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Office du Tourisme de Roybon, France</title>
-<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <style>
-        body {
-            background-color: #F7FAFC;
-        }
-        .nav-link {
-            color: #4A5568;
-        }
-        .nav-link:hover {
-            color: #1A202C;
-        }
-        .footer {
-            background-color: #2D3748;
-            color: #E2E8F0;
-            text-align: center;
-            padding: 1rem;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-        .footer a {
-            color: #E2E8F0;
-            text-decoration: none;
-        }
-        .footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    /* Stylish color scheme */
+    body {
+      background-color: #f2f2f2;
+    }
+    .navbar {
+      background-color: #333;
+    }
+    .navbar-brand,
+    .navbar-nav li a {
+      color: #fff !important;
+    }
+    .jumbotron {
+      background-color: #f4511e;
+      color: #fff;
+      height: 300px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    .jumbotron h1 {
+      font-size: 5em;
+      font-weight: bold;
+      text-shadow: 2px 2px #000;
+      margin-top: 100px;
+    }
+    .jumbotron p {
+      font-size: 2em;
+      text-shadow: 2px 2px #000;
+    }
+    .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+      line-height: 60px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+    }
+    .img1 {
+      height: 300px;
+      width: 400px;
+    }
+    .img2 {
+      height: 300px;
+      width: 400px;
+    }
+  </style>
 </head>
 <body>
-<nav class="bg-white shadow-lg">
-<div class="container mx-auto px-4">
-<div class="flex justify-between">
-<div class="flex space-x-4">
-<div>
-<a class="flex items-center py-4 px-2" href="#">
-<img alt="Office du Tourisme de Roybon, France" src="./images/logo.webp" style="height: 50px; width: 50px;"/>
-<span class="font-semibold text-gray-800">Office du Tourisme de Roybon, France</span>
-</a>
-</div>
-<div class="hidden md:flex items-center space-x-1">
-<a class="nav-link py-4 px-2" href="#">Accueil</a>
-<a class="nav-link py-4 px-2" href="#">Destinations</a>
-<a class="nav-link py-4 px-2" href="#">Activités</a>
-<a class="nav-link py-4 px-2" href="#">Hébergement</a>
-<a class="nav-link py-4 px-2" href="#">Contact</a>
-</div>
-</div>
-<div class="hidden md:flex items-center">
-<a class="py-2 px-3 bg-gray-800 text-white rounded hover:bg-gray-700" href="#">Connexion</a>
-<a class="py-2 px-3 bg-gray-800 text-white rounded hover:bg-gray-700" href="#">Inscription</a>
-</div>
-</div>
+<nav class="navbar navbar-expand-sm">
+<a class="navbar-brand" href="#">L'ami du pain</a>
+<button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="#">Accueil</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Produits</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+</ul>
 </div>
 </nav>
-<div class="container mx-auto my-8 px-4">
-<h1 class="text-3xl font-bold mb-4">Le site internet de l'office du tourisme de Roybon, France</h1>
-<img alt="Photo of the beautiful Roybon Castle, a 14th-century fortress located in the heart of the Isère department in southeastern France. The castle features impressive towers, walls, and a moat, and is surrounded by lush greenery and scenic views of the Alps." src="./images/image1.webp" style="height: 400px; width: 600px;">
-<p class="my-4">Bienvenue sur le site internet de l'office du tourisme de Roybon, France. Notre petite ville est située dans le département de l'Isère, dans la région Auvergne-Rhône-Alpes, au sud-est de la France. Roybon est connue pour son château médiéval, ses paysages pittoresques et ses activités de plein air.</p>
-<img alt="Photo of a group of hikers enjoying a scenic trail in the Roybon forest. The trail is surrounded by tall trees, wildflowers, and small streams, and offers stunning views of the mountains and valleys in the distance." src="./images/image2.webp" style="height: 400px; width: 600px;"/>
-<p class="my-4">Nous avons de nombreuses activités pour les visiteurs de tous âges, y compris la randonnée, le VTT, l'équitation, la pêche, la natation et bien plus encore. Nous avons également une variété d'hébergements, y compris des hôtels, des maisons d'hôtes et des campings, pour répondre à tous les besoins et budgets.</p>
-</img></div>
+<div class="jumbotron text-center">
+<h1>Le site internet de la boulangerie L'ami du pain à St Marcellin, France</h1>
+<p>Les meilleurs pains de la région</p>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<h2>Notre histoire</h2>
+<p>La boulangerie L'ami du pain a été créée en 1995 par Jean-Pierre et Marie-Claire. Depuis, nous sommes fiers de proposer chaque jour des produits de qualité à nos clients.</p>
+</div>
+<div class="col-sm-6">
+<h2>Nos produits</h2>
+<p>Nous proposons une large gamme de produits, du pain traditionnel aux viennoiseries en passant par les pâtisseries. Tous nos produits sont faits maison avec des ingrédients de qualité.</p>
+</div>
+</div>
+<br/>
+<div class="row">
+<div class="col-sm-6">
+<img alt="Photo d'une baguette de pain croustillante et dorée, avec une mie alvéolée et moelleuse. Le pain est posé sur une planche en bois, avec en arrière-plan des sacs de farine et des ustensiles de boulangerie." class="img1" src="./images/pain.webp" style="height: 300px; width: 400px;"/>
+</div>
+<div class="col-sm-6">
+<img alt="Photo d'un croissant doré et feuilleté, avec une mie légère et aérée. Le croissant est posé sur une assiette en porcelaine blanche, avec en arrière-plan une cafetière et une tasse de café fumant." class="img2" src="./images/croissant.webp" style="height: 300px; width: 400px;"/>
+</div>
+</div>
+</div>
 <div class="footer">
-<p>© 2023 Office du Tourisme de Roybon, France. Tous droits réservés. <a href="#">Politique de confidentialité</a> | <a href="#">Conditions d'utilisation</a></p>
+<p>© 2023 L'ami du pain. Tous droits réservés.</p>
 </div>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
