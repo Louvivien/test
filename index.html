@@ -2,7 +2,7 @@
 
 <html>
 <head>
-<title>Hair Force One - St Marcellin, France</title>
+<title>Hair Force One Salon</title>
 <style>
 		body {
 			background-color: #f2f2f2;
@@ -10,101 +10,102 @@
 			margin: 0;
 			padding: 0;
 		}
-		header {
+		
+		.header {
 			background-color: #333;
-			color: white;
+			color: #fff;
 			padding: 20px;
 			text-align: center;
 		}
-		nav {
-			background-color: #f2f2f2;
-			border: 1px solid #ccc;
-			display: flex;
-			justify-content: center;
+		
+		h1 {
+			margin: 0;
+		}
+		
+		.navbar {
+			background-color: #666;
+			color: #fff;
 			padding: 10px;
 		}
-		nav a {
-			color: #333;
-			font-weight: bold;
-			margin: 0 10px;
+		
+		.navbar ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		
+		.navbar li {
+			float: left;
+		}
+		
+		.navbar li a {
+			display: block;
+			color: #fff;
+			text-align: center;
+			padding: 14px 16px;
 			text-decoration: none;
-			text-transform: uppercase;
 		}
-		nav a:hover {
-			color: #666;
+		
+		.navbar li a:hover {
+			background-color: #111;
 		}
-		.container {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			margin: 20px auto;
-			max-width: 1200px;
-			padding: 0 20px;
-		}
-		.box {
-			background-color: white;
-			border: 1px solid #ccc;
-			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-			flex-basis: calc(33.33% - 20px);
-			margin-bottom: 20px;
+		
+		.content {
 			padding: 20px;
 		}
-		.box h2 {
-			color: #333;
-			font-size: 24px;
-			margin-top: 0;
-		}
-		.box p {
-			color: #666;
-			font-size: 16px;
-			line-height: 1.5;
-			margin: 10px 0;
-		}
-		.box img {
-			height: 300px;
-			width: 100%;
-		}
-		footer {
+		
+		.footer {
 			background-color: #333;
-			color: white;
+			color: #fff;
 			padding: 20px;
 			text-align: center;
+		}
+		
+		.img1 {
+			height: 400px;
+			width: 600px;
+		}
+		
+		.img2 {
+			height: 400px;
+			width: 600px;
 		}
 	</style>
 </head>
 <body>
-<header>
-<h1>Hair Force One</h1>
-<p>Your Hair is Our Priority</p>
+<header class="header">
+<h1>Hair Force One Salon</h1>
 </header>
-<nav>
-<a href="#">Home</a>
-<a href="#">Services</a>
-<a href="#">About Us</a>
-<a href="#">Contact Us</a>
+<nav class="navbar">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Gallery</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
 </nav>
-<div class="container">
-<div class="box">
-<h2>Welcome to Hair Force One</h2>
-<p>We are a hair salon located in the heart of St Marcellin, France. Our team of experienced stylists is dedicated to providing you with the best hair care services in the area. Whether you need a simple haircut or a complete hair makeover, we are here to help you look and feel your best.</p>
-<img alt="Photo of the interior of the Hair Force One salon. The salon features modern decor with comfortable chairs, a large mirror, and a hair washing station. The salon is well-lit with natural light from the large windows." src="./images/salon.webp" style="height: 300px; width: 100%;"/>
+<div class="content">
+<h2>Welcome to Hair Force One Salon</h2>
+<p>We are a full-service hair salon located in St Marcellin, France. Our experienced stylists are dedicated to providing you with the best hair care services, using only the highest quality products.</p>
+<h3>Our Services</h3>
+<ul>
+<li>Haircuts for men, women, and children</li>
+<li>Hair coloring and highlights</li>
+<li>Hair extensions</li>
+<li>Special occasion styling</li>
+</ul>
+<h3>Gallery</h3>
+<img alt="Photo of a woman with long blonde hair, styled in loose waves. She is standing outside with a smile on her face, and the sun is shining in the background. The hair is flowing in the wind, and the overall effect is one of natural beauty and elegance." class="img1" src="./images/hair1.webp" style="height: 400px; width: 600px;"/>
+<img alt="Photo of a man with short dark hair, styled in a classic side part. He is sitting in a barber chair, with a white towel draped over his shoulders. The barber is standing behind him, holding a pair of scissors and looking focused. The overall effect is one of precision and attention to detail." class="img2" src="./images/hair2.webp" style="height: 400px; width: 600px;"/>
+<h3>Contact Us</h3>
+<p>Thank you for considering Hair Force One Salon for your hair care needs. Please feel free to contact us with any questions or to schedule an appointment.</p>
+<p>Address: 123 Main Street, St Marcellin, France</p>
+<p>Phone: (123) 456-7890</p>
+<p>Email: info@hairforceone.com</p>
 </div>
-<div class="box">
-<h2>Our Services</h2>
-<p>We offer a wide range of hair care services to meet your needs. Our services include haircuts, color, highlights, balayage, ombre, keratin treatments, and more. We use only the highest quality products to ensure that your hair looks and feels its best.</p>
-<img alt="Photo of a stylist giving a client a haircut at Hair Force One. The stylist is using scissors to trim the client's hair while the client sits in a comfortable chair. The salon is visible in the background." src="./images/haircut.webp" style="height: 300px; width: 100%;"/>
-</div>
-<div class="box">
-<h2>Contact Us</h2>
-<p>Visit us today at:</p>
-<p>123 Main Street</p>
-<p>St Marcellin, France</p>
-<p>Call us at: 555-555-5555</p>
-<img alt="Photo of the front of the Hair Force One salon. The salon features a large sign with the salon's name and logo. The front of the salon is well-lit and inviting." src="./images/contact.webp" style="height: 300px; width: 100%;"/>
-</div>
-</div>
-<footer>
-<p>© 2021 Hair Force One. All rights reserved.</p>
+<footer class="footer">
+<p>© 2021 Hair Force One Salon. All rights reserved.</p>
 </footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
