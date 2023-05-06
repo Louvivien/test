@@ -2,102 +2,183 @@
 
 <html>
 <head>
-<title>Roybon Horse Riding Company</title>
+<title>Hair Force One Salon</title>
 <style>
 		body {
-			background-color: #F5F5F5;
 			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
 		}
 		header {
-			background-color: #8B0000;
-			color: white;
+			background-color: #333;
+			color: #fff;
 			padding: 20px;
-			text-align: center;
 		}
 		h1 {
-			margin-top: 0;
+			margin: 0;
+			font-size: 36px;
 		}
 		nav {
-			background-color: #333;
-			color: white;
-			overflow: hidden;
+			background-color: #f1f1f1;
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		nav ul {
+			list-style: none;
+			display: flex;
+			margin: 0;
+			padding: 0;
+		}
+		nav li {
+			margin: 0 10px;
 		}
 		nav a {
-			float: left;
-			color: white;
-			text-align: center;
-			padding: 14px 16px;
 			text-decoration: none;
+			color: #333;
+			font-weight: bold;
+			font-size: 18px;
+			padding: 10px;
+			border-radius: 5px;
+			transition: all 0.3s ease;
 		}
 		nav a:hover {
-			background-color: #ddd;
-			color: black;
+			background-color: #333;
+			color: #fff;
 		}
-		section {
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: space-around;
+			justify-content: space-between;
 			align-items: center;
-			margin: 20px;
 		}
-		section div {
-			background-color: white;
-			border-radius: 10px;
-			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-			margin: 20px;
+		.services {
+			flex-basis: 30%;
+			margin-bottom: 20px;
+			background-color: #f1f1f1;
 			padding: 20px;
-			width: 300px;
+			border-radius: 5px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		.services img {
+			height: 200px;
+			width: 200px;
+			margin-bottom: 10px;
+		}
+		.services h2 {
+			font-size: 24px;
+			margin: 0;
+			margin-bottom: 10px;
+		}
+		.services p {
+			font-size: 18px;
+			margin: 0;
 			text-align: center;
 		}
-		section div img {
-			height: 200px;
-			width: 250px;
-			margin: 10px;
+		.contact {
+			flex-basis: 60%;
+			background-color: #f1f1f1;
+			padding: 20px;
 			border-radius: 5px;
-			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
 		}
-		section div p {
-			text-align: justify;
+		.contact form {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.contact form input, .contact form textarea {
+			padding: 10px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			width: 48%;
+		}
+		.contact form input:focus, .contact form textarea:focus {
+			outline: none;
+			box-shadow: 0 0 10px rgba(0,0,0,0.4);
+		}
+		.contact form textarea {
+			height: 100px;
+		}
+		.contact form button {
+			padding: 10px 20px;
+			background-color: #333;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			font-size: 18px;
+			cursor: pointer;
+			transition: all 0.3s ease;
+		}
+		.contact form button:hover {
+			background-color: #fff;
+			color: #333;
+			border: 2px solid #333;
 		}
 		footer {
 			background-color: #333;
-			color: white;
+			color: #fff;
+			padding: 20px;
 			text-align: center;
-			padding: 10px;
 		}
 	</style>
 </head>
 <body>
 <header>
-<h1>Roybon Horse Riding Company</h1>
-<p>Discover the beauty of France on horseback</p>
+<h1>Hair Force One Salon</h1>
 </header>
 <nav>
-<a href="#">Home</a>
-<a href="#">About Us</a>
-<a href="#">Our Horses</a>
-<a href="#">Gallery</a>
-<a href="#">Contact Us</a>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Gallery</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+<a href="#">Book Now</a>
 </nav>
-<section>
-<div>
-<img alt="Photo of a chestnut mare with a short mane and tail, standing in a field. The horse is looking towards the camera with a calm expression on its face, and its ears perked up. The field is surrounded by trees and mountains in the background." src="./images/horse1.webp" style="height: 200px; width: 250px;"/>
-<h2>Explore the Countryside</h2>
-<p>Join us for a horseback ride through the beautiful countryside of Roybon. Our experienced guides will take you on a journey through lush forests, rolling hills, and picturesque villages.</p>
+<div class="container">
+<div class="services">
+<img alt="A photo of a woman getting a haircut. She is sitting in a chair with a cape around her neck and her hair is being cut by a stylist using scissors and a comb. The stylist is standing behind her and looking at the mirror." src="./images/haircut.webp" style="height: 200px; width: 200px;"/>
+<h2>Haircuts</h2>
+<p>We offer a variety of haircuts for men, women, and children. Our stylists are trained to give you the perfect cut that suits your face shape and hair type.</p>
 </div>
-<div>
-<img alt="Photo of a bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up. The stable is clean and well-maintained, with fresh bedding and plenty of hay." src="./images/horse2.webp" style="height: 200px; width: 250px;"/>
-<h2>Meet Our Horses</h2>
-<p>We have a variety of horses to suit riders of all levels, from gentle ponies for children to spirited stallions for experienced riders. Our horses are well-cared for and trained with kindness and respect.</p>
+<div class="services">
+<img alt="A photo of a woman getting her hair colored. She is sitting in a chair with a cape around her neck and her hair is being colored by a stylist using a brush and a bowl. The stylist is wearing gloves and looking at the mirror." src="./images/color.webp" style="height: 200px; width: 200px;"/>
+<h2>Hair Coloring</h2>
+<p>We use high-quality hair color products to give you the perfect shade that complements your skin tone and personality. Our stylists are trained to create a natural look that enhances your beauty.</p>
 </div>
-<div>
-<img alt="Photo of a black mare with a long mane and tail, standing in a river. The horse is drinking from the water, with its head lowered and its ears relaxed. The river is surrounded by lush greenery and wildflowers." src="./images/horse3.webp" style="height: 200px; width: 250px;"/>
-<h2>Experience Nature</h2>
-<p>There's no better way to experience the beauty of nature than on horseback. Our rides take you through some of the most stunning landscapes in France, where you can breathe in the fresh air and soak up the peaceful surroundings.</p>
+<div class="services">
+<img alt="A photo of a woman getting an updo hairstyle. She is sitting in a chair with a cape around her neck and her hair is being styled by a stylist using bobby pins and hairspray. The stylist is standing behind her and looking at the mirror." src="./images/updo.webp" style="height: 200px; width: 200px;"/>
+<h2>Special Occasion Styling</h2>
+<p>Whether it's a wedding, prom, or any special occasion, we can create a stunning hairstyle that will make you feel confident and beautiful. Our stylists are skilled in creating updos, braids, and other special occasion hairstyles.</p>
 </div>
-</section>
+</div>
+<div class="contact">
+<h2>Contact Us</h2>
+<form>
+<input name="name" placeholder="Name" required="" type="text"/>
+<input name="email" placeholder="Email" required="" type="email"/>
+<textarea name="message" placeholder="Message" required=""></textarea>
+<button type="submit">Send Message</button>
+</form>
+</div>
 <footer>
-<p>© 2021 Roybon Horse Riding Company. All rights reserved.</p>
+<p>© 2021 Hair Force One Salon. All rights reserved.</p>
 </footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
