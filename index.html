@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 
-<html lang="fr">
+<html>
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Office du Tourisme de Roybon, France</title>
-<!-- Bootstrap CSS -->
-<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" rel="stylesheet"/>
-<!-- Custom CSS -->
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <style>
-    body {
-      background-color: #f8f9fa;
-      color: #343a40;
-      font-family: Arial, sans-serif;
-    }
-    .container {
-      margin-top: 50px;
-    }
-    .footer {
-      margin-top: 50px;
-      text-align: center;
-    }
-    .img1 {
-      height: 400px;
-      width: 600px;
-    }
-    .img2 {
-      height: 400px;
-      width: 600px;
-    }
-  </style>
+      body {
+        background-color: #f8f9fa;
+      }
+      .navbar {
+        background-color: #3b5998;
+      }
+      .navbar-brand {
+        color: #ffffff;
+      }
+      .nav-link {
+        color: #ffffff;
+      }
+      .jumbotron {
+        background-image: url('roybon.jpg');
+        background-size: cover;
+        height: 500px;
+      }
+      .footer {
+        background-color: #3b5998;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+      .img1 {
+        height: 300px;
+        width: 400px;
+      }
+      .img2 {
+        height: 300px;
+        width: 400px;
+      }
+    </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-sm">
 <a class="navbar-brand" href="#">Office du Tourisme de Roybon</a>
-<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+<button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
 </button>
-<div class="collapse navbar-collapse" id="navbarNav">
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
 <ul class="navbar-nav">
-<li class="nav-item active">
+<li class="nav-item">
 <a class="nav-link" href="#">Accueil</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">A propos</a>
+<a class="nav-link" href="#">À propos</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="#">Activités</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Hébergements</a>
+<a class="nav-link" href="#">Hébergement</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="#">Contact</a>
@@ -57,20 +72,35 @@
 </ul>
 </div>
 </nav>
-<div class="container">
-<h1>Le site internet de l'office du tourisme de Roybon, France</h1>
-<p>Bienvenue sur le site officiel de l'office du tourisme de Roybon, France. Nous sommes heureux de vous présenter notre belle région et les nombreuses activités qu'elle a à offrir.</p>
-<img alt="Photo de la vue panoramique de la ville de Roybon, France. Dans cette photo, on peut voir les montagnes en arrière-plan, les rues pavées de la ville et les bâtiments historiques de la ville." class="img1" src="./images/600x400.webp"/>
-<p>Nous avons une grande variété d'activités pour tous les âges et tous les goûts. Que vous soyez intéressé par la randonnée, le VTT, la pêche, le golf ou simplement la détente, nous avons quelque chose pour vous.</p>
-<img alt="Photo d'une famille heureuse profitant de la plage de Roybon, France. Dans cette photo, on peut voir le sable blanc de la plage, l'eau bleue claire de la mer et les palmiers qui bordent la plage." class="img2" src="./images/600x400.webp"/>
-<p>Nous avons également une grande variété d'hébergements pour répondre à tous les besoins et tous les budgets. Que vous préfériez un hôtel de luxe, une maison de vacances ou un camping en plein air, nous avons quelque chose pour vous.</p>
+<div class="jumbotron">
 </div>
-<footer class="footer">
-<p>© 2023 Office du Tourisme de Roybon, France</p>
-</footer>
-<!-- Bootstrap JS -->
-<script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-+aMvVc5XZ7V8ZfZm0tC4Yw6lJnVJ6hK1dQlO3ZrMsfJ3t8x5dJ6eYB3JfZmXQwoC" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper-base.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<div class="container-fluid">
+<h1>Office du Tourisme de Roybon</h1>
+<p>Bienvenue sur le site internet de l'Office du Tourisme de Roybon, France. Nous sommes ravis de vous accueillir et de vous faire découvrir notre charmante ville située dans la région Rhône-Alpes.</p>
+<h2>Activités</h2>
+<p>Nous avons une variété d'activités pour tous les âges et tous les goûts. Que vous soyez à la recherche d'aventure ou de détente, nous avons quelque chose pour vous. Voici quelques-unes de nos activités les plus populaires:</p>
+<ul>
+<li>Randonnée pédestre</li>
+<li>Visites guidées</li>
+<li>Escalade</li>
+<li>Canoë-kayak</li>
+<li>Pêche</li>
+</ul>
+<h2>Hébergement</h2>
+<p>Nous avons une gamme d'hébergements pour répondre à tous les budgets et tous les besoins. Que vous recherchiez un hôtel de luxe ou un camping rustique, nous avons quelque chose pour vous. Voici quelques-uns de nos hébergements les plus populaires:</p>
+<ul>
+<li>Hôtel de la Forêt</li>
+<li>Camping du Lac</li>
+<li>Chambres d'hôtes La Maison de la Colline</li>
+<li>Gîte rural La Ferme du Bois</li>
+</ul>
+<h2>Contact</h2>
+<p>Nous sommes situés au 123 Rue de la Mairie, 38940 Roybon, France. Vous pouvez nous contacter par téléphone au +33 4 76 36 20 60 ou par email à info@roybon-tourisme.fr.</p>
+<img alt="Photo d'une famille faisant de la randonnée pédestre dans les montagnes. La famille est composée de deux parents et deux enfants, et ils portent tous des sacs à dos et des chaussures de randonnée. Ils sont entourés de verdure et de montagnes enneigées." class="img1" src="./images/activite.webp" style="height: 300px; width: 400px;"/>
+<img alt="Photo d'un chalet en bois situé au bord d'un lac. Le chalet est entouré d'arbres et de verdure, et il y a une petite jetée en bois menant au lac. Le ciel est bleu et il y a des nuages blancs dans le ciel." class="img2" src="./images/hebergement.webp" style="height: 300px; width: 400px;"/>
+</div>
+<div class="footer">
+<p>© 2023 Office du Tourisme de Roybon</p>
+</div>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
