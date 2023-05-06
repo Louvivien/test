@@ -1,60 +1,63 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-<title>Hair Force One Salon</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+<title>Le site internet de l'office du tourisme de Roybon, France</title>
+<!-- Tailwind CSS -->
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-Hq0zQ+5Q5LcG4L5Jp6Qd6FZ9Yj9FwP0v3wD2WbZ6+V4qQfK2ZbK+1/5P4Tt7qJv4o6B9QGyXp7xjx9W9Jh5yJg==" referrerpolicy="no-referrer" rel="stylesheet"/>
 <style>
-		/* Zimit color scheme */
-		body {
-			background-color: #f5f5f5;
-			color: #333333;
-			font-family: Arial, sans-serif;
-			font-size: 16px;
-			line-height: 1.5;
-			margin: 0;
-			padding: 0;
-		}
-		h1 {
-			color: #ff6666;
-			font-size: 36px;
-			font-weight: bold;
-			margin: 20px 0;
-			text-align: center;
-		}
-		p {
-			margin: 20px 0;
-			text-align: justify;
-		}
-		img {
-			display: block;
-			margin: 20px auto;
-			max-width: 100%;
-			height: auto;
-		}
-		footer {
-			background-color: #333333;
-			color: #f5f5f5;
-			font-size: 14px;
-			line-height: 1.5;
-			padding: 10px;
-			position: fixed;
-			bottom: 0;
-			left: 0;
-			width: 100%;
-		}
-	</style>
+        /* Custom color scheme */
+        :root {
+            --primary-color: #1a202c;
+            --secondary-color: #e2e8f0;
+            --footer-color: #4a5568;
+        }
+        /* Sticky footer */
+        html, body {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1;
+        }
+        footer {
+            background-color: var(--footer-color);
+            color: var(--secondary-color);
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+        }
+        /* Image styles */
+        .img1 {
+            height: 300px;
+            width: 400px;
+        }
+        .img2 {
+            height: 350px;
+            width: 500px;
+        }
+    </style>
 </head>
 <body>
-<header>
-<h1>Hair Force One Salon</h1>
+<header class="bg-gray-800 text-white py-4">
+<div class="container mx-auto px-4">
+<h1 class="text-3xl font-bold">Le site internet de l'office du tourisme de Roybon, France</h1>
+</div>
 </header>
-<main>
-<p>Welcome to Hair Force One, the premier hair salon in St Marcellin, France. Our team of experienced stylists is dedicated to providing you with the highest level of service and expertise. Whether you're looking for a simple trim or a complete hair makeover, we've got you covered.</p>
-<img alt="Photo of a modern hair salon with a sleek and minimalist design. The salon features large windows that let in plenty of natural light, and a row of styling chairs with mirrors in front of a large wall of hair products." src="./images/hair-salon1.webp" style="height: 400px; width: 600px;"/>
-<p>We offer a wide range of services, including haircuts, coloring, highlights, and styling. Our stylists are trained in the latest techniques and trends, and use only the highest quality products to ensure that your hair looks and feels its best.</p>
-<img alt="Photo of a happy customer getting her hair styled by a stylist at Hair Force One. The customer is sitting in a styling chair with a cape around her neck, while the stylist is using a blow dryer and brush to style her hair. The salon is busy and bustling, with other customers and stylists visible in the background." src="./images/hair-salon2.webp" style="height: 400px; width: 600px;"/>
-<p>At Hair Force One, we believe that everyone deserves to feel confident and beautiful. That's why we offer personalized consultations to help you find the perfect hairstyle for your unique features and lifestyle. Our goal is to make you feel pampered and relaxed, so you can leave our salon feeling like a million bucks.</p>
+<main class="container mx-auto px-4 py-8">
+<img alt="Photo d'un paysage rural de la région de Roybon en France. La photo montre une colline verdoyante avec des arbres et un petit ruisseau qui coule en bas de la colline." class="img1" src="./images/image1.webp"/>
+<p class="text-lg my-4">Bienvenue sur le site internet de l'office du tourisme de Roybon, France. Située dans la région Auvergne-Rhône-Alpes, la ville de Roybon est une destination idéale pour les amoureux de la nature et de la culture. Avec ses paysages pittoresques, ses châteaux historiques et ses festivals annuels, Roybon est une ville dynamique et accueillante qui saura vous charmer.</p>
+<img alt="Photo d'un marché en plein air dans la ville de Roybon en France. La photo montre des étals de fruits et légumes colorés, des stands de produits artisanaux et des gens qui se promènent et discutent entre eux." class="img2" src="./images/image2.webp"/>
+<p class="text-lg my-4">Que vous soyez intéressé par la randonnée, la gastronomie ou les événements culturels, Roybon a quelque chose à offrir pour tous les goûts. Notre site internet vous permettra de découvrir toutes les activités et attractions disponibles dans la ville et ses environs. N'hésitez pas à nous contacter si vous avez des questions ou si vous souhaitez obtenir plus d'informations sur la ville de Roybon et ses merveilles.</p>
 </main>
-<footer>© 2023 Hair Force One Salon</footer>
+<footer>
+<p>© 2023 Le site internet de l'office du tourisme de Roybon, France</p>
+</footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
