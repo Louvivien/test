@@ -1,128 +1,197 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-<title>Horse Riding Company in Roybon, France</title>
+<title>A website for a horse riding company in Roybon, France</title>
+<!-- Required meta tags -->
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
 <!-- Bootstrap CSS -->
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet"/>
 <!-- Custom CSS -->
 <style>
-		/* Add custom styles here */
-	</style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .jumbotron {
+      background-image: url('./images/horse-riding.webp');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+    }
+
+    .card {
+      margin-top: 30px;
+    }
+
+    .card-img-top {
+      height: 250px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .card-text {
+      margin-top: 10px;
+    }
+
+    .social-icons {
+      margin-top: 30px;
+    }
+
+    .social-icons a {
+      color: #6c757d;
+      font-size: 30px;
+      margin-right: 20px;
+    }
+
+    .social-icons a:hover {
+      color: #007bff;
+    }
+
+    .footer {
+      background-color: #343a40;
+      color: #f8f9fa;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+
+    .footer p {
+      margin-bottom: 0;
+    }
+
+    .footer a {
+      color: #f8f9fa;
+    }
+
+    .footer a:hover {
+      color: #007bff;
+    }
+  </style>
 </head>
 <body>
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#">Horse Riding Company</a>
-<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">Horse Riding Company Roybon</a>
+<button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
 </button>
-<div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav">
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
 <li class="nav-item active">
-<a class="nav-link" href="#">Home</a>
+<a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">About Us</a>
+<a class="nav-link" href="#">About</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Our Horses</a>
+<a class="nav-link" href="#">Services</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Riding Lessons</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Contact Us</a>
+<a class="nav-link" href="#">Contact</a>
 </li>
 </ul>
+</div>
 </div>
 </nav>
 <!-- Jumbotron -->
 <div class="jumbotron jumbotron-fluid">
 <div class="container">
-<h1 class="display-4">Welcome to our Horse Riding Company in Roybon, France</h1>
-<p class="lead">We offer horse riding lessons for all levels, from beginners to advanced riders. Our horses are well-trained and our instructors are experienced and passionate about teaching. Come and ride with us!</p>
+<h1 class="display-4 text-white">Welcome to Horse Riding Company Roybon</h1>
+<p class="lead text-white">Discover the beauty of the French countryside on horseback</p>
 </div>
 </div>
-<!-- About Us Section -->
+<!-- Services -->
 <div class="container">
+<h2 class="text-center">Our Services</h2>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<img alt="A woman riding a horse during a lesson. She is wearing a helmet and the horse is wearing a bridle and saddle. They are in an indoor arena with sand footing." class="card-img-top" src="./images/horse-riding-lessons.webp"/>
+<div class="card-body">
+<h4 class="card-title">Horse Riding Lessons</h4>
+<p class="card-text">We offer horse riding lessons for all levels, from beginner to advanced. Our experienced instructors will help you improve your riding skills and gain confidence.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<img alt="A group of people riding horses on a trail through the forest. The horses are wearing bridles and saddles and the riders are wearing helmets." class="card-img-top" src="./images/horse-trail-rides.webp"/>
+<div class="card-body">
+<h4 class="card-title">Horse Trail Rides</h4>
+<p class="card-text">Experience the beauty of the French countryside on horseback with our guided trail rides. We offer rides for all levels, from beginner to advanced.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<img alt="A horse standing in a stall in a barn. The stall is clean and the horse is wearing a blanket." class="card-img-top" src="./images/horse-boarding.webp"/>
+<div class="card-body">
+<h4 class="card-title">Horse Boarding</h4>
+<p class="card-text">We offer full-service horse boarding with top-notch care for your horse. Our facilities include spacious stalls, daily turnout, and high-quality feed.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- About Us -->
+<div class="container">
+<h2 class="text-center">About Us</h2>
 <div class="row">
 <div class="col-md-6">
-<h2>About Us</h2>
-<p>We are a family-owned horse riding company located in Roybon, France. Our mission is to provide high-quality horse riding lessons and experiences to riders of all levels. We believe that horses are amazing animals and we want to share our passion for them with you.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper ante vitae turpis consequat, a ornare
+          ipsum bibendum. Donec sit amet nibh euismod, feugiat nunc ut, commodo diam. Ut vitae odio massa. Proin
+          consectetur, ex nec feugiat tristique, odio dolor scelerisque elit, in dictum turpis ante et tellus. Nulla
+          facilisi. In hac habitasse platea dictumst.</p>
 </div>
 <div class="col-md-6">
-<img alt="A beautiful chestnut mare with a short mane and tail, standing in a field with green grass and trees in the background. The horse is looking at the camera with a curious expression on its face." src="./images/horse1.webp" style="height: 300px; width: 400px;"/>
+<p>Sed ullamcorper ante vitae turpis consequat, a ornare ipsum bibendum. Donec sit amet nibh euismod, feugiat
+          nunc ut, commodo diam. Ut vitae odio massa. Proin consectetur, ex nec feugiat tristique, odio dolor scelerisque
+          elit, in dictum turpis ante et tellus. Nulla facilisi. In hac habitasse platea dictumst.</p>
 </div>
 </div>
 </div>
-<!-- Our Horses Section -->
-<div class="container">
-<div class="row">
-<div class="col-md-6">
-<img alt="A handsome bay gelding with a short mane and tail, standing in a stable with other horses in the background. The horse is looking at the camera with a calm expression on its face, and its ears perked up." src="./images/horse2.webp" style="height: 300px; width: 400px;"/>
-</div>
-<div class="col-md-6">
-<h2>Our Horses</h2>
-<p>We have a variety of horses to suit all riders. Whether you are a beginner or an advanced rider, we have the perfect horse for you. Our horses are well-trained and well-cared for, and they love to be ridden.</p>
-</div>
-</div>
-</div>
-<!-- Riding Lessons Section -->
-<div class="container">
-<div class="row">
-<div class="col-md-6">
-<h2>Riding Lessons</h2>
-<p>We offer riding lessons for all levels, from beginners to advanced riders. Our instructors are experienced and passionate about teaching, and they will help you improve your riding skills and achieve your goals.</p>
-</div>
-<div class="col-md-6">
-<img alt="A beautiful black stallion with a long mane and tail, galloping in a field with green grass and trees in the background. The horse is looking at the camera with a proud expression on its face." src="./images/horse3.webp" style="height: 300px; width: 400px;"/>
-</div>
-</div>
-</div>
-<!-- Contact Us Section -->
-<div class="container">
-<div class="row">
-<div class="col-md-6">
-<img alt="A friendly white mare with a long mane and tail, standing in a field with green grass and trees in the background. The horse is looking at the camera with a gentle expression on its face." src="./images/horse4.webp" style="height: 300px; width: 400px;"/>
-</div>
-<div class="col-md-6">
-<h2>Contact Us</h2>
-<p>If you have any questions or would like to book a riding lesson, please contact us using the form below. We will get back to you as soon as possible.</p>
-<form>
-<div class="form-group">
-<label for="name">Name:</label>
-<input class="form-control" id="name" type="text"/>
-</div>
-<div class="form-group">
-<label for="email">Email:</label>
-<input class="form-control" id="email" type="email"/>
-</div>
-<div class="form-group">
-<label for="message">Message:</label>
-<textarea class="form-control" id="message" rows="5"></textarea>
-</div>
-<button class="btn btn-primary" type="submit">Submit</button>
-</form>
+<!-- Social Icons -->
+<div class="container social-icons">
+<div class="row justify-content-center">
+<div class="col-md-4 text-center">
+<a href="#">
+<i class="fab fa-facebook"></i>
+</a>
+<a href="#">
+<i class="fab fa-twitter"></i>
+</a>
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
 </div>
 </div>
 </div>
 <!-- Footer -->
-<footer class="bg-light text-center">
-<p>© 2023 Horse Riding Company. All rights reserved.</p>
-<div class="social-icons">
-<a href="#"><i class="fab fa-facebook-f"></i></a>
-<a href="#"><i class="fab fa-twitter"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<p>© 2023 Horse Riding Company Roybon</p>
+</div>
+<div class="col-md-6">
+<p class="text-right">
+<a href="#">Terms of Use</a>
+            ·
+            <a href="#">Privacy Policy</a>
+</p>
+</div>
+</div>
 </div>
 </footer>
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- Popper.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-1nZ4fL3wKpJbJGdK9YfZQ1eH7Y9Y5K1lK5vP5B8vFwO7z1+5XZgCmJZQsQXz6jwY" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
