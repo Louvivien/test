@@ -2,118 +2,126 @@
 
 <html lang="en">
 <head>
-<title>Hair Force One | St Marcellin, France</title>
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+<title>A Website for a Horse Riding Company in Roybon, France</title>
+<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet"/>
+<style>
+        .jumbotron {
+            background-image: url('./images/horse-riding.webp');
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px #000000;
+        }
+        .jumbotron h1 {
+            font-size: 6rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .jumbotron p {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+        }
+        .btn-primary {
+            background-color: #8B0000;
+            border-color: #8B0000;
+        }
+        .btn-primary:hover {
+            background-color: #CD5C5C;
+            border-color: #CD5C5C;
+        }
+        .card {
+            margin-bottom: 2rem;
+        }
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+        }
+        .card-body h5 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .card-body p {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            background-color: #8B0000;
+            color: white;
+            padding: 2rem 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer a {
+            color: white;
+            margin: 0 1rem;
+        }
+        .footer a:hover {
+            color: #CD5C5C;
+        }
+    </style>
 </head>
 <body>
-<div class="container-fluid">
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-<a class="navbar-brand" href="#">Hair Force One</a>
-<button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="collapsibleNavbar">
-<ul class="navbar-nav">
-<li class="nav-item">
-<a class="nav-link" href="#">Home</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Services</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Gallery</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Contact Us</a>
-</li>
-</ul>
+<div class="jumbotron">
+<h1 class="display-1">Horse Riding in Roybon</h1>
+<p class="lead">Experience the beauty of France on horseback</p>
+<a class="btn btn-primary btn-lg" href="#">Book Now</a>
 </div>
-</nav>
-<div class="jumbotron text-center">
-<h1>Hair Force One</h1>
-<p>The Best Hair Salon in St Marcellin, France</p>
-</div>
-<div class="row">
-<div class="col-sm-6">
-<h2>About Us</h2>
-<p>Hair Force One is a leading hair salon located in St Marcellin, France. Our team of expert stylists are dedicated to providing our clients with the best possible hair care and styling services. We offer a wide range of services including haircuts, color treatments, styling, and more.</p>
-<p>At Hair Force One, we believe that every client deserves personalized attention and care. That's why we take the time to get to know each of our clients and their individual needs. Whether you're looking for a simple trim or a complete hair makeover, we're here to help.</p>
-</div>
-<div class="col-sm-6">
-<img alt="Photo of a woman with long brown hair, sitting in a salon chair with a stylist standing behind her, holding a pair of scissors and preparing to cut her hair. The salon is brightly lit and modern, with white walls and black chairs." src="./images/hair1.webp" style="height: 400px; width: 600px;"/>
-</div>
-</div>
-<div class="row">
-<div class="col-sm-6">
-<img alt="Photo of a man with short black hair, sitting in a salon chair with a stylist standing behind him, holding a hair clipper and preparing to cut his hair. The salon is brightly lit and modern, with white walls and black chairs." src="./images/hair2.webp" style="height: 400px; width: 600px;"/>
-</div>
-<div class="col-sm-6">
-<h2>Our Services</h2>
-<p>At Hair Force One, we offer a wide range of hair care and styling services, including:</p>
-<ul>
-<li>Haircuts for men, women, and children</li>
-<li>Hair coloring and highlights</li>
-<li>Hair styling and blowouts</li>
-<li>Special occasion styling</li>
-<li>And more!</li>
-</ul>
-<p>Our stylists are highly trained and experienced, and are dedicated to helping you achieve the perfect look. Contact us today to schedule an appointment!</p>
-</div>
-</div>
-<div class="row">
-<div class="col-sm-6">
-<h2>Gallery</h2>
-<p>Check out some of our latest work in the gallery below:</p>
-<div class="card-columns">
-<div class="card">
-<img alt="Photo of a woman with curly blonde hair, smiling and posing for the camera." class="card-img-top" src="./images/hair3.webp" style="height: 300px; width: 400px;"/>
-</div>
-<div class="card">
-<img alt="Photo of a man with short brown hair, sitting in a salon chair and looking away from the camera." class="card-img-top" src="./images/hair4.webp" style="height: 300px; width: 400px;"/>
-</div>
-<div class="card">
-<img alt="Photo of a woman with long red hair, looking down and playing with her hair." class="card-img-top" src="./images/hair5.webp" style="height: 300px; width: 400px;"/>
-</div>
-<div class="card">
-<img alt="Photo of a man with short black hair, smiling and posing for the camera." class="card-img-top" src="./images/hair6.webp" style="height: 300px; width: 400px;"/>
-</div>
-</div>
-</div>
-<div class="col-sm-6">
-<h2>Contact Us</h2>
-<p>Ready to schedule an appointment? Have a question or comment? Contact us today!</p>
-<form>
-<div class="form-group">
-<label for="name">Name:</label>
-<input class="form-control" id="name" name="name" placeholder="Enter Name" type="text"/>
-</div>
-<div class="form-group">
-<label for="email">Email:</label>
-<input class="form-control" id="email" name="email" placeholder="Enter Email" type="email"/>
-</div>
-<div class="form-group">
-<label for="comment">Comment:</label>
-<textarea class="form-control" id="comment" placeholder="Enter Comment" rows="5"></textarea>
-</div>
-<button class="btn btn-primary" type="submit">Submit</button>
-</form>
-</div>
-</div>
-<footer class="footer mt-auto py-3">
 <div class="container">
-<span class="text-muted">© 2023 Hair Force One. All rights reserved.</span>
-<div class="social-icons">
-<a href="#"><i class="fa fa-facebook"></i></a>
-<a href="#"><i class="fa fa-twitter"></i></a>
-<a href="#"><i class="fa fa-instagram"></i></a>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<img alt="A beautiful chestnut mare standing in a green field with a blue sky in the background. The horse has a long mane and tail, and is looking straight ahead with a calm expression on its face." class="card-img-top" src="./images/horse1.webp"/>
+<div class="card-body">
+<h5 class="card-title">Horseback Riding Tours</h5>
+<p class="card-text">Explore the French countryside on horseback with our guided tours. Suitable for all skill levels.</p>
 </div>
 </div>
-</footer>
 </div>
+<div class="col-md-4">
+<div class="card">
+<img alt="A handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." class="card-img-top" src="./images/horse2.webp"/>
+<div class="card-body">
+<h5 class="card-title">Lessons and Training</h5>
+<p class="card-text">Improve your horse riding skills with our expert trainers. We offer lessons for all ages and skill levels.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<img alt="A group of riders on horseback, crossing a shallow river in a forest. The riders are wearing helmets and boots, and the horses are stepping carefully on the rocks in the water." class="card-img-top" src="./images/horse3.webp"/>
+<div class="card-body">
+<h5 class="card-title">Special Events</h5>
+<p class="card-text">Celebrate your special occasion with a horse riding adventure. We offer custom packages for weddings, birthdays, and more.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h2>About Us</h2>
+<p>We are a horse riding company based in Roybon, France. Our mission is to provide our clients with an unforgettable experience of the French countryside on horseback. Our horses are well-trained and our guides are experienced and knowledgeable. We offer a variety of services, including horseback riding tours, lessons and training, and special events. We cater to all ages and skill levels, and we can customize our services to meet your needs.</p>
+<p>Whether you are a seasoned rider or a beginner, we have something for you. Come and join us for a horse riding adventure that you will never forget.</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>© 2023 Horse Riding in Roybon</p>
+<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+<a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+</div>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
