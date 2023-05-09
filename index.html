@@ -1,34 +1,109 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 <head>
 <title>Horse Riding Company in Roybon, France</title>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- Custom CSS -->
+<style>
+        .header {
+            background-color: #F8F9FA;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 60px;
+            font-weight: bold;
+            color: #212529;
+        }
+        .navbar {
+            background-color: #212529;
+        }
+        .navbar-brand {
+            color: #F8F9FA;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .navbar-nav {
+            margin-left: auto;
+        }
+        .navbar-nav a {
+            color: #F8F9FA;
+            font-size: 20px;
+            margin-right: 20px;
+        }
+        .jumbotron {
+            background-image: url('./images/horse-riding.webp');
+            background-size: cover;
+            height: 500px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #F8F9FA;
+        }
+        .jumbotron h2 {
+            font-size: 60px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .jumbotron p {
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+        .card {
+            border: none;
+            margin-bottom: 30px;
+        }
+        .card-img-top {
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+        }
+        .card-body h3 {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .card-body p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #212529;
+            color: #F8F9FA;
+            padding: 30px;
+            text-align: center;
+        }
+        .footer a {
+            color: #F8F9FA;
+            margin-right: 20px;
+            font-size: 25px;
+        }
+    </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#">Horse Riding Company in Roybon, France</a>
+<!-- Header -->
+<div class="header">
+<h1>Horse Riding Company in Roybon, France</h1>
+</div>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg">
+<a class="navbar-brand" href="#">Horse Riding</a>
 <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
 <ul class="navbar-nav">
-<li class="nav-item">
+<li class="nav-item active">
 <a class="nav-link" href="#">Home</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="#">About Us</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Horses</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Riding Lessons</a>
+<a class="nav-link" href="#">Services</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="#">Contact Us</a>
@@ -36,78 +111,66 @@
 </ul>
 </div>
 </nav>
+<!-- Jumbotron -->
+<div class="jumbotron">
+<div>
+<h2>Welcome to Horse Riding in Roybon</h2>
+<p>Experience the beauty of France on horseback</p>
+</div>
+</div>
+<!-- Card Deck -->
 <div class="container">
-<div class="row">
-<div class="col-sm-12">
-<h2>Welcome to our Horse Riding Company in Roybon, France</h2>
-<p>We offer horse riding lessons and trail rides in the beautiful countryside of Roybon, France. Our experienced instructors will guide you through the scenic trails while you enjoy the fresh air and beautiful scenery. Whether you are a beginner or an experienced rider, we have a horse and a lesson plan that will suit your needs.</p>
-<p>Our horses are well trained and cared for, and we take pride in providing a safe and enjoyable riding experience for our clients. We offer a variety of riding packages, including private lessons, group lessons, and trail rides. Contact us today to book your next adventure!</p>
+<div class="card-deck">
+<div class="card">
+<img alt="A beautiful chestnut mare with a short mane and tail, standing in a green field. The horse is looking straight at the camera, with its ears perked up and a curious expression on its face." class="card-img-top" src="./images/horse1.webp"/>
+<div class="card-body">
+<h3>Horse Riding Lessons</h3>
+<p>Learn to ride a horse in a safe and fun environment with our experienced instructors.</p>
 </div>
 </div>
-<div class="row">
-<div class="col-sm-6">
-<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content." src="./images/horse1.webp" style="height: 300px; width: 400px;"/>
-</div>
-<div class="col-sm-6">
-<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." src="./images/horse2.webp" style="height: 300px; width: 400px;"/>
-</div>
+<div class="card">
+<img alt="A majestic black stallion with a long flowing mane and tail, standing on a rocky hilltop. The horse is looking out into the distance, with a regal and powerful stance." class="card-img-top" src="./images/horse2.webp"/>
+<div class="card-body">
+<h3>Horseback Tours</h3>
+<p>Explore the beautiful French countryside on horseback with our guided tours.</p>
 </div>
 </div>
-<footer class="container-fluid text-center">
-<p>© 2023 Horse Riding Company in Roybon, France. All rights reserved.</p>
-<div class="social-icons">
-<a href="#"><i class="fa fa-facebook"></i></a>
-<a href="#"><i class="fa fa-twitter"></i></a>
-<a href="#"><i class="fa fa-instagram"></i></a>
-<a href="#"><i class="fa fa-youtube"></i></a>
+<div class="card">
+<img alt="A group of horses running freely in a large open field, with the sun setting in the background. The horses are kicking up dust and their manes and tails are flowing in the wind." class="card-img-top" src="./images/horse3.webp"/>
+<div class="card-body">
+<h3>Horse Boarding</h3>
+<p>Keep your horse safe and healthy with our professional boarding services.</p>
 </div>
-</footer>
+</div>
+</div>
+</div>
+<!-- About Us -->
+<div class="container">
+<h2>About Us</h2>
+<p>We are a family-owned horse riding company located in the beautiful town of Roybon, France.</p>
+<p>Our mission is to provide high-quality horse riding lessons, tours, and boarding services to our clients in a safe and fun environment.</p>
+</div>
+<!-- Contact Us -->
+<div class="container">
+<h2>Contact Us</h2>
+<p>Phone: 555-1234</p>
+<p>Email: info@horseridingroybon.com</p>
+<p>Address: 123 Main St, Roybon, France</p>
+</div>
+<!-- Footer -->
+<div class="footer">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<p>© 2023 Horse Riding Company in Roybon, France. All Rights Reserved.</p>
+</div>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script 
-                        id="clh7ew6vj0000e9oga0of8r5p"
-                        data-name="databerry-chat-bubble"
-                        src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"
-                        ></script></body>
+                            id="clhac43dd0002q0vl8ue830mv"
+                            data-name="databerry-chat-bubble"
+                            src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"
+                            ></script></body>
 </html>
-<style>
-.social-icons a {
-  display: inline-block;
-  margin: 0 10px;
-  font-size: 20px;
-  color: #555;
-  transition: all 0.3s;
-}
-
-.social-icons a:hover {
-  color: #fff;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-</style>
