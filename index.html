@@ -1,127 +1,82 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 <head>
+<title>A Website for Download 3D Models, Brazil</title>
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-<title>A Website for a Horse Riding Company in Roybon, France</title>
-<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet"/>
-<style>
-        .jumbotron {
-            background-image: url('./images/horse-riding.webp');
-            background-size: cover;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-shadow: 2px 2px #000000;
-        }
-        .jumbotron h1 {
-            font-size: 6rem;
-            font-weight: bold;
-            margin-bottom: 1rem;
-        }
-        .jumbotron p {
-            font-size: 2rem;
-            font-weight: bold;
-            margin-bottom: 2rem;
-        }
-        .btn-primary {
-            background-color: #8B0000;
-            border-color: #8B0000;
-        }
-        .btn-primary:hover {
-            background-color: #CD5C5C;
-            border-color: #CD5C5C;
-        }
-        .card {
-            margin-bottom: 2rem;
-        }
-        .card-img-top {
-            height: 300px;
-            object-fit: cover;
-        }
-        .card-body h5 {
-            font-size: 1.5rem;
-            font-weight: bold;
-            margin-bottom: 0.5rem;
-        }
-        .card-body p {
-            font-size: 1rem;
-            margin-bottom: 0.5rem;
-        }
-        .footer {
-            background-color: #8B0000;
-            color: white;
-            padding: 2rem 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .footer a {
-            color: white;
-            margin: 0 1rem;
-        }
-        .footer a:hover {
-            color: #CD5C5C;
-        }
-    </style>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="jumbotron">
-<h1 class="display-1">Horse Riding in Roybon</h1>
-<p class="lead">Experience the beauty of France on horseback</p>
-<a class="btn btn-primary btn-lg" href="#">Book Now</a>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+<a class="navbar-brand" href="#">3D Models Brazil</a>
+<button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Download</a>
+</li>
+</ul>
+</div>
+</nav>
+<div class="jumbotron text-center">
+<h1>A Website for Download 3D Models, Brazil</h1>
+<p>We offer a wide range of 3D models for download, including architecture, engineering, and more.</p>
 </div>
 <div class="container">
 <div class="row">
-<div class="col-md-4">
-<div class="card">
-<img alt="A beautiful chestnut mare standing in a green field with a blue sky in the background. The horse has a long mane and tail, and is looking straight ahead with a calm expression on its face." class="card-img-top" src="./images/horse1.webp"/>
-<div class="card-body">
-<h5 class="card-title">Horseback Riding Tours</h5>
-<p class="card-text">Explore the French countryside on horseback with our guided tours. Suitable for all skill levels.</p>
+<div class="col-sm-4">
+<h3>3D Model 1</h3>
+<img alt="3D model of a modern house with a swimming pool and a garden. The house has large windows and a flat roof. The garden has a variety of plants and trees." src="./images/model1.webp" style="height: 400px; width: 300px;"/>
+<p>This 3D model is perfect for architects and designers who want to visualize a modern house with a swimming pool and a garden.</p>
+</div>
+<div class="col-sm-4">
+<h3>3D Model 2</h3>
+<img alt="3D model of a car engine with all its parts. The engine is disassembled and each part is labeled with its name. The model is highly detailed." src="./images/model2.webp" style="height: 400px; width: 300px;"/>
+<p>This 3D model is perfect for engineers who want to study the structure and function of a car engine in detail.</p>
+</div>
+<div class="col-sm-4">
+<h3>3D Model 3</h3>
+<img alt="3D model of a human heart with all its chambers and valves. The model is highly detailed and can be rotated in any direction. Each part of the heart is labeled with its name." src="./images/model3.webp" style="height: 400px; width: 300px;"/>
+<p>This 3D model is perfect for medical professionals who want to study the structure and function of the human heart in detail.</p>
 </div>
 </div>
 </div>
-<div class="col-md-4">
-<div class="card">
-<img alt="A handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." class="card-img-top" src="./images/horse2.webp"/>
-<div class="card-body">
-<h5 class="card-title">Lessons and Training</h5>
-<p class="card-text">Improve your horse riding skills with our expert trainers. We offer lessons for all ages and skill levels.</p>
+<div class="container">
+<h3>About Us</h3>
+<p>We are a team of 3D artists and designers based in Brazil. Our goal is to provide high-quality 3D models for professionals in different fields.</p>
+<p>We have years of experience in creating 3D models for architecture, engineering, medical, and other industries. We use the latest software and techniques to create realistic and accurate models.</p>
 </div>
+<footer class="container-fluid text-center">
+<p>© 2023 3D Models Brazil. All rights reserved.</p>
+<div class="social-icons">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+<a href="#"><i class="fa fa-google-plus"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-linkedin"></i></a>
 </div>
-</div>
-<div class="col-md-4">
-<div class="card">
-<img alt="A group of riders on horseback, crossing a shallow river in a forest. The riders are wearing helmets and boots, and the horses are stepping carefully on the rocks in the water." class="card-img-top" src="./images/horse3.webp"/>
-<div class="card-body">
-<h5 class="card-title">Special Events</h5>
-<p class="card-text">Celebrate your special occasion with a horse riding adventure. We offer custom packages for weddings, birthdays, and more.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<h2>About Us</h2>
-<p>We are a horse riding company based in Roybon, France. Our mission is to provide our clients with an unforgettable experience of the French countryside on horseback. Our horses are well-trained and our guides are experienced and knowledgeable. We offer a variety of services, including horseback riding tours, lessons and training, and special events. We cater to all ages and skill levels, and we can customize our services to meet your needs.</p>
-<p>Whether you are a seasoned rider or a beginner, we have something for you. Come and join us for a horse riding adventure that you will never forget.</p>
-</div>
-</div>
-</div>
-<div class="footer">
-<p>© 2023 Horse Riding in Roybon</p>
-<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-<a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-</div>
-<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</footer>
 <script id="clhac43dd0002q0vl8ue830mv" data-name="databerry-chat-bubble" src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"></script></body>
 </html>
+<style>
+	.social-icons a {
+	  color: #fff;
+	  font-size: 20px;
+	  margin: 10px;
+	}
+	.social-icons a:hover {
+	  color: #1abc9c;
+	}
+</style>
