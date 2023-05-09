@@ -5,97 +5,146 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-<title>Hair Force One | St Marcellin, France</title>
+<title>Le site internet de la boulangerie L'ami du pain à St Marcellin, France</title>
 <!-- Bootstrap CSS -->
-<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOUzV7Xw704+hN6Ibb5hXn9aUCzVgP+Fd/6UoNymXn2O/kT" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet"/>
+<!-- Custom CSS -->
 <style>
-        .header {
-            background-image: url('./images/hair-salon.webp');
-            background-size: cover;
-            height: 500px;
-        }
-        .header h1 {
-            font-size: 5rem;
-            color: #fff;
-            text-shadow: 2px 2px #000;
-            text-align: center;
-            margin-top: 150px;
-        }
-        .services {
-            background-color: #f8f9fa;
-            padding: 50px 0;
-            text-align: center;
-        }
-        .services h2 {
-            font-size: 3rem;
-            margin-bottom: 50px;
-        }
-        .services img {
-            height: 300px;
-            width: 400px;
-            margin-bottom: 20px;
-        }
-        .services p {
-            font-size: 1.2rem;
-            margin-bottom: 50px;
-        }
-        .footer {
-            background-color: #343a40;
-            color: #fff;
-            text-align: center;
-            padding: 50px 0;
-        }
-        .footer a {
-            color: #fff;
-            margin: 0 10px;
-        }
-    </style>
+		/* Custom styles */
+	</style>
 </head>
 <body>
-<header class="header">
-<h1>Hair Force One</h1>
-</header>
-<section class="services">
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="#">L'ami du pain</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item active">
+<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Menu</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Contact Us</a>
+</li>
+</ul>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="jumbotron text-center">
 <div class="container">
-<h2>Our Services</h2>
+<h1 class="jumbotron-heading">L'ami du pain</h1>
+<p class="lead">The best bakery in St Marcellin, France</p>
+<a class="btn btn-primary my-2" href="#">Order Now</a>
+</div>
+</section>
+<!-- About Section -->
+<section class="container">
+<div class="row">
+<div class="col-md-6">
+<h2>About Us</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel commodo nunc. Mauris euismod sapien enim, nec semper ante suscipit eu. Sed euismod, ipsum vel lacinia congue, velit magna mollis sapien, quis bibendum neque nunc vel sapien. Sed eget turpis auctor, sodales lectus a, bibendum sapien. Praesent ut ante euismod, lacinia velit eu, vestibulum justo. Sed ac tellus euismod, suscipit elit vel, rutrum velit.</p>
+<p>Phasellus a magna vel mi blandit pellentesque. Proin id sapien vel elit tincidunt hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vivamus ut tellus euismod, vestibulum metus eget, viverra velit. Sed ultricies, odio quis eleifend malesuada, nisi nunc bibendum dolor, in ullamcorper felis diam vel felis. Integer in augue quis lacus ultrices posuere.</p>
+</div>
+<div class="col-md-6">
+<img alt="Photo of freshly baked bread. The bread is golden brown and has a crispy crust. The inside of the bread is soft and fluffy. The bread is placed on a wooden cutting board with a knife next to it." src="./images/bread.webp" style="height: 400px; width: 600px;"/>
+</div>
+</div>
+</section>
+<!-- Menu Section -->
+<section class="container">
+<h2>Our Menu</h2>
 <div class="row">
 <div class="col-md-4">
-<img alt="A photo of a woman getting a haircut. The stylist is standing behind her, holding a pair of scissors and combing her hair. The woman is smiling and looking at herself in the mirror." src="./images/haircut.webp" style="height: 300px; width: 400px;"/>
-<p>We offer a wide range of haircuts for men and women. Our experienced stylists will work with you to find the perfect look.</p>
+<div class="card">
+<img alt="Photo of a freshly baked croissant. The croissant is golden brown and has layers of flaky pastry." class="card-img-top" src="./images/croissant.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Croissant</h5>
+<p class="card-text">Our famous croissant made with the finest ingredients.</p>
+<a class="btn btn-primary" href="#">Order Now</a>
+</div>
+</div>
 </div>
 <div class="col-md-4">
-<img alt="A photo of a woman getting her hair colored. The stylist is standing behind her, wearing gloves and applying color to her hair. The woman is sitting in a chair, looking at herself in the mirror." src="./images/color.webp" style="height: 300px; width: 400px;"/>
-<p>Looking for a new hair color? We offer a variety of coloring services to help you achieve the perfect shade.</p>
+<div class="card">
+<img alt="Photo of a freshly baked baguette. The baguette is golden brown and has a crispy crust." class="card-img-top" src="./images/baguette.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Baguette</h5>
+<p class="card-text">Our famous baguette made with the finest ingredients.</p>
+<a class="btn btn-primary" href="#">Order Now</a>
+</div>
+</div>
 </div>
 <div class="col-md-4">
-<img alt="A photo of a woman getting her hair styled. The stylist is using a curling iron to create loose curls. The woman is sitting in a chair, looking at herself in the mirror and smiling." src="./images/styling.webp" style="height: 300px; width: 400px;"/>
-<p>Need help styling your hair? Our stylists can help you create the perfect look for any occasion.</p>
+<div class="card">
+<img alt="Photo of a selection of pastries. The pastries are golden brown and have a variety of fillings including chocolate, fruit, and cream." class="card-img-top" src="./images/pastry.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Pastries</h5>
+<p class="card-text">Our selection of pastries made with the finest ingredients.</p>
+<a class="btn btn-primary" href="#">Order Now</a>
+</div>
 </div>
 </div>
 </div>
 </section>
-<section class="about-us">
+<!-- Contact Section -->
+<section class="container">
+<h2>Contact Us</h2>
+<div class="row">
+<div class="col-md-6">
+<form>
+<div class="form-group">
+<label for="name">Name</label>
+<input class="form-control" id="name" placeholder="Enter your name" type="text"/>
+</div>
+<div class="form-group">
+<label for="email">Email address</label>
+<input class="form-control" id="email" placeholder="Enter your email" type="email"/>
+</div>
+<div class="form-group">
+<label for="message">Message</label>
+<textarea class="form-control" id="message" rows="3"></textarea>
+</div>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+</div>
+<div class="col-md-6">
+<ul class="list-unstyled">
+<li><i class="fas fa-map-marker-alt"></i> 1234 Main St, St Marcellin, France</li>
+<li><i class="fas fa-phone"></i> (123) 456-7890</li>
+<li><i class="fas fa-envelope"></i> info@lamidupain.com</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Footer Section -->
+<footer class="bg-light py-3">
 <div class="container">
-<h2>About Us</h2>
-<p>Hair Force One is a hair salon located in St Marcellin, France. We have been providing quality hair services to our clients for over 10 years. Our experienced stylists are dedicated to helping you achieve the perfect look.</p>
-<p>At Hair Force One, we believe that everyone deserves to look and feel their best. That's why we offer a wide range of services to help you achieve your hair goals. Whether you're looking for a simple haircut or a complete hair makeover, we've got you covered.</p>
+<div class="row">
+<div class="col-md-6">
+<p>© 2023 L'ami du pain</p>
 </div>
-</section>
-<footer class="footer">
-<p>© 2023 Hair Force One. All rights reserved.</p>
-<div class="social-links">
-<a href="#"><i class="fab fa-facebook-f"></i></a>
-<a href="#"><i class="fab fa-twitter"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
+<div class="col-md-6">
+<ul class="list-inline text-md-right">
+<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
+</div>
+</div>
 </div>
 </footer>
-<!-- Bootstrap JS -->
-<script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-8rWnUO9zZ4JvJU+8HJzZmW5e9v9sXJj4jw9jxP1QVJkLrJbL9w1g1S1jXs2G+6k" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper-base.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-OgVRvuATP1z7JjHLkuOUzV7Xw704+hN6Ibb5hXn9aUCzVgP+Fd/6UoNymXn2O/kT" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- Bootstrap JavaScript -->
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script 
-                            id="clhac43dd0002q0vl8ue830mv"
-                            data-name="databerry-chat-bubble"
-                            src="https://databerry-one.vercel.app/js/chat-bubble.js"
-                            ></script></body>
+                        id="91060409-3f3c-420f-ad3f-ed3bfcc72fa3"
+                        data-name="flowise-chat-bubble"
+                        src="https://ai-api-jzxv.onrender.com/js/chat-bubble.js"
+                        ></script></body>
 </html>
