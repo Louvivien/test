@@ -3,68 +3,114 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title>L'ami du pain à St Marcellin, France</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Le site internet de la boulangerie L'ami du pain à St Marcellin, France</title>
 <!-- Bootstrap CSS -->
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" rel="stylesheet"/>
 <style>
-        /* custom CSS */
-        .jumbotron {
-            background-image: url("./images/boulangerie.webp");
-            background-size: cover;
-            color: #ffffff;
+        /* Custom CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
         }
+
+        .jumbotron {
+            background-image: url('./images/boulangerie.webp');
+            background-size: cover;
+            height: 500px;
+        }
+
+        .jumbotron h1 {
+            color: white;
+            font-weight: bold;
+            font-size: 60px;
+            text-shadow: 2px 2px #000000;
+            margin-top: 200px;
+        }
+
         .img1 {
             height: 400px;
             width: 600px;
-            margin: 20px;
+            margin-bottom: 20px;
         }
+
         .img2 {
             height: 400px;
             width: 600px;
-            margin: 20px;
+            margin-bottom: 20px;
+        }
+
+        .text {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 20px;
+        }
+
+        .social-links a:hover {
+            color: #c7c7c7;
         }
     </style>
 </head>
 <body>
-<div class="jumbotron text-center">
-<h1>L'ami du pain à St Marcellin, France</h1>
+<div class="jumbotron">
+<h1 class="text-center">L'ami du pain</h1>
 </div>
 <div class="container">
 <div class="row">
 <div class="col-md-6">
-<img alt="A photo of freshly baked bread on a wooden table. The bread is golden brown and has a crispy crust. There are different types of bread, including baguettes, croissants, and rolls. The aroma of freshly baked bread fills the air." class="img1" src="./images/pain1.webp"/>
+<img alt="Photo of a fresh loaf of bread, still warm from the oven. The bread has a crispy crust and a soft interior with large air pockets. It is perfect for sandwiches or toasting." class="img1" src="./images/pain.webp"/>
 </div>
 <div class="col-md-6">
-<img alt="A photo of a baker kneading dough in a large bowl. The baker is wearing a white apron and has flour on his hands and face. The dough is smooth and elastic, and the baker is working it with skill and precision." class="img2" src="./images/pain2.webp"/>
+<h2>La boulangerie L'ami du pain</h2>
+<p class="text">Bienvenue à la boulangerie L'ami du pain à St Marcellin, France. Nous sommes fiers de produire du pain frais tous les jours, avec des ingrédients de qualité et des méthodes traditionnelles. Notre pain est croustillant à l'extérieur et moelleux à l'intérieur, et il est parfait pour les sandwichs, les toasts ou simplement pour tremper dans une bonne soupe.</p>
+<p class="text">Nous proposons également une variété de viennoiseries et de pâtisseries, ainsi que des boissons chaudes et froides pour accompagner votre repas. Venez nous rendre visite et découvrez pourquoi L'ami du pain est la boulangerie préférée des habitants de St Marcellin.</p>
 </div>
 </div>
 <div class="row">
-<div class="col-md-12">
-<p>L'ami du pain est une boulangerie traditionnelle située à St Marcellin, en France. Nous sommes fiers de proposer des produits de qualité, fabriqués avec des ingrédients locaux et frais. Notre pain est cuit dans un four à bois, ce qui lui donne une saveur unique et un croûtage parfait.</p>
-<p>Nous proposons une large gamme de produits, allant du pain de campagne aux viennoiseries en passant par les gâteaux et les tartes. Nous sommes ouverts tous les jours de la semaine, sauf le lundi. Venez nous rendre visite et découvrez notre univers gourmand.</p>
+<div class="col-md-6">
+<h2>Nos viennoiseries et pâtisseries</h2>
+<p class="text">En plus de notre pain frais, nous proposons une sélection de viennoiseries et de pâtisseries pour satisfaire votre dent sucrée. Essayez notre croissant au beurre croustillant, notre pain au chocolat fondant ou notre tarte aux pommes maison. Nous utilisons des ingrédients de qualité pour garantir le meilleur goût et la meilleure texture.</p>
+</div>
+<div class="col-md-6">
+<img alt="Photo of a freshly baked croissant on a white plate, with a cup of coffee and a small dish of strawberry jam in the background. The croissant is golden brown and flaky, with layers of buttery pastry." class="img2" src="./images/croissant.webp"/>
 </div>
 </div>
 </div>
-<footer class="bg-dark text-white mt-5">
-<div class="container">
-<div class="row">
-<div class="col-md-12 text-center">
-<p>© 2023 L'ami du pain à St Marcellin, France</p>
-<p>Suivez-nous sur les réseaux sociaux:</p>
-<a class="btn btn-primary" href="#"><i class="fab fa-facebook-f"></i></a>
-<a class="btn btn-primary" href="#"><i class="fab fa-twitter"></i></a>
-<a class="btn btn-primary" href="#"><i class="fab fa-instagram"></i></a>
+<div class="footer">
+<p>© 2023 L'ami du pain. Tous droits réservés.</p>
+<div class="social-links">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
 </div>
 </div>
-</div>
-</footer>
 <!-- Bootstrap JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha256-5QDm0XaP2J2JvUyB0Vq5gWg9Z8nTgj2L3gKlMzvOeUw=" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper-base.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script 
-                        id="9a7d628e-229f-4ea0-b3e0-916f3524e3df"
-                        data-name="flowise-chat-bubble"
-                        src="https://ai-api-jzxv.onrender.com/js/chat-bubble.js"
+                        id="clhac43dd0002q0vl8ue830mv"
+                        data-name="databerry-chat-bubble"
+                        src="https://databerry-one.vercel.app/js/chat-bubble.js"
                         ></script></body>
 </html>
