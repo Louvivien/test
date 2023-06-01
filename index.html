@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
-<html lang="fr">
+<html>
 <head>
-<title>i2s - Réparation, vente et maintenance informatique</title>
+<title>A Plumber's Website</title>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
@@ -10,77 +10,99 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <style>
-    /*Header*/
-    .header {
-      background-color: #000000;
-      color: #ffffff;
-      padding: 10px;
-    }
-    /*Images*/
-    .img1 {
-      height: 300px;
-      width: 400px;
-    }
-    .img2 {
-      height: 300px;
-      width: 400px;
-    }
-    /*Paragraphs*/
-    .para1 {
-      font-size: 20px;
-      text-align: justify;
-      margin: 20px;
-    }
-    .para2 {
-      font-size: 20px;
-      text-align: justify;
-      margin: 20px;
-    }
-    /*Footer*/
-    .footer {
-      background-color: #f2f2f2;
-      padding: 10px;
-      text-align: center;
-    }
-  </style>
+        .jumbotron {
+            background-image: url("./images/plumbing.webp");
+            background-size: cover;
+            height: 500px;
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .navbar a {
+            color: white;
+        }
+        .img1 {
+            height: 300px;
+            width: 400px;
+            margin: 20px;
+        }
+        .img2 {
+            height: 300px;
+            width: 400px;
+            margin: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        .social-links {
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
-<!--Header-->
-<div class="header">
-<h1>i2s</h1>
-<p>Réparation, vente et maintenance informatique</p>
-<p>Téléphone: 01 23 45 67 89</p>
+<nav class="navbar navbar-expand-sm">
+<a class="navbar-brand" href="#">A Plumber's Website</a>
+<button class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">About Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Contact Us</a>
+</li>
+</ul>
 </div>
-<!--Images-->
+</nav>
+<div class="jumbotron">
 <div class="container">
+<h1 class="text-center text-white">Welcome to A Plumber's Website</h1>
+<p class="text-center text-white">We are your reliable plumbing service provider, with years of experience and a commitment to excellence.</p>
+</div>
+</div>
+<div class="container">
+<h2>Our Services</h2>
 <div class="row">
 <div class="col-md-6">
-<img alt="Photo d'un technicien en train de réparer un ordinateur. Il est concentré sur son travail et utilise une pince pour fixer un composant sur la carte mère." class="img1" src="./images/reparation.webp" style="height: 300px; width: 400px;"/>
+<h3>Plumbing Repairs</h3>
+<p>We offer a wide range of plumbing repair services, including leak detection, pipe repair and replacement, faucet repair, toilet repair, and more.</p>
+<img alt="A photo of a plumber fixing a leaking pipe. The plumber is wearing a blue uniform and holding a wrench in his hand." class="img1" src="./images/plumbing-repair.webp"/>
 </div>
 <div class="col-md-6">
-<img alt="Photo d'un magasin d'informatique avec des ordinateurs, des écrans et des accessoires en vente. Les clients peuvent être vus en train de regarder les produits et de discuter avec les vendeurs." class="img2" src="./images/vente.webp" style="height: 300px; width: 400px;"/>
+<h3>Plumbing Installations</h3>
+<p>We also specialize in plumbing installations, including water heater installation, toilet installation, sink installation, and more.</p>
+<img alt="A photo of a plumber installing a new toilet. The plumber is wearing a blue uniform and using a wrench to tighten the bolts." class="img2" src="./images/plumbing-installation.webp"/>
 </div>
 </div>
+<h2>About Us</h2>
+<p>We are a family-owned and operated business that has been serving the community for over 20 years. Our team of experienced plumbers is dedicated to providing high-quality services at affordable prices.</p>
 </div>
-<!--Paragraphs-->
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-<p class="para1">Chez i2s, nous sommes spécialisés dans la réparation, la vente et la maintenance informatique. Nous offrons des services de qualité à des prix compétitifs. Notre équipe de techniciens expérimentés est capable de résoudre tous vos problèmes informatiques, qu'il s'agisse d'un ordinateur lent, d'un virus ou d'un problème matériel.</p>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<p class="para2">Nous proposons également une large gamme de produits informatiques, tels que des ordinateurs, des écrans, des imprimantes et des accessoires. Notre équipe de vente est là pour vous aider à trouver le produit qui convient le mieux à vos besoins et à votre budget.</p>
-</div>
-</div>
-</div>
-<!--Footer-->
 <div class="footer">
-<p>© 2023 i2s. Tous droits réservés.</p>
-<a href="#">Facebook</a>
-<a href="#">Twitter</a>
-<a href="#">Instagram</a>
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h3>Follow Us</h3>
+<div class="social-links">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+</div>
+</div>
+<div class="col-md-6">
+<p>© 2023 A Plumber's Website. All rights reserved.</p>
+</div>
+</div>
+</div>
 </div>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
