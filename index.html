@@ -1,176 +1,125 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 <head>
+<title>Indoor Bike Riding VR Game</title>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-<title>Roybon Horse Riding Company</title>
 <!-- Bootstrap CSS -->
-<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<!-- Custom CSS -->
 <style>
-    /* Custom CSS */
-    body {
-      background-color: #f8f9fa;
-    }
-    h1, h2 {
-      text-align: center;
-    }
-    .jumbotron {
-      background-image: url('./images/horse-riding.webp');
-      background-size: cover;
-      height: 500px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-    }
-    .card {
-      margin-bottom: 30px;
-    }
-    .card-img-top {
-      height: 300px;
-      width: 100%;
-      object-fit: cover;
-    }
-    .card-title {
-      margin-bottom: 0;
-    }
-    .card-text {
-      margin-top: 10px;
-    }
-    .footer {
-      background-color: #343a40;
-      color: white;
-      padding: 30px 0;
-      text-align: center;
-    }
-    .social-links {
-      margin-top: 20px;
-    }
-    .social-links a {
-      color: white;
-      margin: 0 10px;
-      font-size: 24px;
-    }
-  </style>
+		.jumbotron {
+			background-image: url('./images/bike.webp');
+			background-size: cover;
+			height: 500px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			color: white;
+		}
+
+		.waitlist-form {
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+		.featured-locations {
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+		.location-card {
+			margin-bottom: 30px;
+		}
+
+		.location-card img {
+			height: 300px;
+			width: 100%;
+			object-fit: cover;
+			margin-bottom: 10px;
+		}
+
+		.social-links {
+			margin-top: 50px;
+			margin-bottom: 50px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.social-link {
+			font-size: 30px;
+			margin: 0 10px;
+		}
+	</style>
 </head>
 <body>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-<a class="navbar-brand" href="#">Roybon Horse Riding Company</a>
-<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav ml-auto">
-<li class="nav-item active">
-<a class="nav-link" href="#">Home</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">About</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Services</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Contact</a>
-</li>
-</ul>
-</div>
-</nav>
 <!-- Jumbotron -->
 <div class="jumbotron">
-<h1>Welcome to Roybon Horse Riding Company</h1>
+<h1 class="display-3">Indoor Bike Riding VR Game</h1>
+<p class="lead">Travel the world and visit famous locations, while riding on an indoor exercise bike!</p>
 </div>
-<!-- About Section -->
-<div class="container">
-<h2>About Us</h2>
-<div class="row">
-<div class="col-md-6">
-<p>At Roybon Horse Riding Company, we provide horse riding experiences for all levels of riders. Our experienced instructors will guide you through the beautiful countryside of Roybon, France. We offer lessons, trail rides, and even overnight camping trips with our horses. Our horses are well-trained and cared for, so you can feel safe and confident during your ride.</p>
-</div>
-<div class="col-md-6">
-<img alt="A beautiful brown horse with a long mane and tail, standing in a green field with trees in the background. The horse is looking directly at the camera with a calm expression on its face." src="./images/horse1.webp" style="height: 300px; width: 100%;"/>
-</div>
-</div>
-</div>
-<!-- Services Section -->
-<div class="container">
-<h2>Our Services</h2>
-<div class="row">
-<div class="col-md-4">
-<div class="card">
-<img alt="A handsome black and white horse with a short mane and tail, standing in a stable. The horse is looking out of its stall with a curious expression on its face." class="card-img-top" src="./images/horse2.webp"/>
-<div class="card-body">
-<h5 class="card-title">Lessons</h5>
-<p class="card-text">We offer riding lessons for all levels of riders, from beginners to advanced. Our experienced instructors will work with you to improve your riding skills and confidence.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card">
-<img alt="A beautiful white horse with a long mane and tail, standing in a green field with mountains in the background. The horse is looking off into the distance with a serene expression on its face." class="card-img-top" src="./images/horse3.webp"/>
-<div class="card-body">
-<h5 class="card-title">Trail Rides</h5>
-<p class="card-text">Explore the beautiful countryside of Roybon on horseback with our trail rides. Our experienced guides will take you on a scenic tour of the area, with options for all levels of riders.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card">
-<img alt="A handsome brown horse with a short mane and tail, standing in a stable. The horse is looking directly at the camera with a calm expression on its face." class="card-img-top" src="./images/horse4.webp"/>
-<div class="card-body">
-<h5 class="card-title">Overnight Camping</h5>
-<p class="card-text">Experience the ultimate horse riding adventure with our overnight camping trips. You'll ride through the beautiful countryside during the day and camp under the stars at night. Our horses are well-trained and cared for, so you can feel safe and comfortable during your trip.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Contact Section -->
-<div class="container">
-<h2>Contact Us</h2>
-<div class="row">
-<div class="col-md-6">
+<!-- Waitlist Form -->
+<div class="container waitlist-form">
+<h2>Join the Waitlist</h2>
 <form>
 <div class="form-group">
-<label for="name">Name</label>
-<input class="form-control" id="name" placeholder="Enter your name" type="text"/>
+<label for="name">Name:</label>
+<input class="form-control" id="name" type="text"/>
 </div>
 <div class="form-group">
-<label for="email">Email address</label>
-<input class="form-control" id="email" placeholder="Enter your email" type="email"/>
-</div>
-<div class="form-group">
-<label for="message">Message</label>
-<textarea class="form-control" id="message" placeholder="Enter your message" rows="5"></textarea>
+<label for="email">Email address:</label>
+<input class="form-control" id="email" type="email"/>
 </div>
 <button class="btn btn-primary" type="submit">Submit</button>
 </form>
 </div>
-<div class="col-md-6">
-<p>Address: 123 Main Street, Roybon, France</p>
-<p>Phone: +33 123 456 789</p>
-<p>Email: info@roybonhorseriding.com</p>
+<!-- Featured Locations -->
+<div class="container featured-locations">
+<h2>Featured Locations</h2>
+<div class="row">
+<div class="col-md-4">
+<div class="card location-card">
+<img alt="Photo of Central Park in New York City, with trees changing colors in the fall. The park is filled with people walking, running, and biking on paths surrounded by greenery." src="./images/central-park.webp"/>
+<div class="card-body">
+<h5 class="card-title">Central Park, New York City</h5>
+<p class="card-text">Ride through the heart of Manhattan and experience the beauty of Central Park.</p>
 </div>
 </div>
 </div>
-<!-- Footer -->
-<div class="footer">
-<div class="container">
-<p>© 2023 Roybon Horse Riding Company</p>
-<div class="social-links">
-<a href="#"><i class="fab fa-facebook"></i></a>
-<a href="#"><i class="fab fa-twitter"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
+<div class="col-md-4">
+<div class="card location-card">
+<img alt="Photo of the Eiffel Tower in Paris, with a clear blue sky in the background. The tower stands tall and proud, with people walking around and taking photos." src="./images/eiffel-tower.webp"/>
+<div class="card-body">
+<h5 class="card-title">Eiffel Tower, Paris</h5>
+<p class="card-text">Take a virtual ride through the streets of Paris and see the iconic Eiffel Tower up close.</p>
 </div>
 </div>
+</div>
+<div class="col-md-4">
+<div class="card location-card">
+<img alt="Photo of Big Ben in London, with the sun setting behind it. The clock tower stands tall and majestic, with people walking around and taking photos." src="./images/big-ben.webp"/>
+<div class="card-body">
+<h5 class="card-title">Big Ben, London</h5>
+<p class="card-text">Experience the history and culture of London as you ride past Big Ben and other famous landmarks.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Social Links -->
+<div class="container social-links">
+<a class="social-link" href="#"><i class="fab fa-facebook"></i></a>
+<a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+<a class="social-link" href="#"><i class="fab fa-instagram"></i></a>
+<a class="social-link" href="#"><i class="fab fa-youtube"></i></a>
 </div>
 <!-- Bootstrap JS -->
-<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
