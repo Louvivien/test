@@ -5,113 +5,94 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-<title>Computer Services Website</title>
+<title>Computer Services</title>
 <!-- Bootstrap CSS -->
 <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet"/>
 <style>
-        .service-img {
-            height: 400px;
-            width: 100%;
-            object-fit: cover;
-        }
-        .service {
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-        .service h3 {
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        .service p {
-            font-size: 18px;
-            line-height: 1.5;
-        }
-        .social-links {
-            margin-top: 50px;
-        }
-        .social-links a {
-            margin-right: 20px;
-        }
-    </style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .jumbotron {
+      background-image: url('./images/computer-services.webp');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-shadow: 2px 2px #000000;
+    }
+    .img1 {
+      margin-right: 20px;
+    }
+    .img2 {
+      margin-left: 20px;
+    }
+    .card {
+      margin-top: 20px;
+    }
+    .card-header {
+      background-color: #007bff;
+      color: white;
+    }
+    .card-body {
+      font-size: 18px;
+    }
+    .social-links {
+      margin-top: 20px;
+    }
+    .social-links a {
+      margin-right: 10px;
+    }
+  </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#">Computer Services</a>
-<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav">
-<li class="nav-item active">
-<a class="nav-link" href="#">Home</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#malware-hardware">Malware and Hardware Failure Disaster Recovery</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#purchasing-setup">Purchasing, Setup and Installation Solution Services</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#new-phone-tablet">New Phone, Tablet, PC Setup and Migration of Data / Software</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#project-budget">Project and Budget Based IT Solutions to Grow, Expand, and Upgrade Your Current Business</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#second-opinion">Get a Second Opinion on a Current Project Proposal</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#ask-me-anything">Ask me anything</a>
-</li>
-</ul>
+<div class="jumbotron">
+<div class="container">
+<h1 class="display-4">Computer Services</h1>
+<p class="lead">We provide a wide range of computer services to help you with all your technical needs. From malware and hardware failure disaster recovery to project and budget based IT solutions, we've got you covered.</p>
 </div>
-</nav>
-<div class="container-fluid">
+</div>
+<div class="container">
 <div class="row">
-<div class="col-md-12">
-<img alt="Computer Services" class="service-img" src="./images/computer-services.webp"/>
+<div class="col-md-6">
+<img alt="Picture of a computer screen with a skull and crossbones, representing malware and the need for malware recovery services. Our team of experts can help you recover from any malware disaster." class="img1" src="./images/malware.webp" style="height: 300px; width: 400px;"/>
+<p>Malware and Hardware Failure Disaster Recovery</p>
+<p>Our team of experts can help you recover from any malware disaster or hardware failure. We have the tools and knowledge to get your system up and running as quickly as possible.</p>
+</div>
+<div class="col-md-6">
+<img alt="Picture of a computer keyboard and mouse, representing the need for purchasing, setup, and installation solution services. Our team of experts can help you with all your computer setup needs." class="img2" src="./images/setup.webp" style="height: 300px; width: 400px;"/>
+<p>Purchasing, Setup and Installation Solution Services</p>
+<p>Let us help you with all your computer setup needs. From purchasing to installation, we've got you covered. Our team of experts can help you find the right equipment and set it up properly.</p>
 </div>
 </div>
 <div class="row">
-<div class="col-md-12">
-<div class="service" id="malware-hardware">
-<h3>Malware and Hardware Failure Disaster Recovery</h3>
-<p>We provide comprehensive disaster recovery services for businesses and individuals who have experienced malware or hardware failure. Our team of experts will work quickly to identify the root cause of the problem and implement solutions to recover your data and get you back up and running.</p>
+<div class="col-md-6">
+<img alt="Picture of a phone and computer screen, representing the need for new phone, tablet, PC setup and migration of data / software. Our team of experts can help you set up your new devices and migrate your data and software." class="img1" src="./images/migration.webp" style="height: 300px; width: 400px;"/>
+<p>New Phone, Tablet, PC Setup and Migration of Data / Software</p>
+<p>Let us help you set up your new devices and migrate your data and software. Our team of experts can make the transition as smooth as possible.</p>
 </div>
-<div class="service" id="purchasing-setup">
-<h3>Purchasing, Setup and Installation Solution Services</h3>
-<p>Our team can help you with all aspects of purchasing, setup and installation of new hardware and software. We can provide expert advice on what to buy, help with the setup and installation process, and provide ongoing support to ensure everything is running smoothly.</p>
+<div class="col-md-6">
+<img alt="Picture of a computer screen with a graph, representing project and budget based IT solutions to grow, expand, and upgrade your current business. Our team of experts can help you find the right IT solutions to take your business to the next level." class="img2" src="./images/upgrade.webp" style="height: 300px; width: 400px;"/>
+<p>Project and Budget Based IT Solutions to Grow, Expand, and Upgrade Your Current Business</p>
+<p>Let us help you find the right IT solutions to take your business to the next level. We can work with you to develop project and budget based solutions that meet your specific needs.</p>
 </div>
-<div class="service" id="new-phone-tablet">
-<h3>New Phone, Tablet, PC Setup and Migration of Data / Software</h3>
-<p>We can help you set up your new phone, tablet or PC and migrate your data and software from your old device. Our team of experts will ensure that everything is set up correctly and that your data is safe and secure.</p>
 </div>
-<div class="service" id="project-budget">
-<h3>Project and Budget Based IT Solutions to Grow, Expand, and Upgrade Your Current Business</h3>
-<p>We provide project and budget based IT solutions to help you grow, expand, and upgrade your current business. Our team of experts can help you identify areas where technology can help you improve your business processes, and provide solutions that fit your budget.</p>
+<div class="row">
+<div class="col-md-6">
+<img alt="Picture of a computer screen with a question mark, representing the need for a second opinion on a current project proposal. Our team of experts can provide you with a second opinion to ensure you're getting the best solution at the best price." class="img1" src="./images/second-opinion.webp" style="height: 300px; width: 400px;"/>
+<p>Get a Second Opinion on a Current Project Proposal</p>
+<p>Are you getting the best solution, at the best price from a trustworthy expert? Let us provide you with a second opinion to ensure you're making the right decision for your business.</p>
 </div>
-<div class="service" id="second-opinion">
-<h3>Get a Second Opinion on a Current Project Proposal</h3>
-<p>Are you getting the best solution, at the best price from a trustworthy expert? Our team can provide a second opinion on your current project proposal to ensure you are getting the best value for your money.</p>
-</div>
-<div class="service" id="ask-me-anything">
-<h3>Ask me anything</h3>
+<div class="col-md-6">
+<img alt="Picture of a computer network, representing the need for a network of experts. Our team of experts have developed a network of contacts, experts in their fields that we have worked with, know, and trust." class="img2" src="./images/network.webp" style="height: 300px; width: 400px;"/>
+<p>Ask Me Anything</p>
 <p>If I can't solve your problem, I usually know someone who can. Over all my years of expertise I have developed a network of contacts, experts in their fields that I have worked with, know, and trust. Print and graphic design specialists in Hong Kong, Data storage and legal privacy compliance in the EU (Germany), Foreign malware security experts, Concept to Prototype production in the USA.</p>
 <p>Any and all of my customers get free advice and technical support, if you run into a problem I am happy to help - problems that seem intractable and confusing to others are often easy for me to solve. Let me remove the stress of technical issues from your life so you can focus on what is important to you.</p>
 </div>
 </div>
-</div>
-<div class="row social-links">
-<div class="col-md-12">
+<div class="social-links">
 <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
 <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+<a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
 <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<p>© 2023 Computer Services. All Rights Reserved.</p>
-</div>
 </div>
 </div>
 <!-- Bootstrap JS -->
@@ -123,4 +104,9 @@
                         data-name="databerry-chat-bubble"
                         src="https://databerry-one.vercel.app/js/chat-bubble.js"
                         ></script></body>
+<footer>
+<div class="container">
+<p>© 2023 Computer Services</p>
+</div>
+</footer>
 </html>
