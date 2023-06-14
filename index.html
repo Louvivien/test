@@ -1,91 +1,75 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 <head>
-<title>ERC-20 Token Creator</title>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Computer Services Website</title>
+<!-- Bootstrap CSS -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- Custom CSS -->
+<style>
+		.container {
+			margin-top: 50px;
+		}
+		h1 {
+			text-align: center;
+			margin-bottom: 50px;
+		}
+		p {
+			margin-bottom: 30px;
+		}
+		.services {
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		.services img {
+			margin-bottom: 20px;
+		}
+		.footer {
+			margin-top: 50px;
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		.footer a {
+			color: #fff;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+<h1>Computer Services</h1>
+<div class="row">
+<div class="col-md-6">
+<img alt="Photo of a technician repairing a computer. The technician is wearing a blue shirt and is working on the inside of a computer tower. There are various tools and components on a workbench in the background." src="./images/repair.webp" style="height: 300px; width: 400px;"/>
+<h2>Repair Service</h2>
+<p>Our repair service can fix any hardware or software issue you may be experiencing with your computer. Our technicians are highly skilled and can diagnose and repair any issue quickly and efficiently.</p>
+</div>
+<div class="col-md-6">
+<img alt="Photo of a technician installing hardware on a computer. The technician is wearing a white shirt and is installing a graphics card into a computer tower. There are various tools and components on a workbench in the background." src="./images/installation.webp" style="height: 300px; width: 400px;"/>
+<h2>Installation of Hardware and Software</h2>
+<p>We can install any hardware or software that you need for your computer. Whether you need a new graphics card or the latest version of your favorite software, we can help.</p>
+</div>
+</div>
+<div class="services">
+<h2>Web and Graphic Design</h2>
+<img alt="Photo of a designer working on a website. The designer is sitting at a desk with a computer and a tablet. There are various design tools and sketches on the desk." src="./images/design.webp" style="height: 300px; width: 400px;"/>
+<p>We offer web and graphic design services to help you create a professional and visually appealing online presence. Our designers can work with you to create a custom website or design graphics for your social media profiles or marketing materials.</p>
+</div>
+</div>
+<footer class="footer">
+<p>© 2023 Computer Services</p>
+<p>Follow us on social media:</p>
+<a href="#">Facebook</a>
+<a href="#">Twitter</a>
+<a href="#">Instagram</a>
+</footer>
+<!-- Bootstrap JS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
-<body>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-<a class="navbar-brand" href="#">ERC-20 Token Creator</a>
-<button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="collapsibleNavbar">
-<ul class="navbar-nav">
-<li class="nav-item">
-<a class="nav-link" href="#">Home</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">About</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Contact</a>
-</li>
-</ul>
-</div>
-</nav>
-<div class="container-fluid">
-<h1>A Website for Creating ERC-20 Token with Name and Symbol</h1>
-<hr/>
-<div class="row">
-<div class="col-md-6">
-<h2>What is an ERC-20 Token?</h2>
-<p>An ERC-20 token is a cryptocurrency token that is built on top of the Ethereum blockchain. It is a standard for creating tokens that are fungible, meaning they can be exchanged for one another. ERC-20 tokens are used in many decentralized applications (dApps) and are a popular way for startups to raise funds through initial coin offerings (ICOs).</p>
-</div>
-<div class="col-md-6">
-<img alt="A golden coin with the letters ERC-20 inscribed on it, representing the standard for creating tokens on the Ethereum blockchain." src="./images/token.webp" style="height: 300px; width: 400px;"/>
-</div>
-</div>
-<hr/>
-<div class="row">
-<div class="col-md-6">
-<img alt="A person typing on a laptop, with a screen displaying code for creating an ERC-20 token." src="./images/create.webp" style="height: 300px; width: 400px;"/>
-</div>
-<div class="col-md-6">
-<h2>How to Create an ERC-20 Token</h2>
-<p>Creating an ERC-20 token is a relatively simple process that involves writing a smart contract in Solidity, the programming language used for Ethereum smart contracts. The smart contract defines the rules and parameters of the token, such as the total supply, name, symbol, and decimal places. Once the smart contract is written and deployed to the Ethereum blockchain, the token can be traded and used like any other ERC-20 token.</p>
-</div>
-</div>
-<hr/>
-<div class="row">
-<div class="col-md-6">
-<h2>Why Create an ERC-20 Token?</h2>
-<p>There are many reasons why someone might want to create an ERC-20 token. For example, a startup might create a token as a way to raise funds through an initial coin offering (ICO). Or a company might create a token to reward its customers or employees. Tokens can also be used to represent assets such as real estate or commodities, or to create digital collectibles such as game items or art. The possibilities are endless!</p>
-</div>
-<div class="col-md-6">
-<img alt="A person holding a golden token with the letters ERC-20 inscribed on it, representing the many uses of ERC-20 tokens." src="./images/why.webp" style="height: 300px; width: 400px;"/>
-</div>
-</div>
-<hr/>
-<div class="row">
-<div class="col-md-12">
-<h2>Get Started Today!</h2>
-<p>If you're interested in creating your own ERC-20 token, there are many resources available online to help you get started. You can find tutorials, forums, and communities that can help you learn Solidity and the Ethereum ecosystem. And if you need help with the technical aspects of creating a token, there are many developers and consultants who specialize in blockchain and smart contract development.</p>
-<button class="btn btn-primary" type="button">Learn More</button>
-</div>
-</div>
-</div>
-<footer class="bg-dark text-center text-white">
-<div class="container p-4">
-<section class="mb-4">
-<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
-<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
-<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
-</section>
-<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 ERC-20 Token Creator
-    </div>
-</div>
-</footer>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
