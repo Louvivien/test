@@ -1,103 +1,143 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-<title>Computer Services</title>
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+<title>Computer Services Website</title>
+<!-- Bootstrap CSS -->
+<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet"/>
+<style>
+    .jumbotron {
+      background-image: url('./images/computer-services.webp');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      position: relative;
+    }
+
+    .jumbotron::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .jumbotron h1 {
+      color: #fff;
+      font-size: 5rem;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .services {
+      margin-top: 3rem;
+    }
+
+    .services h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .services p {
+      font-size: 1.2rem;
+    }
+
+    .social-links {
+      margin-top: 3rem;
+    }
+
+    .social-links a {
+      font-size: 2rem;
+      margin-right: 1rem;
+    }
+  </style>
 </head>
 <body>
-<div class="container-fluid">
-<div class="row">
-<div class="col-sm-12">
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-<a class="navbar-brand" href="#">Computer Services</a>
-<button class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-<ul class="navbar-nav">
-<li class="nav-item">
-<a class="nav-link" href="#repair-service">Repair Service</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#installation">Installation of Hardware and Software</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#secure-data">Secure Data Storage and Backup Solutions</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#web-design">Web and Graphic design</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#disaster-recovery">Malware and Hardware Failure Disaster Recovery</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#purchasing">Purchasing, Setup and Installation Solution Services</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#new-setup">New Phone, Tablet, PC Setup and Migration of Data / Software</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#project-based">Project and Budget Based IT Solutions to Grow, Expand, and Upgrade Your Current Business</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#second-opinion">Get a Second Opinion on a Current Project Proposal</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#ask-me">Ask me anything</a>
-</li>
-</ul>
+<div class="jumbotron">
+<h1 class="display-4">Computer Services</h1>
 </div>
-</nav>
+<div class="container services">
+<div class="row">
+<div class="col-md-4">
+<h2>Repair Service</h2>
+<p>We offer fast and reliable computer repair services for both hardware and software issues. Our team of experts will diagnose and fix any problems you may be experiencing with your computer.</p>
+</div>
+<div class="col-md-4">
+<h2>Installation of Hardware and Software</h2>
+<p>We can help you install and configure both hardware and software for your computer. From setting up a new printer to installing the latest version of your favorite software, we've got you covered.</p>
+</div>
+<div class="col-md-4">
+<h2>Secure Data Storage and Backup Solutions</h2>
+<p>We provide secure data storage and backup solutions to ensure that your important files are safe and secure. Our experts will help you choose the right solution for your needs and set it up for you.</p>
 </div>
 </div>
 <div class="row">
-<div class="col-sm-12">
-<img alt="A technician repairing a computer motherboard with a soldering iron. The technician is wearing a white lab coat and safety goggles and is working on a bench with various tools and equipment." src="./images/computer-repair.webp" style="height: 300px; width: 400px;"/>
-<p>At Computer Services, we offer a wide range of IT solutions to meet your needs. Our services include:</p>
-<ol>
-<li><a name="repair-service"></a>Repair Service</li>
-<p>If your computer is running slow or not working properly, our expert technicians can diagnose and repair the problem quickly and efficiently.</p>
-<li><a name="installation"></a>Installation of Hardware and Software</li>
-<p>We can help you install new hardware or software, including updates and patches, to keep your system running smoothly and securely.</p>
-<li><a name="secure-data"></a>Secure Data Storage and Backup Solutions</li>
-<p>We offer secure data storage and backup solutions to protect your important files and data from loss or theft.</p>
-<li><a name="web-design"></a>Web and Graphic design</li>
-<p>Our team of experienced designers can help you create a professional and engaging website or graphic design for your business.</p>
-<li><a name="disaster-recovery"></a>Malware and Hardware Failure Disaster Recovery</li>
-<p>If your system has been infected with malware or has suffered a hardware failure, we can help you recover your data and get your system back up and running.</p>
-<li><a name="purchasing"></a>Purchasing, Setup and Installation Solution Services</li>
-<p>We can help you purchase, set up and install new hardware and software for your business.</p>
-<li><a name="new-setup"></a>New Phone, Tablet, PC Setup and Migration of Data / Software</li>
-<p>We can help you set up and migrate your data and software to your new phone, tablet or PC.</p>
-<li><a name="project-based"></a>Project and Budget Based IT Solutions to Grow, Expand, and Upgrade Your Current Business</li>
-<p>We offer project and budget based IT solutions to help you grow, expand and upgrade your current business.</p>
-<li><a name="second-opinion"></a>Get a Second Opinion on a Current Project Proposal</li>
-<p>If you are unsure about a current project proposal, we can provide you with a second opinion to ensure you are getting the best solution at the best price from a trustworthy expert.</p>
-<li><a name="ask-me"></a>Ask me anything</li>
-<p>If you have any questions or concerns about your IT needs, feel free to ask me anything. I have years of expertise and a network of contacts to help you find the best solution for your problem.</p>
-</ol>
-<p>Any and all of our customers get free advice and technical support. If you run into a problem, we are happy to help. Let us remove the stress of technical issues from your life so you can focus on what is important to you.</p>
+<div class="col-md-4">
+<h2>Web and Graphic Design</h2>
+<p>We offer web and graphic design services to help you create a professional and effective online presence. Our team of designers will work with you to create a custom design that meets your needs.</p>
+</div>
+<div class="col-md-4">
+<h2>Malware and Hardware Failure Disaster Recovery</h2>
+<p>If you've been hit by a malware attack or are experiencing hardware failure, we can help. Our experts will diagnose and fix the problem, and help you recover any lost data.</p>
+</div>
+<div class="col-md-4">
+<h2>Purchasing, Setup and Installation Solution Services</h2>
+<p>We can help you choose the right computer or other electronic device for your needs, and set it up and install any necessary software for you. We'll make sure everything is working properly before we leave.</p>
 </div>
 </div>
 <div class="row">
-<div class="col-sm-12">
-<hr/>
-<p>© 2023 Computer Services</p>
+<div class="col-md-4">
+<h2>New Phone, Tablet, PC Setup and Migration of Data / Software</h2>
+<p>If you've just purchased a new phone, tablet, or computer, we can help you set it up and migrate your data and software from your old device. We'll make sure everything is working properly before we leave.</p>
+</div>
+<div class="col-md-4">
+<h2>Project and Budget Based IT Solutions to Grow, Expand, and Upgrade Your Current Business</h2>
+<p>We offer project and budget based IT solutions to help you grow, expand, and upgrade your current business. Our experts will work with you to develop a custom solution that meets your needs and fits your budget.</p>
+</div>
+<div class="col-md-4">
+<h2>Get a Second Opinion on a Current Project Proposal</h2>
+<p>Are you getting the best solution, at the best price from a trustworthy expert? We can provide a second opinion on your current project proposal to ensure that you're getting the best solution for your needs.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h2>Ask Me Anything</h2>
+<p>If you have any questions or concerns, feel free to ask. We're here to help, and we'll do our best to answer any questions you may have.</p>
+</div>
+</div>
+</div>
+<div class="container social-links">
+<div class="row">
+<div class="col-md-12">
 <a href="#"><i class="fab fa-facebook"></i></a>
 <a href="#"><i class="fab fa-twitter"></i></a>
 <a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
 </div>
 </div>
 </div>
+<!-- Bootstrap JS -->
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
                         src="https://databerry-one.vercel.app/js/chat-bubble.js"
                         ></script></body>
+<footer>
+<div class="container-fluid bg-dark text-white text-center py-3">
+    © 2023 Computer Services | All Rights Reserved
+  </div>
+</footer>
 </html>
