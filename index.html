@@ -2,7 +2,7 @@
 
 <html>
 <head>
-<title>A website for a horse riding company in Roybon, France</title>
+<title>Reviewlr - Convert Word Documents to HTML</title>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
@@ -10,217 +10,120 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <style>
-		body {
+		body{
+			background-color: #f8f9fa;
 			font-family: Arial, sans-serif;
-			font-size: 16px;
-			line-height: 1.5;
-			background-color: #f8f9fa;
+			color: #343a40;
 		}
-		h1, h2, h3, h4, h5, h6 {
-			font-family: 'Montserrat', sans-serif;
-			font-weight: 700;
+		.navbar{
+			background-color: #ffc107;
 		}
-		.navbar {
-			background-color: #fff;
-			border-bottom: 1px solid #ccc;
+		.navbar-brand, .navbar-nav .nav-link{
+			color: #343a40 !important;
 		}
-		.navbar-brand {
-			font-size: 24px;
-			font-weight: 700;
-			color: #000;
-		}
-		.nav-link {
-			font-size: 18px;
-			font-weight: 500;
-			color: #000;
-		}
-		.jumbotron {
-			background-image: url('./images/horse-riding.webp');
-			background-size: cover;
-			background-position: center center;
-			height: 600px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			text-align: center;
+		.jumbotron{
+			background-color: #343a40;
 			color: #fff;
+			padding: 100px 25px;
 		}
-		.jumbotron h1 {
-			font-size: 72px;
-			font-weight: 700;
-			text-shadow: 2px 2px #000;
+		.btn-primary{
+			background-color: #ffc107;
+			border-color: #ffc107;
 		}
-		.jumbotron p {
-			font-size: 24px;
-			font-weight: 500;
-			text-shadow: 1px 1px #000;
+		.btn-primary:hover{
+			background-color: #343a40;
+			border-color: #343a40;
 		}
-		.about-section {
-			background-color: #fff;
-			padding: 50px 0;
-		}
-		.about-section h2 {
-			font-size: 36px;
-			font-weight: 700;
-			margin-bottom: 50px;
-		}
-		.about-section p {
-			font-size: 18px;
-			font-weight: 400;
-			margin-bottom: 20px;
-			color: #555;
-		}
-		.about-section img {
-			height: 400px;
-			width: 600px;
-			margin-bottom: 20px;
-		}
-		.contact-section {
-			background-color: #f8f9fa;
-			padding: 50px 0;
-		}
-		.contact-section h2 {
-			font-size: 36px;
-			font-weight: 700;
-			margin-bottom: 50px;
-		}
-		.contact-section form label {
-			font-size: 18px;
-			font-weight: 500;
-			margin-bottom: 10px;
-			color: #555;
-		}
-		.contact-section form input, .contact-section form textarea {
-			font-size: 16px;
-			font-weight: 400;
-			padding: 10px;
-			border: 1px solid #ccc;
-			border-radius: 5px;
-			margin-bottom: 20px;
-			width: 100%;
-		}
-		.contact-section form button {
-			font-size: 18px;
-			font-weight: 500;
-			padding: 10px 20px;
+		.card{
 			border: none;
-			border-radius: 5px;
-			background-color: #000;
-			color: #fff;
-			cursor: pointer;
+			box-shadow: 0px 0px 10px #ccc;
 		}
-		.contact-section form button:hover {
-			background-color: #555;
-		}
-		.footer {
-			background-color: #000;
-			color: #fff;
-			padding: 50px 0;
-		}
-		.footer p {
-			font-size: 16px;
-			font-weight: 400;
-			margin-bottom: 20px;
-		}
-		.footer a {
+		.card-header{
+			background-color: #343a40;
 			color: #fff;
 		}
-		.footer a:hover {
-			color: #ccc;
+		.card-body{
+			background-color: #f8f9fa;
+			color: #343a40;
+		}
+		footer{
+			background-color: #343a40;
+			color: #fff;
+			padding: 50px 25px;
 		}
 	</style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg">
-<div class="container">
-<a class="navbar-brand" href="#">Roybon Horse Riding</a>
-<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+<nav class="navbar navbar-expand-md">
+<a class="navbar-brand" href="#">Reviewlr</a>
+<button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
 </button>
-<div class="collapse navbar-collapse" id="navbarNav">
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
 <ul class="navbar-nav ml-auto">
-<li class="nav-item active">
+<li class="nav-item">
 <a class="nav-link" href="#">Home</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#about">About</a>
+<a class="nav-link" href="#">About</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#contact">Contact</a>
+<a class="nav-link" href="#">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
 </li>
 </ul>
-</div>
 </div>
 </nav>
-<div class="jumbotron">
-<div class="container">
-<h1>Welcome to Roybon Horse Riding</h1>
-<p>Experience the thrill of horse riding in the beautiful countryside of Roybon, France</p>
+<div class="jumbotron text-center">
+<h1>Convert Word Documents to HTML</h1>
+<p>With Reviewlr, you can easily convert your Word documents to HTML with just a few clicks.</p>
+<a class="btn btn-primary btn-lg" href="#">Get Started</a>
 </div>
-</div>
-<div class="about-section" id="about">
-<div class="container">
-<h2>About Us</h2>
-<div class="row">
-<div class="col-md-6">
-<img alt="A group of riders on horseback cantering through a field of tall grass and wildflowers. The sun is shining and the sky is blue with a few fluffy clouds." src="./images/horse-riding-1.webp"/>
-</div>
-<div class="col-md-6">
-<p>At Roybon Horse Riding, we offer a variety of horse riding experiences for riders of all levels. Whether you're a beginner or an experienced rider, we have the perfect horse and trail for you.</p>
-<p>Our horses are well-trained and well-cared for, and our guides are experienced and knowledgeable about the local area. We offer rides through the beautiful countryside of Roybon, with stunning views of the mountains and forests.</p>
-</div>
-</div>
-<div class="row">
-<div class="col-md-6">
-<p>We also offer riding lessons for those who want to improve their skills or learn to ride for the first time. Our lessons are taught by experienced instructors who are passionate about teaching others to ride.</p>
-</div>
-<div class="col-md-6">
-<img alt="A close-up photo of a brown horse's face, with its ears perked up and its eyes bright and alert. The horse is standing in a green field with a few trees in the background." src="./images/horse-riding-2.webp"/>
-</div>
-</div>
-</div>
-</div>
-<div class="contact-section" id="contact">
-<div class="container">
-<h2>Contact Us</h2>
-<form>
-<div class="form-group">
-<label for="name">Name</label>
-<input class="form-control" id="name" name="name" required="" type="text"/>
-</div>
-<div class="form-group">
-<label for="email">Email</label>
-<input class="form-control" id="email" name="email" required="" type="email"/>
-</div>
-<div class="form-group">
-<label for="message">Message</label>
-<textarea class="form-control" id="message" name="message" required="" rows="5"></textarea>
-</div>
-<button class="btn btn-primary" type="submit">Send Message</button>
-</form>
-</div>
-</div>
-<footer class="footer">
 <div class="container">
 <div class="row">
 <div class="col-md-6">
-<p>© 2023 Roybon Horse Riding</p>
+<div class="card">
+<div class="card-header">
+<h3>Easy to Use</h3>
+</div>
+<div class="card-body">
+<p>Reviewlr is designed to be easy to use. Just upload your Word document and we'll take care of the rest.</p>
+</div>
+</div>
 </div>
 <div class="col-md-6">
-<ul class="list-inline text-right">
-<li class="list-inline-item">
-<a href="#"><i class="fab fa-facebook fa-lg"></i></a>
-</li>
-<li class="list-inline-item">
-<a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-</li>
-<li class="list-inline-item">
-<a href="#"><i class="fab fa-instagram fa-lg"></i></a>
-</li>
-</ul>
+<div class="card">
+<div class="card-header">
+<h3>Customizable</h3>
+</div>
+<div class="card-body">
+<p>With Reviewlr, you can customize the output HTML to fit your needs. Choose from a variety of options to get the perfect result.</p>
 </div>
 </div>
 </div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-6">
+<img alt="A screenshot of a Microsoft Word document with text and images." src="./images/word-doc.webp" style="height: 300px; width: 400px;"/>
+</div>
+<div class="col-md-6">
+<img alt="A screenshot of HTML code with tags, attributes, and text." src="./images/html-code.webp" style="height: 300px; width: 400px;"/>
+</div>
+</div>
+</div>
+<div class="container">
+<p>Reviewlr is the best way to convert your Word documents to HTML. With our easy-to-use platform and customizable options, you can get the perfect result every time. Try Reviewlr today and see the difference for yourself.</p>
+<p>At Reviewlr, we're committed to providing the best service to our customers. If you have any questions or concerns, please don't hesitate to contact us.</p>
+</div>
+<footer class="text-center">
+<p>© 2023 Reviewlr. All rights reserved.</p>
+<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+<a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
 </footer>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
