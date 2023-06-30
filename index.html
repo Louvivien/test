@@ -4,18 +4,9 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>A Website for a Horse Riding Company in Roybon, France</title>
+<title>A website for a horse riding company in Roybon, France</title>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        .jumbotron {
-            background-image: url('./images/horse-riding.webp');
-            background-size: cover;
-            height: 500px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-        }
         .footer {
             background-color: #f8f9fa;
             padding: 20px;
@@ -24,30 +15,70 @@
     </style>
 </head>
 <body>
-<div class="jumbotron">
-<h1 class="display-4">A Website for a Horse Riding Company in Roybon, France</h1>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a class="navbar-brand" href="#">Horse Riding Company</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item active">
+<a class="nav-link" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+</ul>
 </div>
-<div class="container mt-5">
+</nav>
+<div class="container mt-4">
+<h1 class="text-center">Welcome to Roybon Horse Riding</h1>
+<div class="row mt-4">
+<div class="col-md-6">
+<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content." class="img1" src="./images/horse1.webp" style="height: 300px; width: 400px;"/>
+</div>
+<div class="col-md-6">
+<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." class="img2" src="./images/horse2.webp" style="height: 300px; width: 400px;"/>
+</div>
+</div>
+<div class="row mt-4">
+<div class="col-md-6">
 <h2>About Us</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget lectus ut eros tristique venenatis. Nam et augue nec lectus ultricies consectetur. Phasellus elementum, nisl eu commodo mollis, diam ligula pulvinar nisl, vitae egestas lectus nunc ac justo. Sed euismod, nisi ut dapibus volutpat, metus magna fringilla mi, et consequat nibh tellus ac risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam semper, mi id luctus luctus, nisl justo lobortis mi, id auctor ligula erat quis velit. Morbi lacinia sapien et turpis efficitur, sit amet finibus ex suscipit. Sed ut lacinia ligula. Vivamus id dui et ex efficitur finibus. Integer eleifend, nunc ut efficitur eleifend, nisl mi malesuada justo, et egestas nisi est id tortor.</p>
-<p>Donec auctor ex id neque lacinia, et venenatis justo lacinia. Mauris et erat eget tellus dignissim sodales. Ut vitae dignissim ante. Mauris et ex a sapien fermentum eleifend. Sed at ex vitae magna facilisis iaculis. Vivamus condimentum, elit et facilisis venenatis, odio est tristique nunc, quis commodo nisi erat eu lorem. Etiam auctor ligula id risus viverra, in varius est auctor. Fusce tincidunt ante vitae diam tincidunt, nec bibendum nisl auctor. Aliquam quis nisl ac tellus dignissim mollis. Sed lacinia tristique tellus, eu sagittis lectus elementum eget. Duis in erat et neque dapibus aliquam. Nullam non felis ac nisl sollicitudin fermentum. Nunc tristique, nunc et aliquet congue, massa metus congue tellus, in vulputate ligula nisl in dui.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec mauris quis mi placerat laoreet. Curabitur ultrices, turpis vel aliquet tincidunt, velit dolor tincidunt lectus, a ultricies lectus nisi ac mi.</p>
+<p>Nullam vel felis sit amet nunc ullamcorper bibendum. Sed sit amet eleifend metus. Nulla facilisi. Integer consequat purus vel interdum egestas.</p>
 </div>
-<div class="container mt-5">
-<h2>Gallery</h2>
+<div class="col-md-6">
+<h2>Services</h2>
+<ul>
+<li>Beginner horse riding lessons</li>
+<li>Advanced horse riding lessons</li>
+<li>Trail rides in the beautiful countryside</li>
+<li>Horse boarding and care</li>
+</ul>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
 <div class="row">
 <div class="col-md-6">
-<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content." src="./images/horse1.webp" style="height: 300px; width: 400px;"/>
-</div>
+                    © 2023 Roybon Horse Riding Company
+                </div>
 <div class="col-md-6">
-<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." src="./images/horse2.webp" style="height: 300px; width: 400px;"/>
+<a class="mr-2" href="#">Facebook</a>
+<a href="#">Instagram</a>
 </div>
 </div>
 </div>
-<div class="footer">
-        © 2023 | Follow us on <a href="https://www.facebook.com">Facebook</a> and <a href="https://www.instagram.com">Instagram</a>
-</div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
