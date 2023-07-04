@@ -4,33 +4,24 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>A website for a horse riding company in Roybon, France</title>
+<title>Hair Force One - St Marcellin, France</title>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        .jumbotron {
-            background-image: url('./images/horse-riding.webp');
-            background-size: cover;
-            height: 600px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-        }
-
-        .content {
-            margin: 50px;
-        }
-
-        .footer {
-            background-color: #f8f9fa;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+    body {
+      padding: 20px;
+    }
+    .image {
+      height: 300px;
+      width: 400px;
+    }
+    .social-links {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-<a class="navbar-brand" href="#">Horse Riding Company</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="#">Hair Force One</a>
 <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
 </button>
@@ -48,85 +39,80 @@
 </ul>
 </div>
 </nav>
-<div class="jumbotron">
-<h1 class="display-4">Welcome to Roybon Horse Riding</h1>
-<p class="lead">Experience the thrill of horse riding in the beautiful countryside of Roybon, France.</p>
-</div>
-<div class="content" id="about">
-<h2>About Us</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis enim auctor, aliquam nulla at, imperdiet
-            mi. Vivamus consectetur, est eu pretium efficitur, ligula elit dignissim purus, nec fermentum elit arcu
-            vitae ipsum. Sed in sagittis quam. Nam lacinia dolor id quam lacinia, non pulvinar risus sollicitudin. Donec
-            euismod commodo tellus, id tincidunt metus dictum vel. Aliquam erat volutpat. Morbi pharetra, mi sed
-            ultrices ullamcorper, mi justo aliquet mauris, nec tincidunt massa turpis et justo. Nam in neque nec
-            ligula varius accumsan. Sed rutrum, massa in efficitur luctus, justo diam venenatis mauris, id elementum
-            ante nisi nec nunc.</p>
-<p>Nullam id bibendum velit, vitae lacinia velit. Donec id cursus tortor. Aliquam erat volutpat. Nullam ac
-            malesuada metus. Aliquam erat volutpat. Nulla facilisi. Donec aliquet, neque ut interdum cursus, lacus
-            tellus lacinia nunc, in ullamcorper est sem vitae eros. Sed sollicitudin, odio a tempor eleifend, enim
-            purus tincidunt mauris, vel luctus turpis ligula at ipsum. Aenean at nunc quis est egestas vehicula.
-            Curabitur et turpis ut odio rhoncus aliquam.</p>
-</div>
-<div class="content" id="services">
-<h2>Our Services</h2>
-<div class="row">
-<div class="col-md-6">
-<div class="card">
-<img alt="Image of a horse riding lesson. The instructor is guiding a student on how to ride a horse. The student is wearing a helmet and holding the reins with confidence." class="card-img-top" src="./images/horse-riding-lessons.webp"/>
-<div class="card-body">
-<h5 class="card-title">Horse Riding Lessons</h5>
-<p class="card-text">We offer horse riding lessons for all ages and skill levels. Whether you're a beginner or an experienced rider, our professional instructors will help you improve your riding skills.</p>
-</div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="card">
-<img alt="Image of a group of riders on a horse trail ride. The riders are enjoying the scenic views of the countryside while riding their horses." class="card-img-top" src="./images/horse-trail-rides.webp"/>
-<div class="card-body">
-<h5 class="card-title">Horse Trail Rides</h5>
-<p class="card-text">Explore the beautiful countryside of Roybon on our guided horse trail rides. Enjoy the breathtaking views and experience the joy of riding in nature.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="content" id="contact">
-<h2>Contact Us</h2>
-<p>If you have any questions or inquiries, please feel free to contact us using the form below or the provided contact details.</p>
-<form>
-<div class="form-group">
-<label for="name">Name</label>
-<input class="form-control" id="name" placeholder="Enter your name" type="text"/>
-</div>
-<div class="form-group">
-<label for="email">Email</label>
-<input class="form-control" id="email" placeholder="Enter your email" type="email"/>
-</div>
-<div class="form-group">
-<label for="message">Message</label>
-<textarea class="form-control" id="message" placeholder="Enter your message" rows="3"></textarea>
-</div>
-<button class="btn btn-primary" type="submit">Submit</button>
-</form>
-</div>
-<footer class="footer">
+<section id="about">
 <div class="container">
 <div class="row">
 <div class="col-md-6">
-                    © 2023 Roybon Horse Riding Company. All rights reserved.
-                </div>
+<h2>About Hair Force One</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in semper lacus. Aliquam erat volutpat. Sed accumsan, enim eget aliquet lobortis, urna nunc porttitor tortor, sed consequat est dui ut neque.</p>
+</div>
 <div class="col-md-6">
-<ul class="list-inline social-media">
-<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
-<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+<img alt="Photo of the Hair Force One salon in St Marcellin, France. The salon has a modern and stylish interior with comfortable seating areas and professional hairdressing stations." class="image" src="./images/salon.webp"/>
+</div>
+</div>
+</div>
+</section>
+<section id="services">
+<div class="container">
+<h2>Our Services</h2>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<img alt="Photo of a hairstylist giving a haircut at Hair Force One. The stylist is using professional scissors and comb to create a stylish and trendy haircut." class="card-img-top image" src="./images/haircut.webp"/>
+<div class="card-body">
+<h5 class="card-title">Haircuts</h5>
+<p class="card-text">We offer a variety of haircut styles for men, women, and children. Our experienced stylists will help you find the perfect look.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<img alt="Photo of a hairstylist applying hair color at Hair Force One. The stylist is using professional hair dye and brush to create a vibrant and personalized hair color." class="card-img-top image" src="./images/coloring.webp"/>
+<div class="card-body">
+<h5 class="card-title">Coloring</h5>
+<p class="card-text">Transform your hair with our expert coloring services. From highlights to full color, we'll help you achieve the look you desire.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<img alt="Photo of a hairstylist styling hair at Hair Force One. The stylist is using professional hair tools and products to create a beautiful and polished hairstyle." class="card-img-top image" src="./images/styling.webp"/>
+<div class="card-body">
+<h5 class="card-title">Styling</h5>
+<p class="card-text">Whether you need a special occasion updo or a simple blowout, our stylists will make sure you leave with a stunning hairstyle.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="contact">
+<div class="container">
+<h2>Contact Us</h2>
+<p>For appointments or inquiries, please reach out to us:</p>
+<ul>
+<li>Phone: 123-456-7890</li>
+<li>Email: info@hairforceone.com</li>
+<li>Address: 123 Main Street, St Marcellin, France</li>
 </ul>
+</div>
+</section>
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<p>© 2023 Hair Force One. All rights reserved.</p>
+</div>
+<div class="col-md-6 social-links">
+<a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
 </div>
 </div>
 </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
