@@ -1,110 +1,133 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-<title>湖南前行科创有限公司</title>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>A website for a horse riding company in Roybon, France</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
         .jumbotron {
-            background-color: #f8f9fa;
-        }
-
-        .navbar {
-            background-color: #343a40;
+            background-image: url('./images/horse-riding.webp');
+            background-size: cover;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             color: white;
         }
 
-        .navbar-brand {
-            font-weight: bold;
+        .content {
+            margin: 50px;
         }
 
         .footer {
-            background-color: #343a40;
-            color: white;
-            padding: 20px 0;
+            background-color: #f8f9fa;
+            padding: 20px;
             text-align: center;
-        }
-
-        .footer a {
-            color: white;
-            margin: 0 10px;
         }
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg">
-<div class="container">
-<a class="navbar-brand" href="#">湖南前行科创有限公司</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a class="navbar-brand" href="#">Horse Riding Company</a>
 <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
 <ul class="navbar-nav ml-auto">
-<li class="nav-item active">
-<a class="nav-link" href="#">Home</a>
+<li class="nav-item">
+<a class="nav-link" href="#about">About</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">About</a>
+<a class="nav-link" href="#services">Services</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Services</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Contact</a>
+<a class="nav-link" href="#contact">Contact</a>
 </li>
 </ul>
 </div>
-</div>
 </nav>
 <div class="jumbotron">
-<div class="container">
-<h1 class="display-4">一个“湖南前行科创有限公司”的官方网站</h1>
-<p class="lead">Welcome to the official website of 湖南前行科创有限公司. We are a leading technology and innovation company based in Hunan, China.</p>
+<h1 class="display-4">Welcome to Roybon Horse Riding</h1>
+<p class="lead">Experience the thrill of horse riding in the beautiful countryside of Roybon, France.</p>
 </div>
+<div class="content" id="about">
+<h2>About Us</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis enim auctor, aliquam nulla at, imperdiet
+            mi. Vivamus consectetur, est eu pretium efficitur, ligula elit dignissim purus, nec fermentum elit arcu
+            vitae ipsum. Sed in sagittis quam. Nam lacinia dolor id quam lacinia, non pulvinar risus sollicitudin. Donec
+            euismod commodo tellus, id tincidunt metus dictum vel. Aliquam erat volutpat. Morbi pharetra, mi sed
+            ultrices ullamcorper, mi justo aliquet mauris, nec tincidunt massa turpis et justo. Nam in neque nec
+            ligula varius accumsan. Sed rutrum, massa in efficitur luctus, justo diam venenatis mauris, id elementum
+            ante nisi nec nunc.</p>
+<p>Nullam id bibendum velit, vitae lacinia velit. Donec id cursus tortor. Aliquam erat volutpat. Nullam ac
+            malesuada metus. Aliquam erat volutpat. Nulla facilisi. Donec aliquet, neque ut interdum cursus, lacus
+            tellus lacinia nunc, in ullamcorper est sem vitae eros. Sed sollicitudin, odio a tempor eleifend, enim
+            purus tincidunt mauris, vel luctus turpis ligula at ipsum. Aenean at nunc quis est egestas vehicula.
+            Curabitur et turpis ut odio rhoncus aliquam.</p>
 </div>
-<div class="container">
+<div class="content" id="services">
+<h2>Our Services</h2>
 <div class="row">
 <div class="col-md-6">
-<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content." class="img1" src="./images/horse1.webp" style="height: 300px; width: 400px;"/>
+<div class="card">
+<img alt="Image of a horse riding lesson. The instructor is guiding a student on how to ride a horse. The student is wearing a helmet and holding the reins with confidence." class="card-img-top" src="./images/horse-riding-lessons.webp"/>
+<div class="card-body">
+<h5 class="card-title">Horse Riding Lessons</h5>
+<p class="card-text">We offer horse riding lessons for all ages and skill levels. Whether you're a beginner or an experienced rider, our professional instructors will help you improve your riding skills.</p>
+</div>
+</div>
 </div>
 <div class="col-md-6">
-<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." class="img2" src="./images/horse2.webp" style="height: 300px; width: 400px;"/>
+<div class="card">
+<img alt="Image of a group of riders on a horse trail ride. The riders are enjoying the scenic views of the countryside while riding their horses." class="card-img-top" src="./images/horse-trail-rides.webp"/>
+<div class="card-body">
+<h5 class="card-title">Horse Trail Rides</h5>
+<p class="card-text">Explore the beautiful countryside of Roybon on our guided horse trail rides. Enjoy the breathtaking views and experience the joy of riding in nature.</p>
 </div>
 </div>
-<div class="row mt-5">
-<div class="col-md-12">
-<h2>About Us</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo, tellus nec tincidunt
-                    lobortis, mauris elit varius magna, sed consectetur tortor leo id nisl. Nullam in metus id justo
-                    semper finibus. Cras ut bibendum mauris. Donec sagittis, nunc a porta consequat, ipsum nulla
-                    facilisis risus, id rhoncus metus velit in tellus. Aliquam erat volutpat. Mauris ut dapibus
-                    lectus. Vivamus auctor leo non lacus sodales, sit amet interdum libero ullamcorper. Sed nec
-                    hendrerit nibh. Integer aliquam, mauris quis efficitur ultrices, purus felis tristique nisl, id
-                    lacinia quam felis ut tortor. Quisque nec urna euismod, scelerisque nunc sed, aliquet neque. Sed
-                    ultricies orci id quam vulputate, quis rhoncus lacus tincidunt. Sed id libero euismod, fringilla
-                    nisl non, cursus nunc. Sed at nisl ut erat convallis mattis.</p>
-<p>Sed id libero euismod, fringilla nisl non, cursus nunc. Sed at nisl ut erat convallis mattis. Sed
-                    ultricies orci id quam vulputate, quis rhoncus lacus tincidunt. Sed id libero euismod, fringilla
-                    nisl non, cursus nunc. Sed at nisl ut erat convallis mattis.</p>
 </div>
 </div>
+</div>
+<div class="content" id="contact">
+<h2>Contact Us</h2>
+<p>If you have any questions or inquiries, please feel free to contact us using the form below or the provided contact details.</p>
+<form>
+<div class="form-group">
+<label for="name">Name</label>
+<input class="form-control" id="name" placeholder="Enter your name" type="text"/>
+</div>
+<div class="form-group">
+<label for="email">Email</label>
+<input class="form-control" id="email" placeholder="Enter your email" type="email"/>
+</div>
+<div class="form-group">
+<label for="message">Message</label>
+<textarea class="form-control" id="message" placeholder="Enter your message" rows="3"></textarea>
+</div>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
 </div>
 <footer class="footer">
 <div class="container">
 <div class="row">
-<div class="col-md-12">
-<p>© 2023 湖南前行科创有限公司. All rights reserved.</p>
-<p>Follow us on social media:</p>
-<a href="#" target="_blank">Facebook</a>
-<a href="#" target="_blank">Twitter</a>
-<a href="#" target="_blank">Instagram</a>
+<div class="col-md-6">
+                    © 2023 Roybon Horse Riding Company. All rights reserved.
+                </div>
+<div class="col-md-6">
+<ul class="list-inline social-media">
+<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
 </div>
 </div>
 </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
