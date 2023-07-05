@@ -1,64 +1,99 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Hair Force One - Hair Salon</title>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<title>Griechisches Restaurant Hemmingen</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        .header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
+        .restaurant-img {
+            height: 400px;
+            width: 600px;
         }
-
-        .container {
-            margin-top: 50px;
-        }
-
-        .footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
+        .social-links {
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-<header class="header">
-<h1 class="text-center">Hair Force One</h1>
-<h3 class="text-center">Hair Salon in St Marcellin, France</h3>
-</header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="#">Griechisches Restaurant Hemmingen</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item active">
+<a class="nav-link" href="#about">Über uns</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#menu">Speisekarte</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#contact">Kontakt</a>
+</li>
+</ul>
+</div>
+</nav>
+<div class="container">
+<section id="about">
+<div class="row">
+<div class="col-md-6">
+<h2>Willkommen im Griechischen Restaurant Hemmingen</h2>
+<p>Genießen Sie bei uns traditionelle griechische Küche in gemütlicher Atmosphäre. Unsere Speisekarte bietet eine Vielzahl von authentischen Gerichten, zubereitet mit frischen Zutaten und viel Liebe zum Detail. Lassen Sie sich von unserem freundlichen Personal verwöhnen und erleben Sie einen kulinarischen Ausflug nach Griechenland.</p>
+</div>
+<div class="col-md-6">
+<img alt="Foto des griechischen Restaurants in Hemmingen. Das Restaurant ist in einem traditionellen Gebäude mit weißer Fassade und blauen Fensterläden untergebracht. Vor dem Restaurant stehen Tische mit Sonnenschirmen, an denen Gäste sitzen und das Essen genießen." class="restaurant-img" src="./images/restaurant.webp"/>
+</div>
+</div>
+</section>
+<section id="menu">
+<h2>Unsere Speisekarte</h2>
+<div class="row">
+<div class="col-md-6">
+<h3>Vorspeisen</h3>
+<ul>
+<li>Tzatziki</li>
+<li>Dolmadakia</li>
+<li>Spanakopita</li>
+</ul>
+</div>
+<div class="col-md-6">
+<h3>Hauptgerichte</h3>
+<ul>
+<li>Moussaka</li>
+<li>Souvlaki</li>
+<li>Gyros</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="contact">
+<h2>Kontakt</h2>
+<p>Besuchen Sie uns:</p>
+<p>Griechisches Restaurant Hemmingen</p>
+<p>Musterstraße 123</p>
+<p>12345 Hemmingen</p>
+<p>Telefon: 01234/56789</p>
+</section>
+</div>
+<footer class="bg-light">
 <div class="container">
 <div class="row">
 <div class="col-md-6">
-<img alt="Photo of the interior of Hair Force One hair salon in St Marcellin, France. The salon is beautifully decorated with modern furniture and equipment. Customers can be seen getting their hair styled by professional hairdressers." src="./images/hair-salon-interior.webp" style="height: 300px; width: 400px;"/>
-</div>
-<div class="col-md-6">
-<img alt="Photo of a hair stylist at Hair Force One hair salon in St Marcellin, France. The stylist is holding a pair of scissors and is focused on giving a haircut to a customer. The salon's logo can be seen on the stylist's uniform." src="./images/hair-stylist.webp" style="height: 300px; width: 400px;"/>
-</div>
-</div>
-<div class="row mt-4">
-<div class="col-md-12">
-<h2>About Us</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
-</div>
-</div>
-</div>
-<footer class="footer">
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-                    © 2023 Hair Force One. All rights reserved. | Follow us on <a href="https://www.facebook.com/hairforceone" target="_blank">Facebook</a> and <a href="https://www.instagram.com/hairforceone" target="_blank">Instagram</a>
+                    © 2023 Griechisches Restaurant Hemmingen
+                </div>
+<div class="col-md-6 social-links">
+<a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
 </div>
 </div>
 </div>
 </footer>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/a076d05399.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
