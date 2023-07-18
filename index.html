@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Food Ordering Website</title>
+<title>Law Firm</title>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-    .container {
-      margin-top: 50px;
-    }
-    .footer {
-      margin-top: 50px;
-      text-align: center;
+    body {
+      padding: 20px;
     }
   </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#">Food Ordering</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a class="navbar-brand" href="#">Law Firm</a>
 <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
 </button>
@@ -28,10 +22,10 @@
 <a class="nav-link" href="#">Home</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Menu</a>
+<a class="nav-link" href="#">About</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Order Now</a>
+<a class="nav-link" href="#">Services</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="#">Contact</a>
@@ -39,31 +33,58 @@
 </ul>
 </div>
 </nav>
-<div class="container">
-<h1>Welcome to our Food Ordering Website</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non maximus erat, et bibendum leo. Suspendisse mattis ultricies lorem, sit amet tempor risus eleifend in. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.</p>
-<p>Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur aliquet quam id dui posuere blandit.</p>
+<div class="jumbotron">
+<h1 class="display-4">Welcome to our Law Firm</h1>
+<p class="lead">We provide expert legal services for individuals and businesses.</p>
+<hr class="my-4"/>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac est vitae justo efficitur feugiat. Fusce
+      aliquam mauris ut nulla consequat, vitae porta massa vehicula. Nullam bibendum, nisi sit amet faucibus
+      lobortis, massa libero finibus tortor, ac mattis metus urna id ipsum. Nam sit amet leo sed libero
+      volutpat aliquam. Donec nec fermentum nunc. Suspendisse potenti. Sed laoreet blandit elit, id sagittis
+      justo. Nullam ut ultrices tellus. Duis euismod metus ac felis placerat, non egestas mauris ultrices. Sed
+      aliquet, felis eget vehicula accumsan, massa ligula gravida lorem, sed consectetur nunc diam eget
+      lectus.</p>
+<p>Etiam vitae nisi a leo ullamcorper feugiat. Ut interdum, mauris in efficitur pharetra, elit justo
+      ullamcorper risus, ac facilisis lorem dolor nec mi. Suspendisse potenti. Ut ac est auctor, tempus tellus
+      eget, egestas elit. In id justo vel urna aliquet feugiat. Fusce ac diam eu nunc facilisis facilisis.
+      Quisque tristique nunc ac semper tempor. Nulla facilisi. In hac habitasse platea dictumst. Curabitur
+      faucibus euismod nisl, at vestibulum diam tincidunt vitae.</p>
+<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 </div>
 <div class="container">
 <div class="row">
 <div class="col-md-6">
-<img alt="Delicious pizza with melted cheese, fresh tomatoes, and basil leaves. The crust is crispy and golden brown." src="./images/food1.webp" style="height: 300px; width: 400px;"/>
+<img alt="Photo of a lawyer in a courtroom, passionately arguing a case in front of a judge and jury. The lawyer is dressed in a professional suit and is holding a stack of legal documents in one hand while gesturing with the other." class="img-fluid" src="./images/lawyer.webp" style="height: 300px; width: 400px;"/>
+<h2>Our Team</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac est vitae justo efficitur feugiat. Fusce
+          aliquam mauris ut nulla consequat, vitae porta massa vehicula.</p>
 </div>
 <div class="col-md-6">
-<img alt="A plate of spaghetti bolognese with a rich tomato sauce, ground beef, and grated Parmesan cheese. The pasta is perfectly cooked and the dish is garnished with fresh basil leaves." src="./images/food2.webp" style="height: 300px; width: 400px;"/>
+<img alt="Photo of a well-stocked legal library with rows of bookshelves filled with law books and legal documents. The library is well-lit and organized, with a comfortable reading area in the center." class="img-fluid" src="./images/legal-library.webp" style="height: 300px; width: 400px;"/>
+<h2>Our Expertise</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac est vitae justo efficitur feugiat. Fusce
+          aliquam mauris ut nulla consequat, vitae porta massa vehicula.</p>
 </div>
 </div>
 </div>
-<div class="footer">
-<p>© 2023 Food Ordering Website. All rights reserved.</p>
-<ul class="list-inline">
-<li class="list-inline-item"><a href="#"><img alt="Facebook" src="./images/facebook.webp"/></a></li>
-<li class="list-inline-item"><a href="#"><img alt="Twitter" src="./images/twitter.webp"/></a></li>
-<li class="list-inline-item"><a href="#"><img alt="Instagram" src="./images/instagram.webp"/></a></li>
+<footer class="mt-5">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<p>© 2023 Law Firm. All rights reserved.</p>
+</div>
+<div class="col-md-6">
+<ul class="list-inline text-md-right">
+<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
 </ul>
 </div>
+</div>
+</div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
