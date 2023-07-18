@@ -4,59 +4,67 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Employee Management Page</title>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<title>Food Ordering Website</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        body {
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 50px;
-        }
-    </style>
+    .container {
+      margin-top: 50px;
+    }
+    .footer {
+      margin-top: 50px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-<h1>An Employee Management Page</h1>
-<p>This page displays tables of employee information that can be viewed and edited.</p>
-<h2>Employee Information</h2>
-<table class="table table-striped">
-<thead>
-<tr>
-<th>Name</th>
-<th>Position</th>
-<th>Email</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>John Doe</td>
-<td>Manager</td>
-<td>john.doe@example.com</td>
-</tr>
-<tr>
-<td>Jane Smith</td>
-<td>Developer</td>
-<td>jane.smith@example.com</td>
-</tr>
-</tbody>
-</table>
-<h2>About Us</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet lectus et semper luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum dignissim, nunc ac varius blandit, libero mauris ultricies est, a iaculis nunc nunc et diam. In hac habitasse platea dictumst. Sed at nisl ut lacus tincidunt efficitur. Nullam sit amet ex lectus. In venenatis, mi nec feugiat mollis, purus nisl maximus dolor, nec dapibus ligula risus quis nunc. Donec euismod, purus a placerat laoreet, libero leo venenatis nisl, sed tincidunt turpis lectus vel arcu. Donec nec mauris nisl. Sed vestibulum metus sed turpis rhoncus, non tempus tellus bibendum. Etiam euismod, nunc eu tincidunt dapibus, mauris massa vestibulum ante, non posuere massa arcu ut tellus.</p>
-<p>Phasellus tristique, tellus sed condimentum semper, tellus dolor vulputate neque, eget fermentum massa ante id urna. Nunc rhoncus, nibh id vulputate lacinia, urna ligula tincidunt nunc, nec finibus ipsum elit nec velit. Donec sed mi sem. Sed venenatis, dui et efficitur porttitor, enim massa lacinia arcu, ac convallis tellus nunc ut justo. Vivamus finibus, mi vitae interdum finibus, risus ligula volutpat urna, eget lacinia tellus turpis ut orci. Suspendisse potenti. Donec id leo ut tellus ultrices convallis. Quisque suscipit, nisl non tincidunt varius, quam ligula semper odio, non vehicula felis metus et orci.</p>
-<div class="footer">
-            © 2023 | Social Network Links
-            <!-- Add your social network links here -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="#">Food Ordering</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Menu</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Order Now</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+</ul>
 </div>
+</nav>
+<div class="container">
+<h1>Welcome to our Food Ordering Website</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non maximus erat, et bibendum leo. Suspendisse mattis ultricies lorem, sit amet tempor risus eleifend in. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.</p>
+<p>Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur aliquet quam id dui posuere blandit.</p>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<img alt="Delicious pizza with melted cheese, fresh tomatoes, and basil leaves. The crust is crispy and golden brown." src="./images/food1.webp" style="height: 300px; width: 400px;"/>
+</div>
+<div class="col-md-6">
+<img alt="A plate of spaghetti bolognese with a rich tomato sauce, ground beef, and grated Parmesan cheese. The pasta is perfectly cooked and the dish is garnished with fresh basil leaves." src="./images/food2.webp" style="height: 300px; width: 400px;"/>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>© 2023 Food Ordering Website. All rights reserved.</p>
+<ul class="list-inline">
+<li class="list-inline-item"><a href="#"><img alt="Facebook" src="./images/facebook.webp"/></a></li>
+<li class="list-inline-item"><a href="#"><img alt="Twitter" src="./images/twitter.webp"/></a></li>
+<li class="list-inline-item"><a href="#"><img alt="Instagram" src="./images/instagram.webp"/></a></li>
+</ul>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
