@@ -4,71 +4,67 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>A Website for a Horse Riding Company in Roybon, France</title>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<title>A website for a horse riding company in Roybon, France</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        .image {
-            height: 300px;
-            width: 400px;
+        .jumbotron {
+            background-image: url('./images/horse-riding.webp');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .jumbotron h1 {
+            color: white;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer a {
+            margin: 0 10px;
+            color: #333;
         }
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#">Horse Riding Company</a>
-<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav ml-auto">
-<li class="nav-item">
-<a class="nav-link" href="#">Home</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">About</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Services</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Contact</a>
-</li>
-</ul>
+<div class="jumbotron">
+<h1 class="display-4">A website for a horse riding company in Roybon, France</h1>
 </div>
-</nav>
 <div class="container mt-5">
-<h1 class="text-center">Welcome to our Horse Riding Company in Roybon, France</h1>
-<hr/>
 <div class="row">
 <div class="col-md-6">
-<img alt="Photo of a beautiful horse running in a green field. The horse has a shiny black coat and a flowing mane and tail. It looks powerful and graceful as it gallops freely." class="image" src="./images/horse1.webp"/>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae magna et risus consequat placerat. Nulla facilisi. Integer auctor, ante in interdum luctus, dui nisi consectetur neque, vitae consectetur velit lectus eu ex. Sed ut justo at quam congue posuere. Fusce ac mauris euismod, finibus nisl eget, consectetur dui. Suspendisse potenti. Donec ut est nec dolor faucibus mattis. Etiam sed odio malesuada, aliquet arcu id, pharetra nibh. Nunc rutrum, dui id pulvinar congue, massa justo pharetra dolor, eu tincidunt nunc mi vel lectus. Donec euismod ante et nisi sollicitudin, in tristique nunc efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In hac habitasse platea dictumst.</p>
+<h2>About Us</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet, nunc sed gravida laoreet, ex libero sodales nisl, a finibus diam urna eget nunc. Nullam auctor, ligula nec volutpat faucibus, justo leo aliquet risus, in tincidunt lacus odio eget sem. Integer vitae malesuada est. Mauris id urna in diam rhoncus feugiat. Sed auctor arcu et tellus luctus, eget ullamcorper elit suscipit. Nulla facilisi. Fusce euismod, nunc et pretium tincidunt, nisl velit feugiat tellus, eu posuere nunc dolor ac nunc. Vestibulum in ex a quam imperdiet egestas. Nulla facilisi. Etiam sed semper velit.</p>
 </div>
 <div class="col-md-6">
-<img alt="Photo of a group of riders on horseback exploring the beautiful countryside of Roybon, France. The riders are dressed in riding gear and are enjoying the scenic views and fresh air. The horses are well-trained and obedient, making the ride comfortable and enjoyable." class="image" src="./images/horse2.webp"/>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae magna et risus consequat placerat. Nulla facilisi. Integer auctor, ante in interdum luctus, dui nisi consectetur neque, vitae consectetur velit lectus eu ex. Sed ut justo at quam congue posuere. Fusce ac mauris euismod, finibus nisl eget, consectetur dui. Suspendisse potenti. Donec ut est nec dolor faucibus mattis. Etiam sed odio malesuada, aliquet arcu id, pharetra nibh. Nunc rutrum, dui id pulvinar congue, massa justo pharetra dolor, eu tincidunt nunc mi vel lectus. Donec euismod ante et nisi sollicitudin, in tristique nunc efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In hac habitasse platea dictumst.</p>
+<h2>Services</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet, nunc sed gravida laoreet, ex libero sodales nisl, a finibus diam urna eget nunc. Nullam auctor, ligula nec volutpat faucibus, justo leo aliquet risus, in tincidunt lacus odio eget sem. Integer vitae malesuada est. Mauris id urna in diam rhoncus feugiat. Sed auctor arcu et tellus luctus, eget ullamcorper elit suscipit. Nulla facilisi. Fusce euismod, nunc et pretium tincidunt, nisl velit feugiat tellus, eu posuere nunc dolor ac nunc. Vestibulum in ex a quam imperdiet egestas. Nulla facilisi. Etiam sed semper velit.</p>
 </div>
 </div>
 </div>
-<footer class="bg-light mt-5">
+<footer class="footer">
 <div class="container">
 <div class="row">
-<div class="col-md-6">
-<p>© 2023 Horse Riding Company. All rights reserved.</p>
-</div>
-<div class="col-md-6">
-<ul class="list-inline text-right">
-<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
-<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-</ul>
+<div class="col">
+                    © 2023 Horse Riding Company
+                </div>
+<div class="col">
+<a href="#">Facebook</a>
+<a href="#">Twitter</a>
+<a href="#">Instagram</a>
 </div>
 </div>
 </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
