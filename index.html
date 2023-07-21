@@ -4,54 +4,137 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Zoda Vistara Technology Solution</title>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<title>A website for a horse riding company in Roybon, France</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        .jumbotron {
-            background-image: url('./images/background.webp');
-            background-size: cover;
-            color: #fff;
-            padding: 100px;
-        }
-        .services {
-            margin-top: 50px;
-        }
-        .footer {
-            background-color: #f8f9fa;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+    /* Add custom CSS styles here */
+  </style>
 </head>
 <body>
-<div class="jumbotron">
-<h1 class="display-4">Zoda Vistara Technology Solution</h1>
-<p class="lead">An innovative IT consulting firm that offers a range of services including:</p>
-<ul>
-<li>Information Technology Consultation</li>
-<li>Information Technology Coffee Consultation</li>
-<li>Information Technology Ayurvedic Consultation</li>
-<li>Information Technology Business Strategy Consultation</li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a class="navbar-brand" href="#">Horse Riding Company</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#services">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contact</a>
+</li>
 </ul>
 </div>
-<div class="container services">
-<h2>Our Services</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet nunc eget urna bibendum rhoncus. Fusce auctor semper est, id lobortis mauris. Sed vel quam et est accumsan faucibus. Ut non justo sed urna iaculis aliquet. Proin posuere, nulla nec consequat congue, dui lorem hendrerit nisl, ac tempus nisi tellus nec lacus. Nulla facilisi. Nulla facilisi. Curabitur elementum justo at metus dapibus, a condimentum leo pharetra. Sed vitae pretium felis. Quisque laoreet sapien sit amet leo lobortis, at tincidunt elit ultrices. Sed sed risus a ligula pulvinar pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-<p>Nullam pulvinar auctor diam, id iaculis purus. Ut efficitur efficitur nisl, id interdum sapien gravida quis. Nam auctor, lacus et tempor fermentum, mauris elit iaculis odio, non efficitur tellus nunc id risus. In euismod, nisi sit amet pellentesque feugiat, quam purus aliquam metus, et ultrices metus metus eget lorem. Sed id ex id nulla placerat fermentum. Aliquam suscipit semper elementum. Sed lobortis ultrices urna, eu fermentum metus aliquet at. Integer dignissim mi ut ex facilisis, in aliquet nisi viverra. Curabitur egestas ante in risus feugiat, non pretium odio tincidunt. Sed id neque at orci auctor mattis.</p>
-</div>
-<div class="footer">
+</nav>
+<header class="jumbotron jumbotron-fluid text-center">
 <div class="container">
-<p>© 2023 Zoda Vistara Technology Solution</p>
+<h1 class="display-4">Welcome to Roybon Horse Riding</h1>
+<p class="lead">Experience the beauty of horseback riding in the scenic landscapes of Roybon, France.</p>
+</div>
+</header>
+<section class="py-5" id="about">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h2>About Us</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, mauris ut interdum ullamcorper, odio nibh laoreet turpis, sit amet tincidunt arcu tortor a metus. Sed et sapien ac enim feugiat consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. In hac habitasse platea dictumst.</p>
+</div>
+<div class="col-md-6">
+<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content." class="img-fluid" src="./images/horse1.webp" style="height: 300px; width: 400px;"/>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-light py-5" id="services">
+<div class="container">
+<h2 class="text-center mb-4">Our Services</h2>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." class="card-img-top" src="./images/horse2.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Horseback Riding Lessons</h5>
+<p class="card-text">Learn horseback riding from our experienced trainers. Suitable for beginners and advanced riders.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<img alt="Photo of a group of riders on horseback, exploring the beautiful countryside of Roybon, France. The riders are smiling and enjoying the ride." class="card-img-top" src="./images/horse3.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Trail Riding</h5>
+<p class="card-text">Embark on scenic trail rides through the breathtaking landscapes of Roybon. Suitable for all skill levels.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<img alt="Photo of a horse jumping over a fence during a show jumping competition. The horse and rider are in perfect synchronization." class="card-img-top" src="./images/horse4.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Show Jumping</h5>
+<p class="card-text">Witness thrilling show jumping competitions showcasing the agility and skill of both horse and rider.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-5" id="contact">
+<div class="container">
+<h2 class="text-center mb-4">Contact Us</h2>
+<div class="row">
+<div class="col-md-6">
+<form>
+<div class="form-group">
+<label for="name">Name</label>
+<input class="form-control" id="name" placeholder="Enter your name" type="text"/>
+</div>
+<div class="form-group">
+<label for="email">Email</label>
+<input class="form-control" id="email" placeholder="Enter your email" type="email"/>
+</div>
+<div class="form-group">
+<label for="message">Message</label>
+<textarea class="form-control" id="message" placeholder="Enter your message" rows="5"></textarea>
+</div>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+</div>
+<div class="col-md-6">
+<h4>Contact Information</h4>
+<p>Phone: +1 123 456 7890</p>
+<p>Email: info@roybonhorseriding.com</p>
+<p>Address: 123 Main Street, Roybon, France</p>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-dark text-white text-center py-4">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<p>© 2023 Roybon Horse Riding</p>
+</div>
+<div class="col-md-6">
 <ul class="list-inline">
-<li class="list-inline-item"><a href="https://www.facebook.com/zodavistara"><img alt="Facebook" src="./images/facebook.webp"/></a></li>
-<li class="list-inline-item"><a href="https://twitter.com/zodavistara"><img alt="Twitter" src="./images/twitter.webp"/></a></li>
-<li class="list-inline-item"><a href="https://www.linkedin.com/company/zodavistara"><img alt="LinkedIn" src="./images/linkedin.webp"/></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
 </ul>
 </div>
 </div>
+</div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
