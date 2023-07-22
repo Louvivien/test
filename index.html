@@ -4,18 +4,11 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>A Website for a Horse Riding Company in Roybon, France</title>
+<title>A website for a horse riding company in Roybon, France</title>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        .jumbotron {
-            background-image: url('./images/background.webp');
-            background-size: cover;
-            background-position: center;
-            height: 500px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
+        body {
+            padding-top: 50px;
         }
         .footer {
             background-color: #f8f9fa;
@@ -25,7 +18,7 @@
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 <a class="navbar-brand" href="#">Horse Riding Company</a>
 <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
@@ -33,64 +26,85 @@
 <div class="collapse navbar-collapse" id="navbarNav">
 <ul class="navbar-nav ml-auto">
 <li class="nav-item">
-<a class="nav-link" href="#">Home</a>
+<a class="nav-link" href="#about">About</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">About</a>
+<a class="nav-link" href="#services">Services</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Services</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Contact</a>
+<a class="nav-link" href="#contact">Contact</a>
 </li>
 </ul>
 </div>
 </nav>
-<div class="jumbotron">
-<h1 class="display-4">Welcome to Roybon Horse Riding Company</h1>
-<p class="lead">Experience the thrill of horse riding in the beautiful countryside of Roybon, France.</p>
-</div>
-<div class="container mt-5">
+<header class="jumbotron text-center">
+<h1>Welcome to our Horse Riding Company</h1>
+</header>
+<section class="container" id="about">
+<h2>About Us</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, tortor non placerat mollis, turpis lectus consectetur leo, eu porttitor justo elit et risus. Nullam ut metus lectus. Mauris nec mi sit amet odio semper malesuada. Sed auctor mauris id purus tristique, a tincidunt nunc cursus. Sed sed mi non dui lacinia faucibus. Mauris vitae lectus nec elit lobortis feugiat. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam nec malesuada nisl. Sed auctor, tellus at tincidunt placerat, est nibh ultricies justo, sed semper ligula erat vel tortor. Aenean et congue lacus.</p>
+<p>Donec euismod nisl a velit egestas, in ultrices metus congue. Nam pharetra, purus in posuere vestibulum, nunc massa aliquam nunc, et lobortis lectus urna in elit. Curabitur vel metus ac purus iaculis malesuada. Nunc ac massa non mauris feugiat tristique. Nulla facilisi. Nulla facilisi. Sed nec justo at nisl lacinia consectetur. Sed nec tincidunt tortor, non placerat odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu neque sed turpis tristique semper. Vivamus vel ex non orci dapibus ultricies. Sed at elementum odio.</p>
+</section>
+<section class="container" id="services">
+<h2>Our Services</h2>
 <div class="row">
 <div class="col-md-6">
-<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content." class="img1" src="./images/horse1.webp" style="height: 300px; width: 400px;"/>
+<div class="card">
+<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content." class="card-img-top" src="./images/horse1.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Horse Riding Lessons</h5>
+<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, tortor non placerat mollis, turpis lectus consectetur leo, eu porttitor justo elit et risus.</p>
+</div>
+</div>
 </div>
 <div class="col-md-6">
-<h2>About Us</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, lorem a dignissim luctus, nunc sapien auctor lectus, eget dignissim ligula orci vitae libero. Sed ac cursus ex, eu ultrices nunc. Fusce lacinia enim in tellus ullamcorper, eu pulvinar ipsum accumsan. </p>
-<p>Nullam eget nunc vel nunc vestibulum rhoncus. Vestibulum euismod, velit sed ultricies consectetur, tellus ipsum rhoncus magna, vel vulputate enim risus at ante. Integer vel tincidunt enim, vel lacinia mi. Ut nec est eu ex dignissim fermentum. </p>
-</div>
-</div>
-<div class="row mt-5">
-<div class="col-md-6">
-<h2>Services</h2>
-<ul>
-<li>Horseback Riding Lessons</li>
-<li>Trail Rides</li>
-<li>Horse Boarding</li>
-<li>Summer Camps</li>
-</ul>
-</div>
-<div class="col-md-6">
-<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." class="img2" src="./images/horse2.webp" style="height: 300px; width: 400px;"/>
+<div class="card">
+<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." class="card-img-top" src="./images/horse2.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Horseback Riding Tours</h5>
+<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, tortor non placerat mollis, turpis lectus consectetur leo, eu porttitor justo elit et risus.</p>
 </div>
 </div>
 </div>
+</div>
+</section>
+<section class="container" id="contact">
+<h2>Contact Us</h2>
+<p>Please fill out the form below to get in touch with us:</p>
+<form>
+<div class="form-group">
+<label for="name">Name</label>
+<input class="form-control" id="name" placeholder="Enter your name" type="text"/>
+</div>
+<div class="form-group">
+<label for="email">Email</label>
+<input class="form-control" id="email" placeholder="Enter your email" type="email"/>
+</div>
+<div class="form-group">
+<label for="message">Message</label>
+<textarea class="form-control" id="message" placeholder="Enter your message" rows="5"></textarea>
+</div>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+</section>
 <footer class="footer">
 <div class="container">
 <div class="row">
 <div class="col-md-6">
-                    © 2023 Horse Riding Company. All rights reserved.
+                    © 2023 Horse Riding Company
                 </div>
 <div class="col-md-6">
-<a href="#"><i class="fab fa-facebook"></i></a>
-<a href="#"><i class="fab fa-twitter"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
+<ul class="list-inline text-right">
+<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
 </div>
 </div>
 </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
