@@ -4,57 +4,102 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>A website for a horse riding company in Roybon, France</title>
+<title>Hair Force One - St Marcellin, France</title>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        .jumbotron {
-            background-image: url('./images/horse-riding.webp');
-            background-size: cover;
-            color: white;
-            text-align: center;
-            padding: 100px;
-        }
-        
-        .footer {
-            background-color: #f8f9fa;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+    /* Custom CSS styles */
+    body {
+      background-color: #f8f9fa;
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .social-links {
+      margin-top: 20px;
+    }
+    .social-links a {
+      color: #fff;
+      margin: 0 10px;
+    }
+  </style>
 </head>
 <body>
-<div class="jumbotron">
-<h1 class="display-4">A website for a horse riding company in Roybon, France</h1>
-<p class="lead">Welcome to our horse riding company located in Roybon, France. We offer a range of horse riding experiences for all levels, from beginners to advanced riders.</p>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="container">
-<div class="row">
-<div class="col-md-6">
-<h2>About Us</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit a ultricies eleifend, odio velit tincidunt lacus, a aliquet neque neque vitae sem. Nulla facilisi. Phasellus at tincidunt nibh. Fusce at mauris vitae risus fringilla euismod. In hac habitasse platea dictumst.</p>
-<p>Sed ut metus eu odio vulputate eleifend. Suspendisse potenti. Morbi nec posuere nisl. Aliquam erat volutpat. Aenean varius, sem ut semper aliquet, nisl justo rutrum tortor, in imperdiet mauris magna eu tellus. Aenean congue, ligula nec lacinia hendrerit, massa dui ullamcorper quam, ac luctus tortor metus id odio.</p>
+<a class="navbar-brand" href="#">Hair Force One</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item active">
+<a class="nav-link" href="#about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#services">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contact</a>
+</li>
+</ul>
 </div>
-<div class="col-md-6">
+</div>
+</nav>
+<div class="container" id="about">
+<h1>Welcome to Hair Force One</h1>
+<p>The website for hair salon Hair Force One in St Marcellin, France. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac orci eget nisl aliquet consectetur. Sed euismod mi vitae diam porta, et vestibulum urna hendrerit. Sed accumsan, libero at commodo laoreet, neque metus ultricies ante, non auctor ipsum turpis non lorem. Donec ac risus auctor, lobortis odio ut, efficitur magna. Aenean vestibulum, mi sit amet vulputate eleifend, ligula dolor tincidunt lacus, a malesuada mauris quam ac ex.</p>
+<p>Nulla facilisi. Mauris at felis vestibulum, fringilla eros sed, commodo purus. Curabitur eleifend, sem non posuere efficitur, leo eros volutpat sem, a tempor justo lacus at metus. Etiam cursus, nisl id luctus tincidunt, felis metus gravida nulla, vitae elementum sem nisl nec nunc. Vivamus sed dui auctor, iaculis lorem non, vulputate metus. Suspendisse potenti. Proin non purus euismod, dignissim nunc ac, interdum erat. In hac habitasse platea dictumst. Sed in odio sed risus malesuada dapibus. Sed interdum odio sed semper vulputate.</p>
+</div>
+<div class="container" id="services">
 <h2>Our Services</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit a ultricies eleifend, odio velit tincidunt lacus, a aliquet neque neque vitae sem. Nulla facilisi. Phasellus at tincidunt nibh. Fusce at mauris vitae risus fringilla euismod. In hac habitasse platea dictumst.</p>
-<p>Sed ut metus eu odio vulputate eleifend. Suspendisse potenti. Morbi nec posuere nisl. Aliquam erat volutpat. Aenean varius, sem ut semper aliquet, nisl justo rutrum tortor, in imperdiet mauris magna eu tellus. Aenean congue, ligula nec lacinia hendrerit, massa dui ullamcorper quam, ac luctus tortor metus id odio.</p>
-</div>
-</div>
-</div>
-<div class="footer">
-<div class="container">
 <div class="row">
 <div class="col-md-6">
-                    © 2023 Horse Riding Company. All rights reserved.
-                </div>
+<div class="card mb-3">
+<img alt="Image of a hairstylist cutting a client's hair. The hairstylist is using scissors and comb to create a stylish haircut." class="card-img-top" src="./images/haircut.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Haircuts</h5>
+<p class="card-text">We offer a variety of haircut styles to suit your preferences. Our experienced hairstylists will ensure you leave with a fresh and stylish look.</p>
+</div>
+</div>
+</div>
 <div class="col-md-6">
-<a class="btn btn-primary" href="#">Facebook</a>
-<a class="btn btn-primary" href="#">Twitter</a>
-<a class="btn btn-primary" href="#">Instagram</a>
+<div class="card mb-3">
+<img alt="Image of a hairstylist applying hair color to a client's hair. The hairstylist is using a brush to evenly distribute the color." class="card-img-top" src="./images/coloring.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Coloring</h5>
+<p class="card-text">Transform your hair with our professional coloring services. Whether you want to cover gray hair or try a bold new color, we've got you covered.</p>
 </div>
 </div>
 </div>
 </div>
+</div>
+<div class="container" id="contact">
+<h2>Contact Us</h2>
+<p>For appointments or inquiries, please feel free to reach out to us:</p>
+<ul>
+<li>Phone: 123-456-7890</li>
+<li>Email: info@hairforceone.com</li>
+<li>Address: 123 Main Street, St Marcellin, France</li>
+</ul>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="social-links">
+<a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+<p>© 2023 Hair Force One. All rights reserved.</p>
+</div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
