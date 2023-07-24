@@ -1,68 +1,128 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Ristorante - Consegna a domicilio</title>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<title>Hair Force One - St Marcellin, France</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.4.0/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        .container {
-            margin-top: 50px;
+        body {
+            padding-top: 50px;
         }
+
+        .navbar {
+            margin-bottom: 20px;
+        }
+
         .footer {
-            margin-top: 100px;
+            background-color: #f8f9fa;
+            padding: 20px;
             text-align: center;
         }
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-<a class="navbar-brand" href="#">Ristorante</a>
-<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#">Hair Force One</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
 <ul class="navbar-nav ml-auto">
 <li class="nav-item">
-<a class="nav-link" href="#">Home</a>
+<a class="nav-link" href="#about">About</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Menu</a>
+<a class="nav-link" href="#services">Services</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">About</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Contact</a>
+<a class="nav-link" href="#contact">Contact</a>
 </li>
 </ul>
 </div>
+</div>
 </nav>
 <div class="container">
-<h1 class="mt-5">Benvenuti al Ristorante</h1>
-<p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, arcu id laoreet tincidunt, mi mauris lacinia risus, sit amet ultrices odio est nec enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin aliquam, erat eu posuere fermentum, sem sapien ultricies nunc, eu gravida lectus dui vel justo. Quisque dapibus, mauris id dapibus iaculis, quam ligula pretium nulla, a aliquam nisl risus ut risus. Sed auctor, arcu id laoreet tincidunt, mi mauris lacinia risus, sit amet ultrices odio est nec enim.</p>
-<p>Suspendisse potenti. Aliquam erat volutpat. Aliquam erat volutpat. Sed sed mi at metus ultrices fermentum. Sed mollis, nisl in bibendum vestibulum, risus nisl condimentum mi, at euismod augue justo a orci. Nam ultrices tincidunt ligula, id placerat nunc gravida quis. Sed auctor, arcu id laoreet tincidunt, mi mauris lacinia risus, sit amet ultrices odio est nec enim.</p>
-<img alt="Delivery person with a food delivery bag, ready to deliver delicious meals to your doorstep. Our delivery service ensures that you can enjoy our restaurant's cuisine in the comfort of your own home." class="img-fluid" src="./images/delivery.webp" style="height: 300px; width: 400px;"/>
-<img alt="Interior of our restaurant, showcasing a cozy and elegant dining area with beautifully set tables and warm lighting. Our restaurant provides a welcoming ambiance for a memorable dining experience." class="img-fluid" src="./images/restaurant.webp" style="height: 300px; width: 400px;"/>
+<section id="about">
+<h1>The website for hair salon Hair Force One in St Marcellin, France</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed consequat tellus eu
+                semper
+                consequat. Vestibulum euismod, felis ut consequat pulvinar, ligula quam ultricies felis, sed volutpat
+                lorem
+                ante sed mauris. Nullam posuere tellus nec semper fringilla. Aliquam erat volutpat. Phasellus
+                consequat
+                libero in turpis finibus, eget ultrices risus sagittis. Sed ac malesuada neque. Integer eget ipsum
+                vitae
+                tortor venenatis gravida. Sed tempor, est a luctus lacinia, urna elit ultrices arcu, id tincidunt
+                sapien
+                lacus eget sapien.</p>
+<p>Donec lacinia, tortor id tristique mattis, purus metus finibus turpis, sit amet posuere justo dui vitae
+                nunc. Fusce ac urna sed orci tincidunt congue. Curabitur eget nisi vel sem aliquet auctor. Sed
+                fringilla
+                feugiat est, non blandit mauris efficitur ut. Fusce auctor, tortor sed interdum eleifend, elit sem
+                feugiat
+                ante, at tincidunt ligula nunc at lacus. Sed euismod, sem id consectetur ultricies, nunc nunc
+                elementum
+                est, nec porttitor elit justo id erat. Sed et venenatis tellus, sed accumsan sem. Cras id lacus
+                pharetra,
+                dignissim nunc vel, posuere dolor. Mauris auctor, risus id tristique vestibulum, ex turpis volutpat
+                odio,
+                non hendrerit sapien nulla in mi.</p>
+</section>
+<section id="services">
+<h2>Our Services</h2>
+<div class="row">
+<div class="col-md-6">
+<div class="card mb-4">
+<img alt="Photo of a hairstylist cutting a client's hair. The hairstylist is using scissors and comb to create a stylish haircut." class="card-img-top" src="./images/haircut.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Haircuts</h5>
+<p class="card-text">We offer a variety of haircut styles to suit your preferences and
+                                needs.
+                                Our experienced hairstylists will ensure you leave our salon feeling confident and
+                                satisfied with your new look.</p>
 </div>
-<footer class="footer bg-dark text-white">
+</div>
+</div>
+<div class="col-md-6">
+<div class="card mb-4">
+<img alt="Photo of a hairstylist applying hair color to a client's hair. The hairstylist is using a brush and bowl to mix and apply the hair color." class="card-img-top" src="./images/coloring.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Coloring</h5>
+<p class="card-text">Enhance your natural hair color or try something bold and
+                                adventurous
+                                with our professional hair coloring services. Our skilled colorists will help you
+                                achieve
+                                the perfect shade that matches your style and personality.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="contact">
+<h2>Contact Us</h2>
+<p>If you have any questions or would like to book an appointment, please feel free to reach out to us.</p>
+<p>Phone: 123-456-7890</p>
+<p>Email: info@hairforceone.com</p>
+</section>
+</div>
+<footer class="footer">
 <div class="container">
 <div class="row">
-<div class="col text-center">
-                    © 2023 Ristorante
+<div class="col-md-6">
+                    © 2023 Hair Force One. All rights reserved.
                 </div>
-<div class="col text-center">
-<a href="#"><i class="fab fa-facebook"></i></a>
-<a href="#"><i class="fab fa-twitter"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
+<div class="col-md-6">
+<ul class="list-inline social-icons">
+<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+</ul>
 </div>
 </div>
 </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.4.0/js/bootstrap.bundle.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
