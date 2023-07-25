@@ -1,51 +1,71 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-<title>Hello Website</title>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>A Website for a Horse Riding Company in Roybon, France</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        .img1 {
-            height: 300px;
-            width: 400px;
-        }
-        .img2 {
-            height: 300px;
-            width: 400px;
-        }
-        .paragraph {
-            margin-bottom: 20px;
-        }
-        .social-links {
-            margin-top: 50px;
-        }
-    </style>
+    .jumbotron {
+      background-image: url('./images/horse-riding.webp');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    .footer {
+      background-color: #f8f9fa;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-<h1>Hello</h1>
+<div class="jumbotron">
+<h1 class="display-4">A Website for a Horse Riding Company in Roybon, France</h1>
+</div>
+<div class="container mt-5">
 <div class="row">
 <div class="col-md-6">
-<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content." class="img1" src="./images/horse1.webp"/>
+<h2>About Us</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut felis eget turpis efficitur euismod. Morbi vitae est ut justo tincidunt consequat. Integer euismod, mauris nec aliquet tristique, mi risus tincidunt nisl, eget fringilla neque mi non nisl. Nulla facilisi. Nunc id mi non velit efficitur aliquam. Nam id sapien ac nibh aliquet luctus. Sed non augue auctor, elementum est ut, feugiat justo. Sed rhoncus, turpis in mollis efficitur, turpis lorem finibus mauris, sit amet sodales sem purus sit amet felis.</p>
 </div>
 <div class="col-md-6">
-<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." class="img2" src="./images/horse2.webp"/>
+<h2>Services</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut felis eget turpis efficitur euismod. Morbi vitae est ut justo tincidunt consequat. Integer euismod, mauris nec aliquet tristique, mi risus tincidunt nisl, eget fringilla neque mi non nisl. Nulla facilisi. Nunc id mi non velit efficitur aliquam. Nam id sapien ac nibh aliquet luctus. Sed non augue auctor, elementum est ut, feugiat justo. Sed rhoncus, turpis in mollis efficitur, turpis lorem finibus mauris, sit amet sodales sem purus sit amet felis.</p>
 </div>
 </div>
-<div class="paragraph">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam, leo in consequat consequat, elit orci ultrices orci, vel dapibus nisl sem et augue. Fusce in metus at nisl fringilla ultrices eu in metus. Nunc non mauris sed est tempus finibus. Integer auctor, justo nec lobortis semper, justo nisl aliquet turpis, vel aliquam dolor lectus nec metus. Aliquam maximus, lectus vitae tincidunt venenatis, ante nisi tincidunt arcu, sit amet iaculis sem nulla a mi.</p>
 </div>
-<div class="paragraph">
-<p>Nunc malesuada, sapien nec ultrices facilisis, velit tortor suscipit elit, a aliquet nisl sem in leo. Sed in orci nec tortor lobortis fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean nec arcu ut diam placerat facilisis. Fusce nec ligula nec neque ultrices scelerisque. Sed et arcu ac nisl euismod convallis eget sit amet arcu. Aliquam erat volutpat. Donec pharetra, augue id mollis posuere, tortor nisl dignissim lectus, a ultrices est lorem id dolor. Curabitur efficitur lacinia urna, ac interdum mi tempus nec. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed aliquam, enim nec dignissim porttitor, neque eros tristique leo, id bibendum leo est eu metus. Sed in malesuada nunc.</p>
+<div class="container mt-5">
+<div class="row">
+<div class="col-md-6">
+<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content." src="./images/horse1.webp" style="height: 300px; width: 400px;"/>
 </div>
-<div class="social-links">
-<a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+<div class="col-md-6">
+<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." src="./images/horse2.webp" style="height: 300px; width: 400px;"/>
 </div>
-<p>© 2023 Hello Website. All rights reserved.</p>
 </div>
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</div>
+<footer class="footer mt-5">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<p>© 2023 Horse Riding Company. All rights reserved.</p>
+<p>
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+</p>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
