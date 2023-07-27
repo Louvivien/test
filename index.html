@@ -1,81 +1,100 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-<title>A Website for Disc Golfers</title>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Hair Salon Website</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        body {
-            padding: 20px;
+        .service-card {
+            margin-bottom: 20px;
         }
         .footer {
-            margin-top: 50px;
+            background-color: #f8f9fa;
+            padding: 20px;
             text-align: center;
         }
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#">Disc Golfers</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a class="navbar-brand" href="#">Hair Salon</a>
 <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
 <ul class="navbar-nav ml-auto">
 <li class="nav-item">
-<a class="nav-link" href="#">Home</a>
+<a class="nav-link" href="#services">Services</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">About</a>
+<a class="nav-link" href="#about">About</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Contact</a>
+<a class="nav-link" href="#contact">Contact</a>
 </li>
 </ul>
 </div>
 </nav>
-<div class="jumbotron">
-<h1 class="display-4">Welcome to Disc Golfers</h1>
-<p class="lead">A website dedicated to all disc golf enthusiasts.</p>
-<hr class="my-4"/>
-<p>Disc golf is a fun and exciting sport that combines the precision of golf with the throwing skills of frisbee. Whether you're a beginner or a pro, this website is your ultimate resource for all things disc golf.</p>
-<p>Learn about different disc types, find local courses, connect with other players, and stay up to date with the latest news and events in the disc golf community.</p>
-<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</div>
-<div class="container">
+<header class="jumbotron text-center">
+<h1>Welcome to Hair Salon</h1>
+<p>Offering a wide range of services for men and women</p>
+</header>
+<section class="container" id="services">
+<h2>Our Services</h2>
 <div class="row">
 <div class="col-md-6">
-<img alt="A group of disc golfers playing on a sunny day in a beautiful park. The players are seen throwing colorful discs towards the targets, with trees and green grass in the background. The atmosphere is filled with excitement and friendly competition." src="./images/disc-golf-1.webp" style="height: 400px; width: 600px;"/>
+<div class="card service-card">
+<img alt="Photo of a male customer getting a haircut at the salon. The barber is using scissors and comb to give the customer a stylish look." class="card-img-top" src="./images/men-haircut.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Men's Haircuts</h5>
+<p class="card-text">We offer a variety of men's haircuts, from classic styles to modern trends. Our experienced barbers will ensure you leave with a look you love.</p>
+</div>
+</div>
 </div>
 <div class="col-md-6">
-<img alt="A close-up shot of a disc golf basket with a disc flying towards it. The basket is surrounded by trees and foliage, creating a serene and natural setting for the game. The disc is captured mid-flight, showcasing the speed and accuracy required in disc golf." src="./images/disc-golf-2.webp" style="height: 400px; width: 600px;"/>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<h2>About Disc Golf</h2>
-<p>Disc golf is a flying disc sport in which players throw a disc at a target; it is played using rules similar to golf. It is often played on a course of 9 or 18 holes. Players complete a hole by throwing a disc from a tee area toward a target, throwing again from the landing position of the disc until the target is reached. Usually, the number of throws a player uses to reach each target is tallied, and players seek to complete each hole in the lowest number of total throws.</p>
-<p>Disc golf is a great way to enjoy the outdoors, get some exercise, and have fun with friends. It's a sport that can be enjoyed by people of all ages and skill levels. Whether you're a casual player looking for a new hobby or a competitive player aiming for championships, disc golf offers something for everyone.</p>
+<div class="card service-card">
+<img alt="Photo of a female customer getting her hair colored at the salon. The hairstylist is applying hair dye using a brush, creating a vibrant and beautiful look." class="card-img-top" src="./images/women-hair-color.webp" style="height: 300px; width: 400px;"/>
+<div class="card-body">
+<h5 class="card-title">Women's Hair Color</h5>
+<p class="card-text">Transform your hair with our professional hair coloring services. Whether you want a subtle change or a bold new look, our skilled stylists will help you achieve the perfect color.</p>
 </div>
 </div>
 </div>
+</div>
+</section>
+<section class="container" id="about">
+<h2>About Us</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ultrices nisi. Donec dapibus, mauris id consequat auctor, risus nunc aliquam urna, nec fermentum nunc erat eu ex. Sed auctor, nunc ut suscipit porta, ex orci aliquam elit, eu rutrum justo ligula id mi. Nunc ac erat at felis eleifend vestibulum. Integer vitae tellus vel leo dictum auctor. Fusce suscipit, dui non elementum ullamcorper, dolor sem dapibus lectus, eget facilisis velit ligula ac nisl. Aenean ac ex id justo commodo vestibulum. Nulla facilisi. Phasellus dignissim, leo id ultricies fringilla, erat velit efficitur justo, at fringilla risus neque sit amet lectus.</p>
+<p>Curabitur non nunc euismod, vehicula quam ut, porttitor metus. Mauris euismod, mauris ut hendrerit tincidunt, ex turpis feugiat massa, a dapibus ante metus quis elit. Nam nec nisl ac erat sodales efficitur. Curabitur nec purus suscipit, tempus mauris sit amet, venenatis est. Quisque id molestie lacus. Mauris rutrum, odio ac porta ornare, sem libero euismod tortor, ac luctus sem nisi quis nibh. Curabitur nec mauris nec tellus viverra molestie. Aliquam erat volutpat. Sed varius mi nec placerat facilisis. Integer lobortis nunc id lectus rhoncus, id gravida nisl convallis. Duis euismod metus a ligula luctus, sed aliquam tortor consequat. Aliquam interdum, justo id mattis tincidunt, justo mi facilisis velit, id ornare lectus dui nec metus.</p>
+</section>
+<section class="container" id="contact">
+<h2>Contact Us</h2>
+<p>For appointments or inquiries, please contact us using the information below:</p>
+<ul>
+<li>Phone: 123-456-7890</li>
+<li>Email: info@hairsalon.com</li>
+<li>Address: 123 Main Street, City, State, Zip</li>
+</ul>
+</section>
 <footer class="footer">
 <div class="container">
 <div class="row">
-<div class="col-md-12">
-<p>© 2023 Disc Golfers</p>
-<ul class="list-inline">
-<li class="list-inline-item"><a href="#">Facebook</a></li>
-<li class="list-inline-item"><a href="#">Twitter</a></li>
-<li class="list-inline-item"><a href="#">Instagram</a></li>
-</ul>
+<div class="col-md-6">
+                    © 2023 Hair Salon. All rights reserved.
+                </div>
+<div class="col-md-6">
+<a class="social-link" href="#">Facebook</a>
+<a class="social-link" href="#">Instagram</a>
+<a class="social-link" href="#">Twitter</a>
 </div>
 </div>
 </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
