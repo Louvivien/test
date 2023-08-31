@@ -1,65 +1,97 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-<title>One Page Website</title>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Parallel Dynamix</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        .image {
-            height: 300px;
-            width: 400px;
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 200px;
+            height: auto;
+        }
+
+        .social-links {
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            color: #fff;
+            margin-right: 10px;
         }
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-<a class="navbar-brand" href="#">One Page Website</a>
-<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav ml-auto">
-<li class="nav-item">
-<a class="nav-link" href="#">Home</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">About</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Contact</a>
-</li>
-</ul>
-</div>
-</nav>
-<div class="container mt-5">
-<div class="row">
-<div class="col-md-6">
-<h1>Hello World</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed dictum justo sed justo elementum, sed lacinia elit fringilla. Sed in aliquam elit. Proin tincidunt, nunc a interdum tincidunt, urna nisi tincidunt mi, at volutpat nulla neque a nibh. Integer blandit convallis nunc, ut iaculis nibh dignissim in. Nullam sed risus vel turpis egestas molestie. Sed eleifend, risus nec lacinia convallis, sem justo tempor lectus, in volutpat odio sapien sed dolor.</p>
-<p>Etiam gravida, libero a ullamcorper suscipit, neque justo pulvinar odio, id efficitur odio metus vel nunc. Sed volutpat, metus vitae tincidunt congue, velit odio luctus nisl, a laoreet odio metus vitae nulla. Ut vel pharetra nisl. Sed venenatis, enim vitae maximus aliquam, nisl odio laoreet mauris, eget consectetur mi purus at mi. Nullam nec metus non lectus tincidunt pellentesque. In hac habitasse platea dictumst. Sed tristique ligula ac augue dignissim, id fermentum dui ultricies. Curabitur vel dolor vel nisi auctor ultricies. In hac habitasse platea dictumst.</p>
-</div>
-<div class="col-md-6">
-<img alt="Photo of a playful chestnut mare with a short mane and tail, rolling in the dirt. The horse is lying on its back with its legs in the air, looking happy and content." class="image" src="./images/horse1.webp"/>
-<img alt="Photo of a handsome bay gelding with a short mane and tail, standing in a stable. The horse is looking out of its stall with a calm expression on its face, and its ears perked up." class="image" src="./images/horse2.webp"/>
-</div>
-</div>
-</div>
-<footer class="bg-light text-center mt-5">
 <div class="container">
-<div class="row">
-<div class="col">
-                    © 2023 One Page Website
-                </div>
-<div class="col">
-<a href="#"><i class="fab fa-facebook"></i></a>
-<a href="#"><i class="fab fa-twitter"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
+<h1>Parallel Dynamix</h1>
+<h2>Skyscope Sentinel Intelligence</h2>
+<h4>ABN 11287984779</h4>
+<hr/>
+<h2>Consulting Tailored to Your Business</h2>
+<p>Our consulting services cater to new start-ups, existing businesses, and enterprises. We provide expert guidance and strategies to help you achieve your goals and drive success.</p>
+<h2>Website Design</h2>
+<p>Our website design services are tailored to meet your specific needs and specifications. Whether you have a clear vision or need assistance in defining your requirements, we can create a stunning website that represents your brand effectively.</p>
+<h2>Unique Modern Animated Logos and Graphics</h2>
+<p>We specialize in creating unique and modern animated business logos and graphics designs. Our creative team will work closely with you to develop visually appealing and memorable designs that leave a lasting impression.</p>
+<h2>Cyber Security Solutions and Advice</h2>
+<p>Protecting your business from cyber threats is crucial in today's digital world. Our cyber security experts offer comprehensive solutions and advice to safeguard your data and systems from potential risks.</p>
+<h2>Generative AI Solutions</h2>
+<p>Explore the power of generative AI solutions with us. We leverage cutting-edge technology to develop intelligent systems that can automate tasks, generate insights, and enhance decision-making processes.</p>
+<div id="paypal-button-container-P-17C94719AP211601SMTX3TBI"></div>
+<script data-sdk-integration-source="button-factory" src="https://www.paypal.com/sdk/js?client-id=AWIcq1U7QPd-FFTCgXliOtNP6QePyYQymoW6-Ga7BWyEhK1-N542Y2Lzi4cFJtYGp9PGPSwE9w7saAxd&amp;vault=true&amp;intent=subscription"></script>
+<script>
+            paypal.Buttons({
+                style: {
+                    shape: 'rect',
+                    color: 'black',
+                    layout: 'vertical',
+                    label: 'subscribe'
+                },
+                createSubscription: function(data, actions) {
+                    return actions.subscription.create({
+                        /* Creates the subscription */
+                        plan_id: 'P-17C94719AP211601SMTX3TBI'
+                    });
+                },
+                onApprove: function(data, actions) {
+                    alert(data.subscriptionID); // You can add optional success message for the subscriber here
+                }
+            }).render('#paypal-button-container-P-17C94719AP211601SMTX3TBI'); // Renders the PayPal button
+        </script>
+<div class="social-links">
+<a href="#" target="_blank">Facebook</a>
+<a href="#" target="_blank">Twitter</a>
+<a href="#" target="_blank">Instagram</a>
 </div>
+<hr/>
+<p>© 2023 Parallel Dynamix. All rights reserved.</p>
 </div>
-</div>
-</footer>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
