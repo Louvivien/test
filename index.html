@@ -3,66 +3,49 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Login Form</title>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-        body {
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .form-container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        input {
-            margin-bottom: 10px;
-        }
-    </style>
+    body {
+        background-color: #f8f9fa;
+    }
+    .container {
+        margin-top: 50px;
+    }
+</style>
 </head>
 <body>
 <div class="container">
-<div class="row">
-<div class="col-md-6 offset-md-3 form-container">
-<h2 class="text-center">Login Form</h2>
+<h1>Login Form</h1>
 <form id="loginForm">
-<div class="mb-3">
-<label class="form-label" for="username">Username</label>
-<input class="form-control" id="username" required="" type="text"/>
+<div class="form-group">
+<label for="username">Username:</label>
+<input class="form-control" id="username" name="username" required="" type="text"/>
 </div>
-<div class="mb-3">
-<label class="form-label" for="password">Password</label>
-<input class="form-control" id="password" required="" type="password"/>
+<div class="form-group">
+<label for="password">Password:</label>
+<input class="form-control" id="password" name="password" required="" type="password"/>
 </div>
 <button class="btn btn-primary" type="submit">Login</button>
 </form>
 </div>
-</div>
-</div>
 <script>
-        document.getElementById('loginForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            // JavaScript validation logic here
-        });
-    </script>
-<footer class="text-center mt-5">
-<p>© 2024</p>
+    // JavaScript validation code here
+</script>
+<footer class="footer mt-auto py-3 bg-light">
+<div class="container">
+<p>Copyright © 2024</p>
 <div>
-<a href="#">Facebook</a> |
-            <a href="#">Twitter</a> |
-            <a href="#">Instagram</a>
+<a class="btn btn-primary" href="#">Facebook</a>
+<a class="btn btn-info" href="#">Twitter</a>
+<a class="btn btn-danger" href="#">Instagram</a>
+</div>
 </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script 
                         id="clhac43dd0002q0vl8ue830mv"
                         data-name="databerry-chat-bubble"
